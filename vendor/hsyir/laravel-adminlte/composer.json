@@ -1,0 +1,37 @@
+{
+  "name": "hsyir/laravel-adminlte",
+  "description": "Easy AdminLTE integration with Laravel",
+  "keywords": ["laravel", "adminlte", "admin", "administrator"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hossein Yaghmaee",
+      "email": "hosseinyaghmaee@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hsy\\LaravelAdminLte\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "Hsy\\LaravelAdminLte\\AdminLteServiceProvider"
+          ]
+      }
+  },
+  "require": {
+    "laravel/framework": ">=6.0",
+    "php": ">=7.2.0",
+    "almasaeed2010/adminlte": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  }
+}
