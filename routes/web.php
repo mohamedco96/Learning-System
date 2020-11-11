@@ -13,19 +13,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/test', function () {
+    return view('test');
 });
 
-Route::get('/dashboard', function () {
-    return view('admin.dashboard');
+Route::get('/auth', function () {
+    return view('auth');
 });
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// });
+
+
+Auth::routes();
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('main');
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/info', function () {
+    return view('info');
+});

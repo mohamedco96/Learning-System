@@ -1,23 +1,19 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+<h1 class="display-4" id="heading">البيئة الافتراضية لتنمية مهارات إنتاج الفيديو الرقمي التفاعلي</h1>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+<div class="card" style="background-color:; width:500px; height: 140px; padding-top: 10px;" id="card">
+    <div class="card-header">{{ __('Dashboard') }}</div>
 
-                    {{ __('You are logged in!') }}
+        <div class="card-body">
+            @if (session('status'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('status') }}
                 </div>
-            </div>
+            @endif
+
+            {{ Auth::user()->name }} {{ __('مرحبا بك يا ') }}
         </div>
     </div>
-</div>
 @endsection
