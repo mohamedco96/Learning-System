@@ -56,4 +56,13 @@ Route::get('/quiz1', function () {
 });
 
 
+Route::get('/intro2', function () {
+    return view('intro2');
+});
+
+Route::get('/quiz2', function () {
+    return view('quiz2');
+});
+
+
 // return \File::get(public_path() . '/quiz1.blade.php');

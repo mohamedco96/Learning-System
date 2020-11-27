@@ -1,43 +1,43 @@
 var questions = [{
-    question: "1. How do you write 'Hello World' in an alert box?",
-    choices: ["msg('Hello World')", "msgBox('Hello World');", "alertBox('Hello World');", "alert('Hello World');"],
+    question: "سؤال",
+    choices: ["1", "2", "3", "4"],
     correctAnswer: 3
 }, {
-    question: "2. How to empty an array in JavaScript?",
-    choices: ["arrayList[]", "arrayList(0)", "arrayList.length=0", "arrayList.len(0)"],
-    correctAnswer: 2
+    question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 }, {
-    question: "3. What function to add an element at the begining of an array and one at the end?",
-    choices: ["push,unshift", "unshift,push", "first,push", "unshift,last"],
-    correctAnswer: 1
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 }, {
-    question: "4. What will this output? var a = [1, 2, 3]; console.log(a[6]);",
-    choices: ["undefined", "0", "prints nothing", "Syntax error"],
-    correctAnswer: 0
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 }, {
-    question: "5. What would following code return? console.log(typeof typeof 1);",
-    choices: ["string", "number", "Syntax error", "undefined"],
-    correctAnswer: 0
-},{
-	question: "6. Which software company developed JavaScript?",
-    choices: ["Mozilla", "Netscape", "Sun Microsystems", "Oracle"],
-    correctAnswer: 1
-},{
-	question: "7. What would be the result of 3+2+'7'?",
-    choices: ["327", "12", "14", "57"],
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
     correctAnswer: 3
 },{
-	question: "8. Look at the following selector: $('div'). What does it select?",
-    choices: ["The first div element", "The last div element", "All div elements", "Current div element"],
-    correctAnswer: 2
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 },{
-	question: "9. How can a value be appended to an array?",
-    choices: ["arr(length).value;", "arr[arr.length]=value;", "arr[]=add(value);", "None of these"],
-    correctAnswer: 1
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 },{
-	question: "10. What will the code below output to the console? console.log(1 +  +'2' + '2');",
-    choices: ["'32'", "'122'", "'13'", "'14'"],
-    correctAnswer: 0
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
+},{
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
+},{
+	question: "سؤال",
+    choices: ["1", "2", "3", "4"],
+    correctAnswer: 3
 }];
 
 
@@ -117,11 +117,13 @@ $(document).ready(function ()
 				else 
 				{
 					displayScore();
-					$('#iTimeShow').html('Quiz Time Completed!');
-					$('#timer').html("You scored: " + correctAnswers + " out of: " + questions.length);
+					$('#iTimeShow').html('الوقت المتبقى');
+					$('#timer').html('');
 					c=185;
-					$(document).find(".preButton").text("View Answer");
-					$(document).find(".nextButton").text("Play Again?");
+					// $(document).find(".preButton").text("View Answer");
+					// $(document).find(".nextButton").text("Play Again?");
+					document.getElementById("quiz2").style.display = "block";
+					document.getElementById("but").style.display = "none";
 					quizOver = true;
 					return false;
 					
@@ -132,8 +134,8 @@ $(document).ready(function ()
 		else 
 		{ // quiz is over and clicked the next button (which now displays 'Play Again?'
 			quizOver = false; $('#iTimeShow').html('Time Remaining:'); iSelectedAnswer = [];
-			$(document).find(".nextButton").text("Next Question");
-			$(document).find(".preButton").text("Previous Question");
+			$(document).find(".nextButton").text("التالي");
+			$(document).find(".preButton").text("السابق");
 			 $(".preButton").attr('disabled', 'disabled');
 			resetQuiz();
 			viewingAns = 1;
@@ -161,11 +163,15 @@ function timedCount()
 		if(c == 0 )
 		{
 					displayScore();
-					$('#iTimeShow').html('Quiz Time Completed!');
-					$('#timer').html("You scored: " + correctAnswers + " out of: " + questions.length);
+					$('#iTimeShow').html('');
+					$('#timer').html('');
 					c=185;
-					$(document).find(".preButton").text("View Answer");
-					$(document).find(".nextButton").text("Play Again?");
+					// $(document).find(".preButton").text("View Answer");
+					// $(document).find(".nextButton").text("Play Again?");
+
+					document.getElementById("quiz2").style.display = "block";
+					document.getElementById("but").style.display = "none";
+
 					quizOver = true;
 					return false;
 					

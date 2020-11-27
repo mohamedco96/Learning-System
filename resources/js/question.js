@@ -120,8 +120,8 @@ $(document).ready(function ()
 					$('#iTimeShow').html('Quiz Time Completed!');
 					$('#timer').html("You scored: " + correctAnswers + " out of: " + questions.length);
 					c=185;
-					$(document).find(".preButton").text("View Answer");
-					$(document).find(".nextButton").text("Play Again?");
+					// $(document).find(".preButton").text("View Answer");
+					// $(document).find(".nextButton").text("Play Again?");
 					quizOver = true;
 					return false;
 					
@@ -132,8 +132,8 @@ $(document).ready(function ()
 		else 
 		{ // quiz is over and clicked the next button (which now displays 'Play Again?'
 			quizOver = false; $('#iTimeShow').html('Time Remaining:'); iSelectedAnswer = [];
-			$(document).find(".nextButton").text("Next Question");
-			$(document).find(".preButton").text("Previous Question");
+			$(document).find(".nextButton").text("التالي");
+			$(document).find(".preButton").text("السابق");
 			 $(".preButton").attr('disabled', 'disabled');
 			resetQuiz();
 			viewingAns = 1;

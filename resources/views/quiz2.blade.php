@@ -26,7 +26,7 @@
 
             </div>
             <div class="col text-center" id="quiz2" style="display: none">
-                <a href="./intro2" class="btn btn-primary">الإختبار القبلي</a>
+                <a href="./intro1" class="btn btn-primary">دراسة الموديول</a>
             </div>
         </div>
     </div>
