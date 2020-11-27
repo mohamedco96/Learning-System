@@ -33,9 +33,9 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 // Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('main');
 
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 Route::get('/about', function () {
@@ -45,3 +45,15 @@ Route::get('/about', function () {
 Route::get('/info', function () {
     return view('info');
 });
+
+
+Route::get('/intro1', function () {
+    return view('intro1');
+});
+
+Route::get('/quiz1', function () {
+    return view('quiz1');
+});
+
+
+// return \File::get(public_path() . '/quiz1.blade.php');

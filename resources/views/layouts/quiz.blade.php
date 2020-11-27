@@ -7,6 +7,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    {{-- <link rel="stylesheet" href="style.css"> --}}
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
         integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
@@ -82,18 +85,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../info" style="color: #5d82b4">تعليمات البيئة</a>
                     </li>
-                    {{-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li> --}}
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -115,12 +106,6 @@
                         <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                     @endif
                 @else
-                    {{-- <a class="nav-link" href="#" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{ Auth::user()->name }}
-                    </a> --}}
-                    {{-- <h6> Hello {{ Auth::user()->name }} </h4>
-                        --}}
                         <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                           document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
@@ -133,22 +118,13 @@
 
             </div>
         </nav>
-
-        <div class="row">
-            <div class="col-sm-5" id="container">
-                <img src="img/wave.png" alt="..." style="width: 1200px; height: 100vh;">
-                <img src="img/main.png" id="img2" />
-            </div>
-            <div class="col-sm-7" id="content">
-                @yield('content')
-            </div>
-        </div>
+        
     </div>
     {{-- End Nav --}}
 
     <!-- Main content -->
-    <div class="content">
-        
+    <div class="container">
+        @yield('content')
     </div>
     <!-- /.content -->
     <!-- Optional JavaScript -->
@@ -164,4 +140,5 @@
     </script>
 </body>
 
+<script src="question.js"></script>
 </html>
