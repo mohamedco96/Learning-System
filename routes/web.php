@@ -64,5 +64,23 @@ Route::get('/quiz2', function () {
     return view('quiz2');
 });
 
+Route::get('/main1', function () {
+    return view('main1');
+});
 
+Route::get('/module', function () {
+    return view('module');
+});
+
+Route::get('/plan', function () {
+    return view('plan');
+});
+
+Route::get('/library', function () {
+    return view('library');
+});
+
+Route::get('/exam', function () {
+    return view('exam');
+});
 // return \File::get(public_path() . '/quiz1.blade.php');
