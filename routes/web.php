@@ -72,6 +72,10 @@ Route::get('/module', function () {
     return view('module');
 });
 
+Route::get('/module1', function () {
+    return view('module1');
+});
+
 Route::get('/plan', function () {
     return view('plan');
 });

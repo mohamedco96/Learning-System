@@ -16,7 +16,7 @@
                         بالسعادة،
                      </div>
                      <div class="card-footer">
-                        <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp; Primary</button>
+                        <a href="./module1" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
                      </div>
                  </div>
                 </div>
@@ -34,7 +34,7 @@
                         بالسعادة،
                      </div>
                      <div class="card-footer">
-                        <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp; Primary</button>
+                        <button type="button" class="btn btn-outline-primary btn-block" href="./module1"><i class="fa fa-star"></i>&nbsp; Primary</button>
                      </div>
                  </div>
                 </div>
@@ -65,7 +65,7 @@
                   <div class="card">
                      <div class="card-header">
                         الموديول الأول
-                         <span class="tag tag-success pull-left">متاح</span>
+                         <span class="tag tag-success pull-left"></span>
                      </div>
                      <div class="card-block">
                         لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
