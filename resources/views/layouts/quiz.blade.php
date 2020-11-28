@@ -76,7 +76,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../home" style="color: #5d82b4">الرئيسية <span
+                        <a class="nav-link" href="./" style="color: #5d82b4">الرئيسية <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
