@@ -126,7 +126,6 @@
                         </div>
                     @endif
 
-                     {{ __('مرحبا بك يا ') }} {{ Auth::user()->name }}
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../main1"><i class="icon-user-follow"></i>الصفحة الرئيسية</a>

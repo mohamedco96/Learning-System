@@ -174,7 +174,7 @@ function timedCount()
 
 					quizOver = true;
 					return false;
-					
+				
 		}
 		
 		/*if(c == 0 )
@@ -312,3 +312,78 @@ function viewResults()
 			viewResults();
 		},3000);
 }
+
+
+$(function() {
+
+	/* add next/previous buttons to all class body_next */
+	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary next">التالي &#62;</button>');
+	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary prev" style="display:none">&#60; السابق</button>');
+  
+	var collBodyNext = $('.body_next');
+  
+	collBodyNext.each(function() {
+  
+	  // Current 'body next' item
+	  var curBodyNext = $(this),
+  
+		// Total sections within current 'body next'
+		totalSections = $('.section_next', curBodyNext).length,
+  
+		// Tracker
+		tracker = 1;
+  
+	  /* hide all section_next except the first */
+	  $(".section_next:not(:first)", curBodyNext).hide();
+  
+	  $(".next", curBodyNext).click(function() {
+		// Current element
+		var curElement = $(this);
+  
+		// Get related 'body next' section
+		var bodyNext = curElement.closest('.body_next');
+  
+		$(".section_next:visible", bodyNext).next(".section_next:hidden").show().prev(".section_next:visible").hide();
+  
+		tracker++;
+  
+		/* show previous button if displayed section is not the first one */
+		if (tracker > 1) {
+		  $(".prev",  bodyNext).show();
+		}
+  
+		/* hide next button if displayed section is the last one */
+		if (tracker === totalSections) {
+		  $(".next",  bodyNext).hide();
+		}
+		else{
+			$(".next",  bodyNext).show();
+		}
+		
+	  });
+  
+	  $(".prev", curBodyNext).click(function() {
+	  
+		// Current element
+		var curElement = $(this);
+  
+		// Get related 'body next' section
+		var bodyNext = curElement.closest('.body_next');
+		
+		$(".section_next:visible", bodyNext).prev(".section_next:hidden").show().next(".section_next:visible").hide();
+  
+		tracker = tracker - 1;
+  
+		/* show next button if displayed section is not the first one */
+		if (tracker >= 1) {
+		  $(".next",  bodyNext).show();
+		}
+  
+		/* hide previous button if displayed section is the first one */
+		if (tracker === 1) {
+		  $(".prev",  bodyNext).hide();
+		}
+	  });
+	});
+  
+  })

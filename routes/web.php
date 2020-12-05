@@ -65,4 +65,5 @@ Route::get('/library', function () {
 Route::get('/exam', function () {
     return view('exam');
 });
-// return \File::get(public_path() . '/quiz1.blade.php');
+
+return \File::get(public_path() . '/score.php');
