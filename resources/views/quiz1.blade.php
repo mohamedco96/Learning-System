@@ -7,56 +7,56 @@
 
                 <div class="card" style="margin-top: 60px">
                     <div class="card-header">
-                        <strong>{{ Auth::user()->id }}</strong>Form
+                        <strong> المقياس </strong>
                     </div>
                     <div class="card-block">
-                        <form action="score.php" method="post">
+                        <form action="score" method="get">
 
                             <div class="body_next">
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>Ques1 : Which version of PHP introduced the instanceof keyword?</h3>
+                                        <h3>ما أصله؟ خلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ</h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" />PHP 4
+                                                <input type="radio" name="q1" value="1" required/> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" />PHP 5
+                                                <input type="radio" name="q1" value="2" required/> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" />PHP 6
+                                                <input type="radio" name="q1" value="3" required/> إختيار
                                             </li>
                                         </ol>
                                     </div>
                                 </section>
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>Ques2 : Which version of PHP introduced the instanceof keyword?</h3>
+                                        <h3>ما أصله؟ خلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ</h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" />PHP 4
+                                                <input type="radio" name="q2" value="1" /> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="2" />PHP 5
+                                                <input type="radio" name="q2" value="2" /> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" />PHP 6
+                                                <input type="radio" name="q2" value="3" /> إختيار
                                             </li>
                                         </ol>
                                     </div>
                                 </section>
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>Ques3 : Which version of PHP introduced the instanceof keyword?</h3>
+                                        <h3>ما أصله؟ خلافاَ للاعتقاد السائد فإن لوريم إيبسوم ليس نصاَ</h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q3" value="1" />PHP 4
+                                                <input type="radio" name="q3" value="1" /> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" />PHP 5
+                                                <input type="radio" name="q3" value="2" /> إختيار
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" />PHP 6
+                                                <input type="radio" name="q3" value="3" /> إختيار
                                             </li>
                                         </ol>
                                     </div>

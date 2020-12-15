@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container" style="margin-top: 90px">
     <div class="row">
         <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
             <div class="card-group ">
@@ -25,7 +25,6 @@
                         <div class="input-group m-b-2">
                             <span class="input-group-addon"><i class="icon-lock"></i>
                             </span>
-                            <!-- <input type="password" class="form-control en" placeholder="رمز ورود"> -->
                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="كلمة المرور">
 
                             @error('password')
@@ -65,9 +64,9 @@
                 <div class="card card-inverse card-primary p-y-3" style="width:44%">
                     <div class="card-block text-xs-center">
                         <div>
-                            <h2>ثبت نام</h2>
-                            <p>اگر در سامانه عضو نیستید به راحتی می توانید همین الان نام نویسی کنید.</p>
-                            <button type="button" class="btn btn-primary active m-t-1">تسجيل حساب جديد</button>
+                            <h2>ليس لديك حساب ؟!</h2>
+                            <p>سجل الاٌن مجاناٌ</p>
+                            <a href="/register" class="btn btn-primary active m-t-1">تسجيل حساب جديد</a>
                         </div>
                     </div>
                 </div>

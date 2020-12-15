@@ -7,7 +7,7 @@
  -->
  <!DOCTYPE html>
  <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
- 
+
  <head>
      <meta charset="utf-8">
      <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -23,7 +23,7 @@
      <link href="css/simple-line-icons.css" rel="stylesheet">
      <!-- Main styles for this application -->
      <link href="dest/style1.css" rel="stylesheet">
- 
+
      <!-- BEGIN ProvideSupport.com Graphics Chat Button Code -->
      <div id="cieKut" style="z-index:100;position:fixed" dir="ltr"></div>
      <div id="sceKut" style="display:inline" dir="ltr"></div>
@@ -35,38 +35,36 @@
              "://image.providesupport.com/js/1kclfucqv1gr50h47s6oimrod4/safe-standard.js?ps_h=eKut&ps_t=" + new Date()
              .getTime();
          setTimeout("seeKut.src=seeKuts;document.getElementById('sdeKut').appendChild(seeKut)", 1)
- 
+
      </script>
      <noscript dir="ltr">
          <div style="display:inline"><a href="https://vm.providesupport.com/1kclfucqv1gr50h47s6oimrod4">Customer
                  Support</a></div>
      </noscript>
      <!-- END ProvideSupport.com Graphics Chat Button Code -->
- 
+
  </head>
- 
+
  <body class="navbar-fixed sidebar-nav fixed-nav">
      <header class="navbar">
          <div class="container-fluid">
              <button class="navbar-toggler mobile-toggler hidden-lg-up" type="button">&#9776;</button>
              <a class="navbar-brand" href="#"></a>
- 
- 
+
              <ul class="nav navbar-nav hidden-md-down">
-            
                  <li class="nav-item">
                      <a class="nav-link" href="/" style="margin-left: 15px; margin-right: 5px"> الرئيسية </a>
                  </li>
- 
+
                  <li class="nav-item">
                      <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البحث </a>
                  </li>
- 
+
                  <li class="nav-item">
                      <a class="nav-link" href="../info" style="margin-left: 15px; margin-right: 15px"> تعليمات البيئة
                      </a>
                  </li>
- 
+
              </ul>
              <ul class="nav navbar-nav pull-left hidden-md-down">
                  <li class="nav-item">
@@ -91,7 +89,7 @@
                              <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                          </li>
                      @endif
- 
+
                      @if (Route::has('register'))
                          <li class="nav-item">
                              <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -103,7 +101,7 @@
                                                                  document.getElementById('logout-form').submit();">
                              {{ __('Logout') }}
                          </a>
- 
+
                          <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                              @csrf
                          </form>
@@ -117,8 +115,8 @@
      <main class="main">
          @yield('content')
      </main>
- 
- 
+
+
      <footer class="footer">
          جميع الحقوق محفوظة
      </footer>
@@ -127,23 +125,22 @@
      <script src="js/libs/tether.min.js"></script>
      <script src="js/libs/bootstrap.min.js"></script>
      <script src="js/libs/pace.min.js"></script>
- 
+
      <!-- Plugins and scripts required by all views -->
      <script src="js/libs/Chart.min.js"></script>
- 
+
      <!-- CoreUI main scripts -->
- 
+
      <script src="js/app.js"></script>
- 
+
      <!-- Plugins and scripts required by this views -->
      <!-- Custom scripts required by this view -->
      <script src="js/views/main.js"></script>
- 
+
      <!-- Grunt watch plugin -->
      <script src="//localhost:35729/livereload.js"></script>
- 
- 
+
+
  </body>
- 
+
  </html>
- 

@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "123";
-$dbname = "test";
+$dbname = "learning";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,13 +12,13 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-if($_POST['submit']) {
+if(isset($_GET['submit'])){
 
-    $q1 = $_POST['q1'];
-	$q2 = $_POST['q2'];
-    $q3 = $_POST['q3'];
+    $q1 = $_GET['q1'];
+	$q2 = $_GET['q2'];
+    $q3 = $_GET['q3'];
     
-    $id = $_POST['id'];
+    $id = $_GET['id'];
 
 
 echo 'user id is ' . $id;
@@ -64,6 +64,7 @@ if ($conn->query($sql) === TRUE) {
 
 
   $sql = "SELECT `id`,`name`,`score1`,`percentage` FROM `users` WHERE `users`.`id` = 4";
+
   $result = $conn->query($sql);
   
   if ($result->num_rows > 0) {
@@ -78,4 +79,8 @@ if ($conn->query($sql) === TRUE) {
 
   $conn->close();
   
+
+
+  header('Location: https://www.google.com/');
+exit;
 ?>

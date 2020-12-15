@@ -66,4 +66,9 @@ Route::get('/exam', function () {
     return view('exam');
 });
 
-return \File::get(public_path() . '/score.php');
+
+Route::get('/score', function () {
+    return view('score');
+});
+
+// return \File::get(public_path() . '/score.php');
