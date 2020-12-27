@@ -24,24 +24,7 @@
      <!-- Main styles for this application -->
      <link href="dest/style1.css" rel="stylesheet">
  
-     <!-- BEGIN ProvideSupport.com Graphics Chat Button Code -->
-     <div id="cieKut" style="z-index:100;position:fixed" dir="ltr"></div>
-     <div id="sceKut" style="display:inline" dir="ltr"></div>
-     <div id="sdeKut" style="display:none" dir="ltr"></div>
-     <script type="text/javascript" dir="ltr">
-         var seeKut = document.createElement("script");
-         seeKut.type = "text/javascript";
-         var seeKuts = (location.protocol.indexOf("https") == 0 ? "https" : "http") +
-             "://image.providesupport.com/js/1kclfucqv1gr50h47s6oimrod4/safe-standard.js?ps_h=eKut&ps_t=" + new Date()
-             .getTime();
-         setTimeout("seeKut.src=seeKuts;document.getElementById('sdeKut').appendChild(seeKut)", 1)
- 
-     </script>
-     <noscript dir="ltr">
-         <div style="display:inline"><a href="https://vm.providesupport.com/1kclfucqv1gr50h47s6oimrod4">Customer
-                 Support</a></div>
-     </noscript>
-     <!-- END ProvideSupport.com Graphics Chat Button Code -->
+  
  
  </head>
  
@@ -138,11 +121,28 @@
      <!-- Plugins and scripts required by this views -->
      <!-- Custom scripts required by this view -->
      <script src="js/views/main.js"></script>
- 
-     <!-- Grunt watch plugin -->
-     <script src="//localhost:35729/livereload.js"></script>
+
  
      <script src="question.js"></script>
+     
+     <script type="text/javascript">
+
+        (function () {
+            var timeLeft = 01:00,
+                cinterval;
+        
+            var timeDec = function (){
+                timeLeft--;
+                document.getElementById('countdown').innerHTML = timeLeft;
+                if(timeLeft === 0){
+                    clearInterval(cinterval);
+                }
+            };
+        
+            cinterval = setInterval(timeDec, 1000);
+        })();
+        
+        </script>
 
  </body>
  

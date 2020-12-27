@@ -28,21 +28,6 @@
     <div id="cieKut" style="z-index:100;position:fixed" dir="ltr"></div>
     <div id="sceKut" style="display:inline" dir="ltr"></div>
     <div id="sdeKut" style="display:none" dir="ltr"></div>
-    <script type="text/javascript" dir="ltr">
-        var seeKut = document.createElement("script");
-        seeKut.type = "text/javascript";
-        var seeKuts = (location.protocol.indexOf("https") == 0 ? "https" : "http") +
-            "://image.providesupport.com/js/1kclfucqv1gr50h47s6oimrod4/safe-standard.js?ps_h=eKut&ps_t=" + new Date()
-            .getTime();
-        setTimeout("seeKut.src=seeKuts;document.getElementById('sdeKut').appendChild(seeKut)", 1)
-
-    </script>
-    <noscript dir="ltr">
-        <div style="display:inline"><a href="https://vm.providesupport.com/1kclfucqv1gr50h47s6oimrod4">Customer
-                Support</a></div>
-    </noscript>
-    <!-- END ProvideSupport.com Graphics Chat Button Code -->
-
 </head>
 
 <body class="navbar-fixed sidebar-nav fixed-nav">
