@@ -13,8 +13,11 @@ Route::get('/auth', function () {
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/', function () {
+    return view('home');
+});
 
 Route::get('/about', function () {
     return view('about');

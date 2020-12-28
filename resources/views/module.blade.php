@@ -25,7 +25,7 @@
                 <div class="col-6 col-md-4">
                   <div class="card">
                      <div class="card-header">
-                        الموديول الأول
+                        الموديول الثاني
                          <span class="tag tag-success pull-right"></span>
                      </div>
                      <div class="card-block">
@@ -43,7 +43,7 @@
                 <div class="col-6 col-md-4">
                   <div class="card">
                      <div class="card-header">
-                        الموديول الأول
+                        الموديول الثالث
                          <span class="tag tag-success pull-right"></span>
                      </div>
                      <div class="card-block">
@@ -64,7 +64,7 @@
                 <div class="col-6 col-md-4">
                   <div class="card">
                      <div class="card-header">
-                        الموديول الأول
+                        الموديول الرابع
                          <span class="tag tag-success pull-left"></span>
                      </div>
                      <div class="card-block">
@@ -82,7 +82,7 @@
                 <div class="col-6 col-md-4">
                   <div class="card">
                      <div class="card-header">
-                        الموديول الأول
+                        الموديول الخامس
                          <span class="tag tag-success pull-right"></span>
                      </div>
                      <div class="card-block">
@@ -100,7 +100,7 @@
                 <div class="col-6 col-md-4">
                   <div class="card">
                      <div class="card-header">
-                        الموديول الأول
+                        الموديول السادس
                          <span class="tag tag-success pull-right"></span>
                      </div>
                      <div class="card-block">

@@ -113,7 +113,7 @@
 
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../main1"><i class="icon-user-follow"></i>الصفحة الرئيسية</a>
+                    {{-- <a class="nav-link" href="../main1"><i class="icon-user-follow"></i>الصفحة الرئيسية</a> --}}
                     <a class="nav-link" href="../module"><i class="icon-people"></i>الموديولات التعليمية </a>
                     <a class="nav-link" href="../plan"><i class="icon-people"></i>الخطة الزمنية </a>
                     <a class="nav-link" href="../library"><i class="icon-people"></i>المكتبة الإئرائية</a>

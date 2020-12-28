@@ -24,12 +24,19 @@
                     aria-controls="pills-contact2" aria-selected="false">التقييم البنائي</a>
             </li>
         </ul>
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> لكن لا
-                بد
-                أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                بالسعادة،</div>
+        <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> 
+                <ol>
+                    <li style="line-height: 2;"><strong><span style="color: rgb(0, 0, 0); font-family: Impact, Charcoal, sans-serif;">يذكر مفهوم الفيديو الرقمي التفاعلي .</span></strong></li>
+                    <li style="line-height: 2;"><span style="font-family: Impact, Charcoal, sans-serif;"><span style="color: rgb(0, 0, 0);"><strong>يعدد مميزات الفيديو الرقمي التفاعلي .</strong></span></span></li>
+                    <li style="line-height: 2;"><span style="font-family: Impact, Charcoal, sans-serif;"><span style="color: rgb(0, 0, 0);"><strong>يقارن بين الفيديو الرقمي والفيديو الرقمي التفاعلي .</strong></span></span></li>
+                    <li style="line-height: 2;"><span style="font-family: Impact, Charcoal, sans-serif;"><span style="color: rgb(0, 0, 0);"><strong>يحدد أسباب استخدام الفيديو الرقمي التفاعلي في العملية التعليمية .</strong></span></span></li>
+                    <li style="line-height: 2;"><span style="font-family: Impact, Charcoal, sans-serif;"><span style="color: rgb(0, 0, 0);"><strong>يحدد مكونات الفيديو الرقمي التفاعلي .</strong></span></span></li>
+                    <li style="line-height: 2;"><span style="font-family: Impact, Charcoal, sans-serif;"><span style="color: rgb(0, 0, 0);"><strong>يعدد مواصفات الفيديو الرقمي التفاعلي الفعال .</strong></span></span></li>
+                    <li style="line-height: 2;"><strong><span style="color: rgb(0, 0, 0); font-family: Impact, Charcoal, sans-serif;">يشرح معايير تصميم الفيديو الرقمي التفاعلي .</span></strong></li>
+                </ol>
+          
+            </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> لكن لا بد أن
                 أوضح
                 لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
