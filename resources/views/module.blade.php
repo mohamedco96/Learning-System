@@ -11,9 +11,7 @@
                          <span class="tag tag-success pull-left">متاح</span>
                      </div>
                      <div class="card-block">
-                        لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                        وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                        بالسعادة،
+                        أساسيات التعامل مع الفيديو الرقمى التفاعلى
                      </div>
                      <div class="card-footer">
                         <a href="./module1" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>

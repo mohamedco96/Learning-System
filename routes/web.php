@@ -78,4 +78,17 @@ Route::get('/score2', function () {
     return view('score2');
 })->middleware('auth');
 
+Route::get('/score3', function () {
+    return view('score3');
+})->middleware('auth');
+
 // return \File::get(public_path() . '/score.php');
+
+
+
+Route::get('/file', function () {
+    return view('file');
+});
+Route::get('/upload', function () {
+    return view('upload');
+});
