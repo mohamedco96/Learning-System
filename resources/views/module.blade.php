@@ -1,8 +1,8 @@
 <?php
 $servername = 'localhost';
-$username = 'root';
-$password = '123';
-$dbname = 'learning';
+$username = 'interactive';
+$password = 'g]JX&~id.LBW';
+$dbname = 'interactive';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -16,7 +16,7 @@ $Sql = 'SELECT COUNT(*) FROM `users` WHERE users.id=4';
 $scoreResult1 = $conn->query($Sql);
 
 while ($row = $scoreResult1->fetch_assoc()) {
-echo '####'.$row['COUNT(*)'];
+echo '####' . $row['COUNT(*)'];
 }
 $conn->close();
 ?>
