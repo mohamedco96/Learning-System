@@ -49,6 +49,12 @@
                      <a class="nav-link" href="../info" style="margin-left: 15px; margin-right: 15px"> تعليمات البيئة
                      </a>
                  </li>
+
+                 
+                 <li class="nav-item">
+                    <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات
+                    </a>
+                </li>
  
              </ul>
              <ul class="nav navbar-nav pull-left hidden-md-down">

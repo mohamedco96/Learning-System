@@ -30,9 +30,9 @@
      <header class="navbar">
          <div class="container-fluid">
              <button class="navbar-toggler mobile-toggler hidden-lg-up" type="button">&#9776;</button>
-             <a class="navbar-brand" href="#"></a>
+             {{-- <a class="navbar-brand" href="#"></a> --}}
 
-             <ul class="nav navbar-nav hidden-md-down">
+             <ul class="nav navbar-nav hidden-md-down" style="margin-right: 50px">
                  <li class="nav-item">
                      <a class="nav-link" href="/" style="margin-left: 15px; margin-right: 5px"> الرئيسية </a>
                  </li>
@@ -46,8 +46,13 @@
                      </a>
                  </li>
 
+                 <li class="nav-item">
+                    <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات
+                    </a>
+                </li>
+
              </ul>
-             <ul class="nav navbar-nav pull-left hidden-md-down">
+             <ul class="nav navbar-nav pull-left hidden-md-down" style="margin-left: 50px">
                  <li class="nav-item">
                      <form class="form-inline my-2 my-lg-0">
                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -98,7 +103,7 @@
      </main>
 
 
-     <footer class="footer">
+     <footer class="footer" style="text-align: center">
          جميع الحقوق محفوظة
      </footer>
      <!-- Bootstrap and necessary plugins -->

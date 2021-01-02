@@ -6,16 +6,16 @@
  * @license MIT
  -->
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="utf-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="CoreUI Bootstrap 4 Admin Template">
+    <meta name="description" content="منصه تعليمية">
     <meta name="author" content="Lukasz Holeczek">
-    <meta name="keyword" content="CoreUI Bootstrap 4 Admin Template">
+    <meta name="keyword" content="interactive">
     <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Icons -->
@@ -34,10 +34,10 @@
     <header class="navbar">
         <div class="container-fluid">
             <button class="navbar-toggler mobile-toggler hidden-lg-up" type="button">&#9776;</button>
-            <a class="navbar-brand" href="#"></a>
+            {{-- <a class="navbar-brand" href="#"></a> --}}
 
 
-            <ul class="nav navbar-nav hidden-md-down">
+            <ul class="nav navbar-nav hidden-md-down" style="margin-right: 50px">
                 <li class="nav-item">
                     <a class="nav-link navbar-toggler layout-toggler" href="#">&#9776;</a>
                 </li>
@@ -55,8 +55,13 @@
                     </a>
                 </li>
 
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات
+                    </a>
+                </li>
             </ul>
-            <ul class="nav navbar-nav pull-left hidden-md-down">
+            <ul class="nav navbar-nav pull-left hidden-md-down" style="margin-left: 50px">
                 <li class="nav-item">
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -128,7 +133,7 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer" style="text-align: center">
         جميع الحقوق محفوظة
     </footer>
     <!-- Bootstrap and necessary plugins -->
