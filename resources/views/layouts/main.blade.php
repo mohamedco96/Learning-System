@@ -14,8 +14,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="منصه تعليمية">
-    <meta name="author" content="Lukasz Holeczek">
+    <meta name="author" content="Dina Gwida">
     <meta name="keyword" content="interactive">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Icons -->
@@ -123,6 +124,7 @@
                     <a class="nav-link" href="../plan"><i class="icon-people"></i>الخطة الزمنية </a>
                     {{-- <a class="nav-link" href="../library"><i class="icon-people"></i>المكتبة الإئرائية</a> --}}
                     <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
+                    <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
                 </li>
             </ul>
         </nav>
@@ -156,7 +158,7 @@
     <!-- Grunt watch plugin -->
     <script src="//localhost:35729/livereload.js"></script>
 
-
+    <script src="question.js"></script>
 </body>
 
 </html>

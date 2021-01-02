@@ -86,6 +86,25 @@ Route::get('/score3', function () {
     return view('score3');
 })->middleware('auth');
 
+
+Route::get('/score4', function () {
+    return view('score4');
+})->middleware('auth');
+
+Route::get('/alm8yas2', function () {
+    return view('alm8yas2');
+})->middleware('auth');
+
+Route::get('/alm8yas2Score', function () {
+    return view('alm8yas2Score');
+})->middleware('auth');
+
+
+Route::get('/contact', function () {
+    return view('contact');
+})->middleware('auth');
+
+
 // return \File::get(public_path() . '/score.php');
 
 

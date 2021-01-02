@@ -6,16 +6,17 @@
  * @license MIT
  -->
  <!DOCTYPE html>
- <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="rtl">
+ <html lang="en" dir="rtl">
 
  <head>
      <meta charset="utf-8">
      <meta name="csrf-token" content="{{ csrf_token() }}">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="description" content="CoreUI Bootstrap 4 Admin Template">
-     <meta name="author" content="Lukasz Holeczek">
-     <meta name="keyword" content="CoreUI Bootstrap 4 Admin Template">
+     <meta name="description" content="منصه تعليمية">
+     <meta name="author" content="Dina Gwida">
+     <meta name="keyword" content="interactive">
+     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
      <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
      <title>{{ config('app.name', 'Laravel') }}</title>
      <!-- Icons -->

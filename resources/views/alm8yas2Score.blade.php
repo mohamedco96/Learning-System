@@ -1,4 +1,4 @@
-@extends('layouts.quiz')
+@extends('layouts.main')
 @section('content')
     <div>
         <?php
@@ -543,53 +543,9 @@
             $level='high';
         }
         
-        $lowSql = "SELECT COUNT(*) FROM users WHERE level='low'";
-        $HighSql = "SELECT COUNT(*) FROM users WHERE level='high'";
-
-        $result1 = $conn->query($lowSql);
-        $result2 = $conn->query($HighSql);
-
-        while ($row = $result1->fetch_assoc()) {
-            $low=$row['COUNT(*)'];
-        }
-
-        while ($row = $result2->fetch_assoc()) {
-            $High=$row['COUNT(*)'];
-        }
-
-        // echo  $low.'##########*********';
-        // echo  $High.'##########*********';
-        // echo  $level.'<br>';
-        // echo  $score.'<br>';
-        // echo  $percentage.'<br>';
-        // echo  $low.'<br>';
-        // echo  $High.'<br>';
-
-        switch ($level) {
-            case "low":
-                if ($low <= 25){
-                    $scoreSql1 = "UPDATE `users` SET `level` = 'low' , `support` = 'automatic' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult1 = $conn->query($scoreSql1);
-                    // echo '----------- 2 ---------'.'<br>';
-                }else {
-                    // echo '----------- 3 ---------'.'<br>';
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'low' , 'support' = 'manual' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult2 = $conn->query($scoreSql2);
-                }
-                break;
-            case "high":
-                if ($High <= 25){
-                    $scoreSql1 = "UPDATE `users` SET `level` = 'high' , `support` = 'manual' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult1 = $conn->query($scoreSql1);
-                    // echo '----------- 4 ---------'.'<br>';
-                }else {
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'high' , 'support' = 'automatic' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult2 = $conn->query($scoreSql2);
-                    // echo '----------- 5 ---------'.'<br>';
-                }
-                break;
-        }
-
+        $Sql = "UPDATE `users` SET  `alm8yas2Score` = $score, `alm8yas2percentage` = $percentage WHERE `users`.`id` = $id ";
+        $scoreResult1 = $conn->query($Sql);
+    
         $conn->close();
         ?>
 

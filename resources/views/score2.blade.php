@@ -3,9 +3,9 @@
     <div>
         <?php
         $servername = 'localhost';
-        $username = 'root';
-        $password = '123';
-        $dbname = 'learning';
+        $username = 'interactive';
+        $password = 'g]JX&~id.LBW';
+        $dbname = 'interactive';
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -65,207 +65,181 @@
         $q48 = $_GET['q48'];
         $q49 = $_GET['q49'];
         $q50 = $_GET['q50'];
-        
+
         $id = $_GET['id'];
         }
 
-        $score=0;
-        
-        
-       if($q1 == '3'){
-           $score++;
-       }
-       if($q2 == '3'){
-           $score++;
-       }
-       if($q3 == '2'){
-           $score++;
-       }
-       if($q4 == '4'){
-           $score++;
-       }
-       if($q5 == '1'){
-           $score++;
-       }
-       if($q6 == '1'){
-           $score++;
-       }
-       if($q7 == '1'){
-           $score++;
-       }
-       if($q8 == '1'){
-           $score++;
-       }
-       if($q9 == '2'){
-           $score++;
-       }
-       if($q10 == '1'){
-           $score++;
-       }
-       if($q11 == '4'){
-           $score++;
-       }
-       if($q12 == '2'){
-           $score++;
-       }
-       if($q13 == '3'){
-           $score++;
-       }
-       if($q14 == '1'){
-           $score++;
-       }
-       if($q15 == '4'){
-           $score++;
-       }
-       if($q16 == '3'){
-           $score++;
-       }
-       if($q17 == '3'){
-           $score++;
-       }
-       if($q18 == '1'){
-           $score++;
-       }
-       if($q19 == '2'){
-           $score++;
-       }
-       if($q20 == '1'){
-           $score++;
-       }
-       if($q21 == '1'){
-           $score++;
-       }
-       if($q22 == '2'){
-           $score++;
-       }
-       if($q23 == '3'){
-           $score++;
-       }
-       if($q24 == '3'){
-           $score++;
-       }
-       if($q25 == '1'){
-           $score++;
-       }
-       if($q26 == '2'){
-           $score++;
-       }
-       if($q27 == '1'){
-           $score++;
-       }
-       if($q28 == '2'){
-           $score++;
-       }
-       if($q29 == '1'){
-           $score++;
-       }
-       if($q30 == '1'){
-           $score++;
-       }
-       if($q31 == '2'){
-           $score++;
-       }
-       if($q32 == '2'){
-           $score++;
-       }
-       if($q33 == '1'){
-           $score++;
-       }
-       if($q34 == '1'){
-           $score++;
-       }
-       if($q35 == '1'){
-           $score++;
-       }
-       if($q36 == '2'){
-           $score++;
-       }
-       if($q37 == '1'){
-           $score++;
-       }
-       if($q38 == '1'){
-           $score++;
-       }
-       if($q39 == '1'){
-           $score++;
-       }
-       if($q40 == '2'){
-           $score++;
-       }
-       if($q41 == '1'){
-           $score++;
-       }
-       if($q42 == '2'){
-           $score++;
-       }
-       if($q43 == '1'){
-           $score++;
-       }
-       if($q44 == '2'){
-           $score++;
-       }
-       if($q45 == '2'){
-           $score++;
-       }
-       if($q46 == '1'){
-           $score++;
-       }
-       if($q47 == '1'){
-           $score++;
-       }
-       if($q48 == '1'){
-           $score++;
-       }
-       if($q49 == '1'){
-           $score++;
-       }
-       if($q50 == '1'){
-           $score++;
-       }
+        $score = 0;
+
+        if ($q1 == '3') {
+        $score++;
+        }
+        if ($q2 == '3') {
+        $score++;
+        }
+        if ($q3 == '2') {
+        $score++;
+        }
+        if ($q4 == '4') {
+        $score++;
+        }
+        if ($q5 == '1') {
+        $score++;
+        }
+        if ($q6 == '1') {
+        $score++;
+        }
+        if ($q7 == '1') {
+        $score++;
+        }
+        if ($q8 == '1') {
+        $score++;
+        }
+        if ($q9 == '2') {
+        $score++;
+        }
+        if ($q10 == '1') {
+        $score++;
+        }
+        if ($q11 == '4') {
+        $score++;
+        }
+        if ($q12 == '2') {
+        $score++;
+        }
+        if ($q13 == '3') {
+        $score++;
+        }
+        if ($q14 == '1') {
+        $score++;
+        }
+        if ($q15 == '4') {
+        $score++;
+        }
+        if ($q16 == '3') {
+        $score++;
+        }
+        if ($q17 == '3') {
+        $score++;
+        }
+        if ($q18 == '1') {
+        $score++;
+        }
+        if ($q19 == '2') {
+        $score++;
+        }
+        if ($q20 == '1') {
+        $score++;
+        }
+        if ($q21 == '1') {
+        $score++;
+        }
+        if ($q22 == '2') {
+        $score++;
+        }
+        if ($q23 == '3') {
+        $score++;
+        }
+        if ($q24 == '3') {
+        $score++;
+        }
+        if ($q25 == '1') {
+        $score++;
+        }
+        if ($q26 == '2') {
+        $score++;
+        }
+        if ($q27 == '1') {
+        $score++;
+        }
+        if ($q28 == '2') {
+        $score++;
+        }
+        if ($q29 == '1') {
+        $score++;
+        }
+        if ($q30 == '1') {
+        $score++;
+        }
+        if ($q31 == '2') {
+        $score++;
+        }
+        if ($q32 == '2') {
+        $score++;
+        }
+        if ($q33 == '1') {
+        $score++;
+        }
+        if ($q34 == '1') {
+        $score++;
+        }
+        if ($q35 == '1') {
+        $score++;
+        }
+        if ($q36 == '2') {
+        $score++;
+        }
+        if ($q37 == '1') {
+        $score++;
+        }
+        if ($q38 == '1') {
+        $score++;
+        }
+        if ($q39 == '1') {
+        $score++;
+        }
+        if ($q40 == '2') {
+        $score++;
+        }
+        if ($q41 == '1') {
+        $score++;
+        }
+        if ($q42 == '2') {
+        $score++;
+        }
+        if ($q43 == '1') {
+        $score++;
+        }
+        if ($q44 == '2') {
+        $score++;
+        }
+        if ($q45 == '2') {
+        $score++;
+        }
+        if ($q46 == '1') {
+        $score++;
+        }
+        if ($q47 == '1') {
+        $score++;
+        }
+        if ($q48 == '1') {
+        $score++;
+        }
+        if ($q49 == '1') {
+        $score++;
+        }
+        if ($q50 == '1') {
+        $score++;
+        }
 
         $percentage = ($score / 50) * 100;
 
-        $level='';
-        // echo  '#####'.$level.'<br>';
-
-        if ($percentage <= 50){
-            // echo  '#####'.'test1'.'<br>';
-            $level='low';
-        }
-
-        if ($percentage >= 50){
-            // echo  '#####'.'test2'.'<br>';
-            $level='high';
-        }
+        if ($percentage < 90) { 
         
-        $Sql = "UPDATE `users` SET  `score2` = $score, `percentage2` = $percentage WHERE `users`.`id` = $id ";
-        $scoreResult1 = $conn->query($Sql);
-    
-        $conn->close();
-        ?>
+            header('Location:/intro2');
+            exit();
+        } 
+        
+        if ($percentage >= 90) {
+            $Sql = "UPDATE `users` SET `score2` = $score, `percentage2` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
+            $scoreResult1 = $conn->query($Sql);
+            header('Location:/module');
+            exit();
+            }
+
+            $conn->close();
+            ?>
 
     </div>
-    
-    <div class="container" style="margin-top: 60px">
-        <div class="row">
-            <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
-                <div class="card" style="margin-top: 60px">
-                    <div class="card-block">
-                        <h4 style="text-align: center">مستوى الدافعية</h4>
-                        @if ($percentage <= 50)
-                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 400px; border-radius: 22px; width:150px;">منخفض</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 400px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
-						@else
-						<button class="btn btn-lg btn-pill btn-block btn-secondary  " type="button" style="margin-right: 400px; border-radius: 22px; width:150px;">منخفض</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-warning " type="button" style="margin-right: 400px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
-                        @endif
 
-                        <a href="./intro2" class="btn btn-lg btn-pill btn-block btn-info" style="margin-right: 350px;  border-radius: 15px; width:250px;">بدء الإختبار القبلي</a>
-                        {{-- <button class="btn btn-lg btn-pill btn-block btn-info " type="button" style="margin-right: 350px;  border-radius: 15px; width:250px;">بدء الإختبار القبلي </button> <br> --}}
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
 @endsection

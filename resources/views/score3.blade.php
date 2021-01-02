@@ -3,9 +3,9 @@
     <div>
         <?php
         $servername = 'localhost';
-        $username = 'root';
-        $password = '123';
-        $dbname = 'learning';
+        $username = 'interactive';
+        $password = 'g]JX&~id.LBW';
+        $dbname = 'interactive';
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -46,9 +46,20 @@
 
         $percentage = ($score / 5) * 100;
 
-
-        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage WHERE `users`.`id` = $id ";
+        if ($percentage < 90) { 
+        
+        header('Location:/module1');
+        exit();
+    } 
+    
+    if ($percentage >= 90) {
+       
+        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
+        header('Location:/module2');
+        exit();
+        }
+
     
         $conn->close();
         ?>
