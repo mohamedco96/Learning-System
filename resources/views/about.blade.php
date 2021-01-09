@@ -54,7 +54,10 @@
         </div>
         <hr>
         
-        <p style="text-align: center"><a href="./intro1" class="btn btn-primary"> المقياس</a> <a href="./intro2" class="btn btn-primary"> كويز 2</a></p>
-    </div>
+        <p style="text-align: center">
+            <a href="./intro1" class="btn btn-primary" style="margin-bottom: 30px"> مقياس مستوى الدافعية</a><br>
+            <a href="./intro2" class="btn btn-primary">الإختبار القبلي</a>
+        </p>
+        </div>
 
 @endsection

@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body class="cursors png">
 
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: #d2f0fb">
@@ -41,11 +41,10 @@
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
                     <li><a href="#contact">تواصل معنا</a></li>
-                    <li><a href="#services">الخدمات</a></li>
                     <li><a href="#about">من نحن</a></li>
                     <li><a href="./module">الموديولات</a></li>
                     <li><a href="./info">تعليمات البيئة</a></li>
-                    <li><a href="./about">عن البحث</a></li>
+                    <li><a href="./about">عن البيئة</a></li>
                     <li class="active"><a href="./home">الرئيسية</a></li>
                 </ul>
             </nav>
@@ -67,8 +66,9 @@
                         @endif
                     @else
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                               document.getElementById('logout-form').submit();">
+                            <a class="nav-link" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                                                                   document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
 
@@ -160,9 +160,29 @@
 
                 <div class="row no-gutters">
                     <div class="col-lg-6 video-box">
-                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
-                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4"
-                            data-vbtype="video" data-autoplay="true"></a>
+                        @guest
+                        <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 100px">
+                            @csrf
+                            <div class="form-group" style="margin-bottom: 20px">
+                              <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="الإسم">
+                              {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+                            </div>
+                            <div class="form-group" style="margin-bottom: 20px">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="البريد الإلكتروني">
+                            </div>
+                            <div class="form-group" style="margin-bottom: 20px">
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="كلمة المرور">
+                            </div>
+                            <div class="form-group" style="margin-bottom: 20px">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="إعادة كلمة المرور">
+                            </div>
+
+                            {{-- <button type="submit" class="btn btn-primary">Submit</button> --}}
+                            <button type="submit" class="btn btn-block btn-success">
+                                {{ __('Register') }}
+                            </button>
+                          </form>
+                        @endguest
                     </div>
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
@@ -194,181 +214,6 @@
             </div>
         </section><!-- End About Us Section -->
 
-
-        <!-- ======= Counts Section ======= -->
-        <section class="counts section-bg">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
-                        <div class="count-box">
-                            <i class="icofont-simple-smile" style="color: #20b38e;"></i>
-                            <span data-toggle="counter-up">232</span>
-                            <p>Counter</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <div class="count-box">
-                            <i class="icofont-document-folder" style="color: #c042ff;"></i>
-                            <span data-toggle="counter-up">521</span>
-                            <p>Counter</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
-                        <div class="count-box">
-                            <i class="icofont-live-support" style="color: #46d1ff;"></i>
-                            <span data-toggle="counter-up">1,463</span>
-                            <p>Counter</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
-                        <div class="count-box">
-                            <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
-                            <span data-toggle="counter-up">15</span>
-                            <p>Counter</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Counts Section -->
-
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>الخدمات</h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                        <div class="icon"><i class="icofont-computer"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat tarad limino ata</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon"><i class="icofont-earth"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="icofont-image"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon"><i class="icofont-settings"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                            praesentium voluptatum deleniti atque</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                        <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                            tempore, cum soluta nobis est eligendi</p>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Services Section -->
-
-
-        <!-- ======= Our Team Section ======= -->
-        {{-- <section id="team" class="team">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Our Team</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-                        <div class="member">
-                            <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
-                                <div class="social">
-                                    <a href=""><i class="icofont-twitter"></i></a>
-                                    <a href=""><i class="icofont-facebook"></i></a>
-                                    <a href=""><i class="icofont-instagram"></i></a>
-                                    <a href=""><i class="icofont-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
-                                <div class="social">
-                                    <a href=""><i class="icofont-twitter"></i></a>
-                                    <a href=""><i class="icofont-facebook"></i></a>
-                                    <a href=""><i class="icofont-instagram"></i></a>
-                                    <a href=""><i class="icofont-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
-                                <div class="social">
-                                    <a href=""><i class="icofont-twitter"></i></a>
-                                    <a href=""><i class="icofont-facebook"></i></a>
-                                    <a href=""><i class="icofont-instagram"></i></a>
-                                    <a href=""><i class="icofont-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                                <div class="social">
-                                    <a href=""><i class="icofont-twitter"></i></a>
-                                    <a href=""><i class="icofont-facebook"></i></a>
-                                    <a href=""><i class="icofont-instagram"></i></a>
-                                    <a href=""><i class="icofont-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> --}}
-        <!-- End Our Team Section -->
 
         <!-- ======= Contact Us Section ======= -->
         <section id="contact" class="contact">
@@ -428,7 +273,7 @@
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary btn-block mb-4">ارسل</button>
                             </div>
-                           
+
                         </form>
                     </div>
 
@@ -439,14 +284,58 @@
 
     </main><!-- End #main -->
 
+    {{-- <div class="fixed-bottom"
+        style="background-color: #767c7c; width: 200px;height: 250px;float: left;border-radius: 35px 35px 0px 0px; position: sticky; text-align: center; color: ivory">
+        <p>Support</p>
+    </div> --}}
+
+    {{-- Manual Support --}}
+
+    {{-- <div id="manual">
+        <video width="230" height="180" controls>
+            <source src="./video/01.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div> --}}
+
+    {{-- Automatic Support --}}
+
+    <div id="automatic">
+        <button type="button" class="btn btn-primary support" data-toggle="modal" data-target="#exampleModal">
+            إضغط هنا للدعم
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <video width="230" height="180" controls>
+                        <source src="./video/01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ======= Footer ======= -->
-    <footer id="footer">
+    {{-- <footer id="footer" class="footer navbar-fixed-bottom">
         <div class="container">
             <div class="copyright">
                 جميع الحقوق محفوظة
             </div>
         </div>
-    </footer><!-- End Footer -->
+    </footer> --}}
+    <!-- End Footer -->
+
 
     {{-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     --}}

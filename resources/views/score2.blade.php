@@ -224,18 +224,16 @@
 
         $percentage = ($score / 50) * 100;
 
-        if ($percentage < 90) { 
+        // if ($percentage < 90) { 
         
-            header('Location:/intro2');
-            exit();
-        } 
+        //     header('Location:/intro2');
+        //     exit();
+        // } 
         
-        if ($percentage >= 90) {
             $Sql = "UPDATE `users` SET `score2` = $score, `percentage2` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
             $scoreResult1 = $conn->query($Sql);
             header('Location:/module');
             exit();
-            }
 
             $conn->close();
             ?>

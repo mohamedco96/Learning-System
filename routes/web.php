@@ -53,6 +53,8 @@ Route::get('/main1', function () {
     return view('main1');
 })->middleware('auth');
 
+//////////////// Modules ////////////////
+
 Route::get('/module', function () {
     return view('module');
 })->middleware('auth');
@@ -60,6 +62,28 @@ Route::get('/module', function () {
 Route::get('/module1', function () {
     return view('module1');
 })->middleware('auth');
+
+Route::get('/module2', function () {
+    return view('module2');
+})->middleware('auth');
+
+Route::get('/module3', function () {
+    return view('module3');
+})->middleware('auth');
+
+Route::get('/module4', function () {
+    return view('module4');
+})->middleware('auth');
+
+Route::get('/module5', function () {
+    return view('module5');
+})->middleware('auth');
+
+Route::get('/module6', function () {
+    return view('module6');
+})->middleware('auth');
+
+//////////////////////////////////////////
 
 Route::get('/plan', function () {
     return view('plan');
@@ -73,6 +97,7 @@ Route::get('/exam', function () {
     return view('exam');
 })->middleware('auth');
 
+//////////////// Results ////////////////
 
 Route::get('/score', function () {
     return view('score');
@@ -99,7 +124,7 @@ Route::get('/alm8yas2Score', function () {
     return view('alm8yas2Score');
 })->middleware('auth');
 
-
+////////////////////////////////////////////////
 Route::get('/contact', function () {
     return view('contact');
 })->middleware('auth');

@@ -533,12 +533,12 @@
         $level='';
         // echo  '#####'.$level.'<br>';
 
-        if ($percentage <= 50){
+        if ($score <= 70){
             // echo  '#####'.'test1'.'<br>';
             $level='low';
         }
 
-        if ($percentage >= 50){
+        if ($score >= 70){
             // echo  '#####'.'test2'.'<br>';
             $level='high';
         }
@@ -601,7 +601,7 @@
                 <div class="card" style="margin-top: 60px">
                     <div class="card-block">
                         <h4 style="text-align: center">مستوى الدافعية</h4>
-                        @if ($percentage <= 50)
+                        @if ($score <= 50)
                         <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 400px; border-radius: 22px; width:150px;">منخفض</button> <br>
                         <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 400px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
 						@else

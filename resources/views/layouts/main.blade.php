@@ -1,10 +1,11 @@
-<!--
- * CoreUI - Open Source Bootstrap Admin Template
- * @version v1.0.0-alpha.2
- * @link http://coreui.io
- * Copyright (c) 2016 creativeLabs Łukasz Holeczek
- * @license MIT
- -->
+@php
+$users = DB::table('users')->where('id', Auth::user()->id)->get();
+
+foreach ($users as $user) {
+// echo $user->email;
+}
+@endphp
+
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
 
@@ -56,7 +57,7 @@
                     </a>
                 </li>
 
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات
                     </a>
@@ -93,8 +94,9 @@
                     @endif
                 @else
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                                document.getElementById('logout-form').submit();">
+                        <a class="nav-link" href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                                                                                                document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
 
@@ -106,6 +108,7 @@
             </ul>
         </div>
     </header>
+
     <div class="sidebar">
         <nav class="sidebar-nav">
             <ul class="nav">
@@ -119,25 +122,71 @@
 
                 </li>
                 <li class="nav-item">
-                    {{-- <a class="nav-link" href="../main1"><i class="icon-user-follow"></i>الصفحة الرئيسية</a> --}}
+                    {{-- <a class="nav-link" href="../main1"><i
+                            class="icon-user-follow"></i>الصفحة الرئيسية</a> --}}
                     <a class="nav-link" href="../module"><i class="icon-people"></i>الموديولات التعليمية </a>
                     <a class="nav-link" href="../plan"><i class="icon-people"></i>الخطة الزمنية </a>
-                    {{-- <a class="nav-link" href="../library"><i class="icon-people"></i>المكتبة الإئرائية</a> --}}
+                    {{-- <a class="nav-link" href="../library"><i
+                            class="icon-people"></i>المكتبة الإئرائية</a> --}}
                     <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
                     <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
                 </li>
             </ul>
         </nav>
     </div>
+
+
     <!-- Main content -->
     <main class="main">
         @yield('content')
     </main>
 
 
-    <footer class="footer" style="text-align: center">
+
+    {{-- Manual Support --}}
+
+    @if ($user->support === 'manual')
+        <div id="manual">
+            <video width="230" height="180" controls>
+                <source src="./video/01.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    @endif
+
+    {{-- Automatic Support --}}
+
+    @if ($user->support === 'automatic')
+        <div id="automatic">
+            <button type="button" class="btn btn-primary support" data-toggle="modal" data-target="#exampleModal">
+                إضغط هنا للدعم
+            </button>
+        </div>
+    @endif
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <video width="230" height="180" controls>
+                        <source src="./video/01.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- <footer class="footer" style="text-align: center">
         جميع الحقوق محفوظة
-    </footer>
+    </footer> --}}
+
     <!-- Bootstrap and necessary plugins -->
     <script src="js/libs/jquery.min.js"></script>
     <script src="js/libs/tether.min.js"></script>

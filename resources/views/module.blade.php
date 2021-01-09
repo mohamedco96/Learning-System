@@ -1,62 +1,62 @@
-<?php
-$servername = 'localhost';
-$username = 'interactive';
-$password = 'g]JX&~id.LBW';
-$dbname = 'interactive';
+@php
+$users = DB::table('users')->where('id', Auth::user()->id)->get();
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-die('Connection failed: ' . $conn->connect_error);
+foreach ($users as $user) {
+// echo $user->email;
 }
-
-// $id = Auth::user()->id;
-$Sql = 'SELECT COUNT(*) FROM `users` WHERE users.id=4';
-$scoreResult1 = $conn->query($Sql);
-
-while ($row = $scoreResult1->fetch_assoc()) {
-echo '####' . $row['COUNT(*)'];
-}
-$conn->close();
-?>
+@endphp
 
 @extends('layouts.main')
 @section('content')
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: 50px">
         <div class="animated fadeIn">
             <div class="row">
+                {{-- الموديول الأول --}}
                 <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-header">
                             الموديول الأول
-                            <span class="tag tag-success pull-left">متاح</span>
+                            @if ($user->module1 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
                             أساسيات التعامل مع الفيديو الرقمى التفاعلى
                         </div>
                         <div class="card-footer">
-                            <a href="./module1" class="btn btn-outline-primary btn-block"><i
-                                    class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @if ($user->module1 === '1')
+                                <a href="./module1" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module1" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>
+                {{-- نهاية الموديول الأول --}}
                 <!--/col-->
 
                 <div class="col-6 col-md-4">
                     <div class="card">
                         <div class="card-header">
                             الموديول الثاني
-                            <span class="tag tag-success pull-right"></span>
+                            @if ($user->module2 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
-                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                            وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                            بالسعادة،
+                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-outline-primary btn-block" href="./module1"><i
-                                    class="fa fa-star"></i>&nbsp; Primary</button>
+                            @if ($user->module2 === '1')
+                                <a href="./module2" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module2" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -66,16 +66,22 @@ $conn->close();
                     <div class="card">
                         <div class="card-header">
                             الموديول الثالث
-                            <span class="tag tag-success pull-right"></span>
+                            @if ($user->module3 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
-                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                            وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                            بالسعادة،
+                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;
-                                Primary</button>
+                            @if ($user->module3 === '1')
+                                <a href="./module3" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module3" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -88,16 +94,22 @@ $conn->close();
                     <div class="card">
                         <div class="card-header">
                             الموديول الرابع
-                            <span class="tag tag-success pull-left"></span>
+                            @if ($user->module4 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
-                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                            وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                            بالسعادة،
+                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;
-                                Primary</button>
+                            @if ($user->module4 === '1')
+                                <a href="./module4" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module4" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -107,16 +119,22 @@ $conn->close();
                     <div class="card">
                         <div class="card-header">
                             الموديول الخامس
-                            <span class="tag tag-success pull-right"></span>
+                            @if ($user->module5 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
-                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                            وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                            بالسعادة،
+                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;
-                                Primary</button>
+                            @if ($user->module5 === '1')
+                                <a href="./module5" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module5" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -126,16 +144,22 @@ $conn->close();
                     <div class="card">
                         <div class="card-header">
                             الموديول السادس
-                            <span class="tag tag-success pull-right"></span>
+                            @if ($user->module6 === '1')
+                                <span class="tag tag-success pull-left">متاح</span>
+                            @endif
                         </div>
                         <div class="card-block">
-                            لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار النشوة وتمجيد الألم نشأت بالفعل،
-                            وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور
-                            بالسعادة،
+                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+
                         </div>
                         <div class="card-footer">
-                            <button type="button" class="btn btn-outline-primary btn-block"><i class="fa fa-star"></i>&nbsp;
-                                Primary</button>
+                            @if ($user->module6 === '1')
+                                <a href="./module6" class="btn btn-outline-primary btn-block"><i
+                                        class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @else
+                                <a href="./module6" class="btn btn-outline-primary btn-block"
+                                    style="pointer-events: none"><i class="fa fa-star"></i>&nbsp;ابدأ الآن</a>
+                            @endif
                         </div>
                     </div>
                 </div>

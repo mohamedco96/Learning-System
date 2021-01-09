@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container" style="margin-right: 100px; margin-top: 50px">
+        {{--  --}}
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
@@ -28,18 +29,26 @@
                     aria-controls="pills-contact3" aria-selected="false">المكتبة الإئرائية</a>
             </li>
         </ul>
+        {{--  --}}
+
+        {{--بداية محتوى الموديول--}}
         <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
+
             {{-- الأهداف التعليمية --}}
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <p dir="RTL"
                     style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <strong><span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>الهدف العام
-                            للموديول:&nbsp;</span></strong>
+                    <strong><span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>
+                         العام
+                            للموديول:&nbsp;
+                        </span></strong>
                 </p>
                 <p dir="RTL"
                     style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>إكتساب مفهوم الفيديو
-                        الرقمى التفاعلى ومميزاته وإمكاناته</span>
+                    <span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>
+                        إكتساب مفهوم الفيديو
+                        الرقمى التفاعلى ومميزاته وإمكاناته
+                    </span>
                 </p>
                 <p dir="RTL"
                     style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
@@ -47,8 +56,10 @@
                             الإجرائية:</span></strong>
                 </p>
                 <ol style="list-style-type: decimal;margin-left:-0.5in;">
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يذكر مفهوم الفيديو الرقمى
-                            التفاعلى</span></li>
+                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>
+                        يذكر مفهوم الفيديو الرقمى
+                            التفاعلى
+                        </span></li>
                     <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يعدد مميزات الفيديو الرقمى
                             التفاعلى</span></li>
                     <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يستنتج محتويات الفيديو الرقمى
@@ -114,12 +125,13 @@
                             <p><a href="https://drive.google.com/file/d/1mWhVuvR-JD0KMyD08E6wc_fHDCY1ahXl/view?usp=sharing"
                                     rel="noopener noreferrer" target="_blank"><span
                                         style="font-family: Impact, Charcoal, sans-serif;"><strong><span
-                                                style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
-                                                نصى</span></strong></span></a></p>
+                                                style="font-size: 20px; color: rgb(28, 146, 181);">
+                                                تحميل المحتوى نصى
+                                            </span></strong></span></a></p>
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/01.mp4" type="video/mp4">
+                                <source src="./video/m1.1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -147,7 +159,7 @@
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/01.mp4" type="video/mp4">
+                                <source src="./video/m1.2.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -175,7 +187,7 @@
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/01.mp4" type="video/mp4">
+                                <source src="./video/m1.3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -207,7 +219,7 @@
             </div>
 
             {{-- التقييم البنائي --}}
-            <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2"> 
+            <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
                 <form action="score3" method="get">
 
                     <div class="body_next">
@@ -217,16 +229,16 @@
                                 <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
                                 <ol dir="rtl">
                                     <li>
-                                        <input type="radio" name="q1" value="1" required /> تعزيز التعلم النشط 
+                                        <input type="radio" name="q1" value="1" required /> تعزيز التعلم النشط
                                     </li>
                                     <li>
-                                        <input type="radio" name="q1" value="2" required /> تنمية مهارات المتعلم 
+                                        <input type="radio" name="q1" value="2" required /> تنمية مهارات المتعلم
                                     </li>
                                     <li>
-                                        <input type="radio" name="q1" value="3" required /> زيادة ثقة المتعلم 
+                                        <input type="radio" name="q1" value="3" required /> زيادة ثقة المتعلم
                                     </li>
                                     <li>
-                                        <input type="radio" name="q1" value="4" required /> توفير الوقت 
+                                        <input type="radio" name="q1" value="4" required /> توفير الوقت
                                     </li>
                                 </ol>
                             </div>
@@ -240,13 +252,13 @@
                                         <input type="radio" name="q2" value="1" required /> انطلاق الفكرة
                                     </li>
                                     <li>
-                                        <input type="radio" name="q2" value="2" required /> كتابة السيناريو 
+                                        <input type="radio" name="q2" value="2" required /> كتابة السيناريو
                                     </li>
                                     <li>
                                         <input type="radio" name="q2" value="3" required /> انتاج المشاهد
                                     </li>
                                     <li>
-                                        <input type="radio" name="q2" value="4" required /> تصدير و نشر الفيديو 
+                                        <input type="radio" name="q2" value="4" required /> تصدير و نشر الفيديو
                                     </li>
 
                                 </ol>
@@ -258,16 +270,18 @@
                                 <h3> يعد من معايير انتاج الفيديو الرقمى التفاعلى </h3>
                                 <ol dir="rtl">
                                     <li>
-                                        <input type="radio" name="q3" value="1" required /> طول مدة عرض الفيديو 
+                                        <input type="radio" name="q3" value="1" required /> طول مدة عرض الفيديو
                                     </li>
                                     <li>
-                                        <input type="radio" name="q3" value="2" required /> الاعتماد على مؤثرات صوتية بصورة كبيرة 
+                                        <input type="radio" name="q3" value="2" required /> الاعتماد على مؤثرات صوتية بصورة
+                                        كبيرة
                                     </li>
                                     <li>
-                                        <input type="radio" name="q3" value="3" required /> استخدام عناصر توجيه الانتباه 
+                                        <input type="radio" name="q3" value="3" required /> استخدام عناصر توجيه الانتباه
                                     </li>
                                     <li>
-                                        <input type="radio" name="q3" value="4" required />التركيز على عنصر واحد فقط داخل المشهد 
+                                        <input type="radio" name="q3" value="4" required />التركيز على عنصر واحد فقط داخل
+                                        المشهد
                                     </li>
                                 </ol>
                             </div>
@@ -283,7 +297,7 @@
                                     <li>
                                         <input type="radio" name="q4" value="2" required /> خطأ
                                     </li>
-                                    
+
                                 </ol>
                             </div>
                         </section>
@@ -342,5 +356,6 @@
                 <hr>
             </div>
         </div>
+        {{--نهاية محتوى الموديول--}}
     </div>
 @endsection
