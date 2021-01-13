@@ -5,7 +5,8 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 0; 
+}
 
 article,
 aside,
@@ -7780,3 +7781,12 @@ base-chart.chart {
   float: left;
   margin-left: 20px;
 }
+
+
+.avatar {
+  /* vertical-align: middle; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+

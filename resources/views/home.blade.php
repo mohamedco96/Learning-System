@@ -68,7 +68,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
-                                                                                   document.getElementById('logout-form').submit();">
+                                                                                       document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
 
@@ -93,7 +93,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
-                    <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
+                    <div class="carousel-item active" style="background-image: url('img/slider web 1.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mamba</span></h2>
@@ -108,7 +108,7 @@
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+                    <div class="carousel-item" style="background-image: url('img/slider web 2.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -123,7 +123,7 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+                    <div class="carousel-item" style="background-image: url('img/slider web 3.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
@@ -161,28 +161,54 @@
                 <div class="row no-gutters">
                     <div class="col-lg-6 video-box">
                         @guest
-                        <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 100px">
-                            @csrf
-                            <div class="form-group" style="margin-bottom: 20px">
-                              <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="الإسم">
-                              {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
-                            </div>
-                            <div class="form-group" style="margin-bottom: 20px">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="البريد الإلكتروني">
-                            </div>
-                            <div class="form-group" style="margin-bottom: 20px">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="كلمة المرور">
-                            </div>
-                            <div class="form-group" style="margin-bottom: 20px">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="إعادة كلمة المرور">
-                            </div>
+                            <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 100px">
+                                @csrf
+                                <div class="form-group" style="margin-bottom: 20px">
+                                    <input id="name" type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" value="{{ old('name') }}" required autocomplete="name" autofocus
+                                        placeholder="الإسم">
+                                    {{-- <small id="emailHelp"
+                                        class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    --}}
+                                </div>
+                                <div class="form-group" style="margin-bottom: 20px">
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" value="{{ old('email') }}" required autocomplete="email"
+                                        placeholder="البريد الإلكتروني">
+                                </div>
+                                <div class="form-group" style="margin-bottom: 20px">
+                                    <input id="password" type="password"
+                                        class="form-control @error('password') is-invalid @enderror" name="password"
+                                        required autocomplete="new-password" placeholder="كلمة المرور">
+                                </div>
+                                <div class="form-group" style="margin-bottom: 20px">
+                                    <input id="password-confirm" type="password" class="form-control"
+                                        name="password_confirmation" required autocomplete="new-password"
+                                        placeholder="إعادة كلمة المرور">
+                                </div>
 
-                            {{-- <button type="submit" class="btn btn-primary">Submit</button> --}}
-                            <button type="submit" class="btn btn-block btn-success">
-                                {{ __('Register') }}
-                            </button>
-                          </form>
+                                {{-- <button type="submit"
+                                    class="btn btn-primary">Submit</button> --}}
+                                <button type="submit" class="btn btn-block btn-success">
+                                    {{ __('Register') }}
+                                </button>
+                            </form>
                         @endguest
+
+                        @auth
+                            <div style="margin-top: 150px">
+                                <p style="text-align: center;"><span
+                                    style="font-family: Impact, Charcoal, sans-serif; font-size: 22px;">
+                                    أهلا بك عزيزي {{ Auth::user()->name }} 
+                                     في بيئة التعلم الافتراضية الخاصة بتمنية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
+                                    برنامج Cartoon Animator 4 &amp; Camtasia Studio<br></span></p>
+
+                                    <p style="text-align: center">
+                                        <a href="./intro1" class="btn btn-primary" style="margin-bottom: 30px"> مقياس مستوى الدافعية</a><br>
+                                        <a href="./intro2" class="btn btn-primary">الإختبار القبلي</a>
+                                    </p>
+                            </div>
+                        @endauth
                     </div>
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center about-content">

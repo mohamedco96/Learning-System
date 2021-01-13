@@ -1,8 +1,16 @@
+@php
+$users = DB::table('users')->where('id', Auth::user()->id)->get();
+
+foreach ($users as $user) {
+// echo $user->email;
+}
+@endphp
+
 @extends('layouts.main')
 
 @section('content')
     <div class="container" style="margin-right: 100px; margin-top: 50px">
-        {{--  --}}
+        {{-- --}}
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
@@ -29,7 +37,7 @@
                     aria-controls="pills-contact3" aria-selected="false">المكتبة الإئرائية</a>
             </li>
         </ul>
-        {{--  --}}
+        {{-- --}}
 
         {{--بداية محتوى الموديول--}}
         <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
@@ -39,7 +47,7 @@
                 <p dir="RTL"
                     style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
                     <strong><span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>
-                         العام
+                            العام
                             للموديول:&nbsp;
                         </span></strong>
                 </p>
@@ -57,7 +65,7 @@
                 </p>
                 <ol style="list-style-type: decimal;margin-left:-0.5in;">
                     <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>
-                        يذكر مفهوم الفيديو الرقمى
+                            يذكر مفهوم الفيديو الرقمى
                             التفاعلى
                         </span></li>
                     <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يعدد مميزات الفيديو الرقمى
@@ -73,6 +81,53 @@
                     <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يذكر معايير تصميم الفيديو الرقمى
                             التفاعلى</span></li>
                 </ol>
+
+                                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
 
             </div>
 
@@ -109,6 +164,53 @@
                             style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>يلزم
                             اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
                 </ul>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/التعليمات.wmv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+
             </div>
 
             {{-- المحتوى التعليمي --}}
@@ -131,7 +233,7 @@
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/m1.1.mp4" type="video/mp4">
+                                <source src="./video/module1/m1.1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -159,7 +261,7 @@
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/m1.2.mp4" type="video/mp4">
+                                <source src="./video/module1/m1.2.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -187,7 +289,7 @@
                         </div>
                         <div class="col-sm-6" style="">
                             <video width="320" height="240" controls>
-                                <source src="./video/m1.3.mp4" type="video/mp4">
+                                <source src="./video/module1/m1.3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
@@ -199,6 +301,54 @@
                     <hr>
 
                 </div>
+
+                                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+
             </div>
 
             {{-- الأنشطة التعليمية --}}
@@ -216,6 +366,54 @@
                     style="border-radius: 22px; width:150px;">
                     ارفق النشاط
                 </button>
+
+                                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+
             </div>
 
             {{-- التقييم البنائي --}}
@@ -321,6 +519,54 @@
                     <input type="submit" value="Submit" name="submit" class="btn btn-sm btn-primary"
                         style="margin-top: 20px; margin-right: 200px" />
                 </form>
+
+                                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/التقييم البنائى.wmv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+
             </div>
 
 
@@ -354,6 +600,54 @@
                     </div>
                 </div>
                 <hr>
+
+                                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+                {{-- automatic Support --}}
+
+                @if ($user->support === 'automatic')
+                    <div id="manual">
+                        <video width="230" height="180" controls>
+                            <source src="./video/module1/automatic support/المكتبة.wmv" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                @endif
+
+                {{-- manual Support --}}
+
+                @if ($user->support === 'manual')
+                    <div id="automatic">
+                        <button type="button" class="btn btn-primary support" data-toggle="modal"
+                            data-target="#exampleModal">
+                            إضغط هنا للدعم
+                        </button>
+                    </div>
+                @endif
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/01.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{--////////////////////////////// Support //////////////////////////////
+                --}}
+
             </div>
         </div>
         {{--نهاية محتوى الموديول--}}
