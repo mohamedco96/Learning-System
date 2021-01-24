@@ -105,33 +105,6 @@
     </main>
 
 
-    {{-- Automatic Support --}}
-
-        <div id="automatic">
-            <button type="button" class="btn btn-primary support" data-toggle="modal" data-target="#exampleModal">
-                إضغط هنا للدعم
-            </button>
-        </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Automatic Support</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <video width="230" height="180" controls>
-                        <source src="./video/01.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </div>
-    </div>
 
     {{-- <footer class="footer" style="text-align: center">
         جميع الحقوق محفوظة

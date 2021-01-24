@@ -108,21 +108,7 @@
         @yield('content')
     </main>
 
-    {{-- Manual Support --}}
-
-    {{-- <div id="manual">
-        <video width="230" height="180" controls>
-            <source src="./video/01.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div> --}}
-
-    {{-- Automatic Support --}}
-
-    <div id="automatic">
-        <button class="support">إضغط هنا للدعم</button>
-    </div>
-
+  
     {{-- <footer class="footer">
         جميع الحقوق محفوظة
     </footer> --}}

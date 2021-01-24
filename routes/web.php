@@ -130,6 +130,11 @@ Route::get('/contact', function () {
 })->middleware('auth');
 
 
+Route::get('/support', function () {
+    return view('support');
+});
+
+
 // return \File::get(public_path() . '/score.php');
 
 
