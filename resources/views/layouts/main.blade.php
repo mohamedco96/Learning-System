@@ -30,6 +30,8 @@ foreach ($users as $user) {
     <div id="cieKut" style="z-index:100;position:fixed" dir="ltr"></div>
     <div id="sceKut" style="display:inline" dir="ltr"></div>
     <div id="sdeKut" style="display:none" dir="ltr"></div>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 
 <body class="navbar-fixed sidebar-nav fixed-nav">
@@ -49,7 +51,7 @@ foreach ($users as $user) {
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البحث </a>
+                    <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البيئة </a>
                 </li>
 
                 <li class="nav-item">
@@ -96,7 +98,7 @@ foreach ($users as $user) {
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('logout') }}"
                             onclick="event.preventDefault();
-                                                                                            document.getElementById('logout-form').submit();">
+                                                                                                document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
 
@@ -128,8 +130,10 @@ foreach ($users as $user) {
                     <a class="nav-link" href="../plan"><i class="icon-people"></i>الخطة الزمنية </a>
                     {{-- <a class="nav-link" href="../library"><i
                             class="icon-people"></i>المكتبة الإئرائية</a> --}}
-                    <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
-                    <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
+                    @if ($user->finish_module === '1')
+                        <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
+                        <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
+                    @endif
                 </li>
             </ul>
         </nav>

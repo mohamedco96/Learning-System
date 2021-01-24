@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", Open Sans;
+  font-family: "Open Sans";
   color: #444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Raleway", Open Sans;
+  font-family: "Open Sans";
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", Open Sans;
+  font-family: "Open Sans";
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu .drop-down > a:after {
   content: "\ea99";
-  font-family: IcoFont;
+  font-family: "Open Sans";
   padding-left: 5px;
 }
 
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu .drop-down .drop-down > a:after {
   content: "\eaa0";
-  font-family: IcoFont;
+  font-family: "Open Sans";
   position: absolute;
   right: 15px;
 }
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .mobile-nav .drop-down > a:after {
   content: "\ea99";
-  font-family: IcoFont;
+  font-family: "Open Sans";
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -464,7 +464,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", Open Sans;
+  font-family: "Open Sans";
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -825,7 +825,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", Open Sans;
+  font-family: "Open Sans";
   font-size: 14px;
 }
 
@@ -1373,7 +1373,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", Open Sans;
+  font-family: "Open Sans";
   color: #fff;
 }
 
@@ -1550,4 +1550,15 @@ section {
   position: sticky;
   float: left;
   margin-left: 20px;
+}
+
+ol {
+  list-style-type: none;
+  /* padding-bottom: 10px; */
+
+}
+
+li {
+  padding-bottom: 10px;
+  font-size: 16px;
 }

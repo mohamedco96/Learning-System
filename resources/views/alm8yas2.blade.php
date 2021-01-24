@@ -1,3 +1,19 @@
+@php
+$users = DB::table('users')->where('id', Auth::user()->id)->get();
+
+foreach ($users as $user) {
+// echo $user->email;
+}
+@endphp
+
+@if ($user->finish_module === '0')
+    <?php
+    header('Location:/module');
+    exit();
+    ?>
+@endif
+
+
 @extends('layouts.main')
 @section('content')
 

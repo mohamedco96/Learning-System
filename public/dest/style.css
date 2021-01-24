@@ -1,6 +1,6 @@
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -96,7 +96,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Open Sans", "Open Sans";
   font-size: 1em; }
 
 figure {
@@ -260,7 +260,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Open Sans;
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Open Sans", "Open Sans", "Open Sans", "Open Sans";
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -597,7 +597,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: "Open Sans"; }
 
 code {
   padding: 3px 6px;
@@ -3781,7 +3781,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3860,7 +3860,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5044,43 +5044,43 @@ header.navbar .navbar-nav .nav-link {
   height: 20px; }
 
 @font-face {
-  font-family: Sahel;
+  font-family: "Open Sans";
   src: url("../fonts/Sahel-FD.eot");
   src: url("../fonts/Sahel-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-FD.woff") format("woff"), url("../fonts/Sahel-FD.ttf") format("truetype");
   font-weight: normal; }
 @font-face {
-  font-family: Sahel;
+  font-family: "Open Sans";
   src: url("../fonts/Sahel-Bold-FD.eot");
   src: url("../fonts/Sahel-Bold-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-Bold-FD.woff") format("woff"), url("../fonts/Sahel-Bold-FD.ttf") format("truetype");
   font-weight: bold; }
 @font-face {
-  font-family: Sahel;
+  font-family: "Open Sans";
   src: url("../fonts/Sahel-Black-FD.eot");
   src: url("../fonts/Sahel-Black-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-Black-FD.woff") format("woff"), url("../fonts/Sahel-Black-FD.ttf") format("truetype");
   font-weight: 900; }
 html, body {
-  font-family: 'Open Sans'  !important;
+  font-family: "Open Sans"  !important;
   line-height: 1.62 !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
   html button.btn, body button.btn {
     font-weight: bold; }
   html .en, body .en {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Open Sans; }
+    font-family: "Open Sans"; }
     html .en::-webkit-input-placeholder, body .en::-webkit-input-placeholder {
-      font-family: 'Open Sans'  !important;
+      font-family: "Open Sans"  !important;
       -webkit-transition: .6s all;
       transition: .6s all; }
     html .en::-moz-placeholder, body .en::-moz-placeholder {
-      font-family: 'Open Sans'  !important;
+      font-family: "Open Sans"  !important;
       -webkit-transition: .6s all;
       transition: .6s all; }
     html .en:-ms-input-placeholder, body .en:-ms-input-placeholder {
-      font-family: 'Open Sans'  !important;
+      font-family: "Open Sans"  !important;
       -webkit-transition: .6s all;
       transition: .6s all; }
     html .en::placeholder, body .en::placeholder {
-      font-family: 'Open Sans'  !important;
+      font-family: "Open Sans"  !important;
       -webkit-transition: .6s all;
       transition: .6s all; }
     html .en:focus, body .en:focus {
@@ -6084,7 +6084,7 @@ footer.footer {
     top: 0;
     right: 0;
     display: block;
-    font-family: 'FontAwesome';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     -moz-osx-font-smoothing: grayscale;
@@ -7328,7 +7328,7 @@ hr.transparent {
     position: relative;
     display: block;
     height: inherit;
-    font-family: FontAwesome;
+    font-family: "Open Sans";
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -7790,3 +7790,15 @@ base-chart.chart {
   border-radius: 50%;
 }
 
+
+
+ol {
+  list-style-type: none;
+  /* padding-bottom: 10px; */
+
+}
+
+li {
+  padding-bottom: 10px;
+  font-size: 16px;
+}

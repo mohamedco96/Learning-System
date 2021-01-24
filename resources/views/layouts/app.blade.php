@@ -39,7 +39,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البحث </a>
+                    <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البيئة </a>
                 </li>
 
                 <li class="nav-item">

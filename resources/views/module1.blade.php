@@ -45,40 +45,40 @@ foreach ($users as $user) {
             {{-- الأهداف التعليمية --}}
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <p dir="RTL"
-                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <strong><span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>
+                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
+                    <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
                             العام
                             للموديول:&nbsp;
                         </span></strong>
                 </p>
                 <p dir="RTL"
-                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>
+                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
+                    <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
                         إكتساب مفهوم الفيديو
                         الرقمى التفاعلى ومميزاته وإمكاناته
                     </span>
                 </p>
                 <p dir="RTL"
-                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <strong><span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>الأهداف
+                    style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
+                    <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>الأهداف
                             الإجرائية:</span></strong>
                 </p>
                 <ol style="list-style-type: decimal;margin-left:-0.5in;">
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>
                             يذكر مفهوم الفيديو الرقمى
                             التفاعلى
                         </span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يعدد مميزات الفيديو الرقمى
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يعدد مميزات الفيديو الرقمى
                             التفاعلى</span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يستنتج محتويات الفيديو الرقمى
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يستنتج محتويات الفيديو الرقمى
                             التفاعلى</span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يحدد أسباب استخدام الفيديو الرقمى
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يحدد أسباب استخدام الفيديو الرقمى
                             التفاعلى فى العملية التعليمية</span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يحدد مراحل إنتاج الفيديو الرقمى
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يحدد مراحل إنتاج الفيديو الرقمى
                             التفاعلى</span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يعدد تطبيقات التربوية والتعليمية
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يعدد تطبيقات التربوية والتعليمية
                             للفيديو الرقمى التفاعلى&nbsp;</span></li>
-                    <li><span style='line-height:150%;font-family:"Arial",sans-serif;'>يذكر معايير تصميم الفيديو الرقمى
+                    <li><span style='line-height:150%;font-family:"Open Sans";'>يذكر معايير تصميم الفيديو الرقمى
                             التفاعلى</span></li>
                 </ol>
 
@@ -135,33 +135,33 @@ foreach ($users as $user) {
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <p dir="RTL"
                     style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;text-align:right;'>
-                    <span style='font-size:19px;line-height:107%;font-family:"Arial",sans-serif;'>عزيزى الطالب/ة عليك إتباع
+                    <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>عزيزى الطالب/ة عليك إتباع
                         الخطوات التالية لضمان اتمام دراسة الموديول بنجاح :&nbsp;</span>
                 </p>
                 <ul style="list-style-type: undefined;margin-left:-0.5in;">
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الإطلاع
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                             على الهدف العام لدراسة الموديول&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الاطلاع
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الاطلاع
                             على الاهداف الإجرائية لدراسة الموديول&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الإطلاع
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                             على الخطة الزمنية لدراسة الموديول&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الاطلاع
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الاطلاع
                             على الجدول الزمنى الخاص بالموديول&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الإطلاع
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                             على محتوى الموديول بدقة متوافر محتوى نصى &ndash; فيديو</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>تسليم
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>تسليم
                             النشاط فى الوقت المحدد&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>الإجابة
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإجابة
                             عن اسئلة التقييم البنائى للموديول&nbsp;</span></li>
                     <li><span
-                            style='line-height:107%;font-family:"Arial",sans-serif;font-family:"Arial",sans-serif;font-size:14.0pt;'>يلزم
+                            style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
                             اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
                 </ul>
                 {{--////////////////////////////// Support //////////////////////////////
@@ -218,15 +218,15 @@ foreach ($users as $user) {
                 <div class="container" style="margin-top: 60px">
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><strong><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                             style="font-size: 24px;">الدرس الأول</span></strong></span></p>
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                         style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                             سوف نتعرف فى هذا الدرس على مفهوم الفيديو الرقمى التفاعلى ومميزاته
                                         </strong></span></span></p>
                             <p><a href="https://drive.google.com/file/d/1mWhVuvR-JD0KMyD08E6wc_fHDCY1ahXl/view?usp=sharing"
                                     rel="noopener noreferrer" target="_blank"><span
-                                        style="font-family: Impact, Charcoal, sans-serif;"><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                 style="font-size: 20px; color: rgb(28, 146, 181);">
                                                 تحميل المحتوى نصى
                                             </span></strong></span></a></p>
@@ -237,7 +237,7 @@ foreach ($users as $user) {
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
-                                        style="font-family: Impact, Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                 style="color: rgb(28, 146, 181);">التواصل مع
                                                 الباحثة</span></strong></span></a></p>
                         </div>
@@ -246,16 +246,16 @@ foreach ($users as $user) {
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><strong><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                             style="font-size: 24px;">الدرس الثاني</span></strong></span></p>
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                         style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                             سوف نتعرف فى هذا الدرس على محتويات الفيديو الرقمى التفاعلى ومراحل إنتاج الفيديو
                                             التفاعلى
                                         </strong></span></span></p>
                             <p><a href="https://drive.google.com/file/d/1b-bkyFMig71Wz7SHqU7mmczI1KJpOcn-/view?usp=sharing"
                                     rel="noopener noreferrer" target="_blank"><span
-                                        style="font-family: Impact, Charcoal, sans-serif;"><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                 style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
                                                 نصى</span></strong></span></a></p>
                         </div>
@@ -265,7 +265,7 @@ foreach ($users as $user) {
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
-                                        style="font-family: Impact, Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                 style="color: rgb(28, 146, 181);">التواصل مع
                                                 الباحثة</span></strong></span></a></p>
                         </div>
@@ -274,16 +274,16 @@ foreach ($users as $user) {
 
                     <div class="row">
                         <div class="col-sm-6">
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><strong><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                             style="font-size: 24px;">الدرس الثالث</span></strong></span></p>
-                            <p><span style="color: rgb(251, 178, 99); font-family: Impact, Charcoal, sans-serif;"><span
+                            <p><span style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                         style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                             سوف نتعرف فى هذا الدرس على التطبيقات التربوية للفيديو التفاعلى فى العملية
                                             التعليمية ومعايير إنتاجه
                                         </strong></span></span></p>
                             <p><a href="https://drive.google.com/file/d/1OHe43XBHhptzdDmCtdrmGVnU_1eJUmy1/view?usp=sharing"
                                     rel="noopener noreferrer" target="_blank"><span
-                                        style="font-family: Impact, Charcoal, sans-serif;"><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                 style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
                                                 نصى</span></strong></span></a></p>
                         </div>
@@ -293,7 +293,7 @@ foreach ($users as $user) {
                                 Your browser does not support the video tag.
                             </video>
                             <p><a href="#"><span
-                                        style="font-family: Impact, Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                        style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                 style="color: rgb(28, 146, 181);">التواصل مع
                                                 الباحثة</span></strong></span></a></p>
                         </div>
@@ -354,13 +354,13 @@ foreach ($users as $user) {
             {{-- الأنشطة التعليمية --}}
             <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab1">
                 <p style="text-align: center;"><span style="color: rgb(249, 121, 50);"><strong><span
-                                style="font-size: 22px; font-family: Impact, Charcoal, sans-serif;">النشاط
+                                style="font-size: 22px; font-family: 'Open Sans', Charcoal, sans-serif;">النشاط
                                 الأول</span></strong></span></p>
-                <p style="text-align: center;"><span style="font-family: Impact, Charcoal, sans-serif;"><span
+                <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                             style="font-size: 28px;">
                             اكتب مقالا لا يتعدى 150 كلمة عن مفهوم الفيديو الرقمى التفاعلى واستخداماته فى العملية التعليمية
                         </span></span></p>
-                <p style="text-align: center;"><span style="font-family: Impact, Charcoal, sans-serif;"><span
+                <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                             style="font-size: 28px;">&nbsp;</span></span></p>
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
@@ -573,7 +573,7 @@ foreach ($users as $user) {
             {{-- المكتبة الإئرائية --}}
             <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                 <div class="row" style="margin-bottom: 20px; text-align: center">
-                    <p><strong><span style="font-size: 20px; font-family: Impact, Charcoal, sans-serif;">مفهوم الفيديو
+                    <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">مفهوم الفيديو
                                 الرقمى التفاعلى</span></strong></p>
                     <div style="margin-right: 530px">
                         <a
@@ -587,7 +587,7 @@ foreach ($users as $user) {
                 <hr>
 
                 <div class="row" style="margin-bottom: 20px; text-align: center">
-                    <p><strong><span style="font-size: 20px; font-family: Impact, Charcoal, sans-serif;">
+                    <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
                                 استخدامات الفيديو التفاعلى فى العملية التعليمية
                             </span></strong></p>
                     <div style="margin-right: 530px">

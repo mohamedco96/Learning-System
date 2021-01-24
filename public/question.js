@@ -317,8 +317,8 @@ function viewResults()
 $(function() {
 
 	/* add next/previous buttons to all class body_next */
-	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary next">التالي &#62;</button>');
-	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary prev" style="display:none">&#60; السابق</button>');
+	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary next" style="margin-right: 20px">التالي &#62;</button>');
+	$(".body_next").append('<button type="button" class="btn btn-sm btn-primary prev" style="display:none; "margin-right: 20px">&#60; السابق</button>');
   
 	var collBodyNext = $('.body_next');
   

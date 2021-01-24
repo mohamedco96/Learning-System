@@ -1,6 +1,6 @@
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-font-family: sans-serif;
+font-family: "Open Sans";
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%; }
 
@@ -95,7 +95,7 @@ code,
 kbd,
 pre,
 samp {
-font-family: monospace, monospace;
+font-family: "Open Sans";
 font-size: 1em; }
 
 figure {
@@ -259,7 +259,7 @@ font-size: 16px;
 -webkit-tap-highlight-color: transparent; }
 
 body {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Open Sans";
 font-size: 14px;
 font-size: 0.875rem;
 line-height: 1.5;
@@ -596,7 +596,7 @@ code,
 kbd,
 pre,
 samp {
-font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+font-family: Menlo, Monaco, Consolas, "Open Sans"; }
 
 code {
 padding: 3px 6px;
@@ -3780,7 +3780,7 @@ max-width: 900px; } }
 position: absolute;
 z-index: 1070;
 display: block;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Open Sans";
 font-style: normal;
 font-weight: normal;
 letter-spacing: normal;
@@ -3859,7 +3859,7 @@ z-index: 1060;
 display: block;
 max-width: 276px;
 padding: 1px;
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Open Sans";
 font-style: normal;
 font-weight: normal;
 letter-spacing: normal;
@@ -5043,43 +5043,43 @@ width: 20px;
 height: 20px; }
 
 @font-face {
-font-family: Sahel;
+font-family: "Open Sans";
 src: url("../fonts/Sahel-FD.eot");
 src: url("../fonts/Sahel-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-FD.woff") format("woff"), url("../fonts/Sahel-FD.ttf") format("truetype");
 font-weight: normal; }
 @font-face {
-font-family: Sahel;
+font-family: "Open Sans";
 src: url("../fonts/Sahel-Bold-FD.eot");
 src: url("../fonts/Sahel-Bold-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-Bold-FD.woff") format("woff"), url("../fonts/Sahel-Bold-FD.ttf") format("truetype");
 font-weight: bold; }
 @font-face {
-font-family: Sahel;
+font-family: "Open Sans";
 src: url("../fonts/Sahel-Black-FD.eot");
 src: url("../fonts/Sahel-Black-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/Sahel-Black-FD.woff") format("woff"), url("../fonts/Sahel-Black-FD.ttf") format("truetype");
 font-weight: 900; }
 html, body {
-font-family: 'sans-serif'  !important;
+font-family: "Open Sans"  !important;
 line-height: 1.62 !important;
 -moz-osx-font-smoothing: grayscale;
 -webkit-font-smoothing: antialiased; }
 html button.btn, body button.btn {
 font-weight: bold; }
 html .en, body .en {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+font-family: -apple-system, BlinkMacSystemFont, "Open Sans"; }
 html .en::-webkit-input-placeholder, body .en::-webkit-input-placeholder {
-font-family: 'sans-serif'  !important;
+font-family: "Open Sans"  !important;
 -webkit-transition: .6s all;
 transition: .6s all; }
 html .en::-moz-placeholder, body .en::-moz-placeholder {
-font-family: 'sans-serif'  !important;
+font-family: "Open Sans"  !important;
 -webkit-transition: .6s all;
 transition: .6s all; }
 html .en:-ms-input-placeholder, body .en:-ms-input-placeholder {
-font-family: 'sans-serif'  !important;
+font-family: "Open Sans"  !important;
 -webkit-transition: .6s all;
 transition: .6s all; }
 html .en::placeholder, body .en::placeholder {
-font-family: 'sans-serif'  !important;
+font-family: "Open Sans"  !important;
 -webkit-transition: .6s all;
 transition: .6s all; }
 html .en:focus, body .en:focus {
@@ -6080,7 +6080,7 @@ position: absolute;
 top: 0;
 right: 0;
 display: block;
-font-family: 'FontAwesome';
+font-family: "Open Sans";
 font-style: normal;
 font-weight: normal;
 -moz-osx-font-smoothing: grayscale;
@@ -7324,7 +7324,7 @@ opacity: 0; }
 position: relative;
 display: block;
 height: inherit;
-font-family: FontAwesome;
+font-family: "Open Sans";
 font-size: 10px;
 font-weight: 600;
 text-transform: uppercase;
@@ -7782,4 +7782,16 @@ cursor: url("https://l.top4top.io/p_1830wyq2l1.png"), auto;
     position: sticky;
     float: left;
     margin-left: 20px;
+  }
+
+
+  ol {
+    list-style-type: none;
+    /* padding-bottom: 10px; */
+  
+  }
+  
+  li {
+    padding-bottom: 10px;
+    font-size: 16px;
   }

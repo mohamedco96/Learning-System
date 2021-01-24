@@ -38,18 +38,7 @@
     <header id="header" style="background-color: #d2f0fb">
         <div class="container d-flex">
 
-            <nav class="nav-menu float-right d-none d-lg-block">
-                <ul>
-                    <li><a href="#contact">تواصل معنا</a></li>
-                    <li><a href="#about">من نحن</a></li>
-                    <li><a href="./module">الموديولات</a></li>
-                    <li><a href="./info">تعليمات البيئة</a></li>
-                    <li><a href="./about">عن البيئة</a></li>
-                    <li class="active"><a href="./home">الرئيسية</a></li>
-                </ul>
-            </nav>
-
-            <nav class="nav-menu float-left d-none d-lg-block" style="margin-right: 600px">
+            <nav class="nav-menu float-right d-none d-lg-block" >
                 <ul>
                     <!-- Authentication Links -->
                     @guest
@@ -77,6 +66,12 @@
                             </form>
                         </li>
                     @endguest
+
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li><a href="./module">الموديولات</a></li>
+                    <li><a href="./info">تعليمات البيئة</a></li>
+                    <li><a href="./about">عن البيئة</a></li>
+                    <li class="active"><a href="./home">الرئيسية</a></li>
                 </ul>
             </nav>
 
@@ -159,9 +154,9 @@
             <div class="container">
 
                 <div class="row no-gutters">
-                    <div class="col-lg-6 video-box">
+                    <div class="col video-box">
                         @guest
-                            <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 100px">
+                            <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 20px">
                                 @csrf
                                 <div class="form-group" style="margin-bottom: 20px">
                                     <input id="name" type="text" class="form-control @error('name') is-invalid @enderror"
@@ -189,17 +184,21 @@
 
                                 {{-- <button type="submit"
                                     class="btn btn-primary">Submit</button> --}}
-                                <button type="submit" class="btn btn-block btn-success">
-                                    {{ __('Register') }}
-                                </button>
+                                    <p style="text-align: center">
+                                        <button type="submit" class="btn btn-block btn-success">
+                                            {{ __('Register') }}
+                                        </button>
+                                    </p>
+
                             </form>
                         @endguest
 
                         @auth
-                            <div style="margin-top: 150px">
+                        
+                            <div style="margin-top: 20px">
                                 <p style="text-align: center;"><span
-                                    style="font-family: Impact, Charcoal, sans-serif; font-size: 22px;">
-                                    أهلا بك عزيزي {{ Auth::user()->name }} 
+                                    style="font-family: 'Open Sans'; font-size: 22px;">
+                                    أهلا بك عزيزي <strong>{{ Auth::user()->name }} </strong> 
                                      في بيئة التعلم الافتراضية الخاصة بتمنية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
                                     برنامج Cartoon Animator 4 &amp; Camtasia Studio<br></span></p>
 
@@ -211,30 +210,6 @@
                         @endauth
                     </div>
 
-                    <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
-                        <div class="section-title">
-                            <h2>من نحن</h2>
-                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
-                                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
-                                impedit suscipit alias ea.</p>
-                        </div>
-
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
-                        </div>
-
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <div class="icon"><i class="bx bx-gift"></i></div>
-                            <h4 class="title"><a href="">Nemo Enim</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
-                        </div>
-
-                    </div>
                 </div>
 
             </div>
