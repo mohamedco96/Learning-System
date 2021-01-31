@@ -1,3 +1,10 @@
+@guest
+    <?php
+    header('Location:/home');
+    exit();
+    ?>
+@endguest
+
 @php
 $users = DB::table('users')->where('id', Auth::user()->id)->get();
 
@@ -12,6 +19,9 @@ foreach ($users as $user) {
     exit();
     ?>
 @endif
+
+
+
 
 @extends('layouts.quiz')
 @section('content')

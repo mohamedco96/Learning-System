@@ -1,3 +1,4 @@
+
 <!--
  * CoreUI - Open Source Bootstrap Admin Template
  * @version v1.0.0-alpha.2
@@ -38,6 +39,8 @@
                     <a class="nav-link" href="/" style="margin-left: 15px; margin-right: 5px"> الرئيسية </a>
                 </li>
 
+                @auth
+
                 <li class="nav-item">
                     <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البيئة </a>
                 </li>
@@ -47,6 +50,8 @@
                     </a>
                 </li>
 
+                @endauth
+                
                 <li class="nav-item">
                     <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات
                     </a>

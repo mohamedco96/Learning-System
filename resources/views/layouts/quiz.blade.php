@@ -30,10 +30,10 @@
 </head>
 
 <body class="navbar-fixed sidebar-nav fixed-nav cursors png">
-    <header class="navbar">
+    <header class="navbar" style="padding-right: 50px">
         <div class="container-fluid">
             <button class="navbar-toggler mobile-toggler hidden-lg-up" type="button">&#9776;</button>
-            <a class="navbar-brand" href="#"></a>
+            {{-- <a class="navbar-brand" href="#"></a> --}}
 
 
             <ul class="nav navbar-nav hidden-md-down">
@@ -41,6 +41,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/" style="margin-left: 15px; margin-right: 5px"> الرئيسية </a>
                 </li>
+
+                @auth
 
                 <li class="nav-item">
                     <a class="nav-link" href="../about" style="margin-left: 15px; margin-right: 15px"> عن البيئة </a>
@@ -51,6 +53,7 @@
                     </a>
                 </li>
 
+                @endauth
 
                 <li class="nav-item">
                     <a class="nav-link" href="../module" style="margin-left: 15px; margin-right: 15px"> الموديولات

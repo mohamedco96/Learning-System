@@ -232,12 +232,31 @@
         
             $Sql = "UPDATE `users` SET `score2` = $score, `percentage2` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
             $scoreResult1 = $conn->query($Sql);
-            header('Location:/module');
-            exit();
+            // header('Location:/module');
+            // exit();
 
             $conn->close();
             ?>
 
     </div>
 
+
+    <div class="container" style="margin-top: 60px">
+        <div class="row">
+            <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
+                <div class="card" style="margin-top: 60px">
+                    <div class="card-block">
+                        <h4 style="text-align: center; color: brown">درجاتك هي</h4><br>
+                        <h4 style="text-align: center">{{ $score }} من 50</h4><br>
+                        <hr>
+                        <h4 style="text-align: center; color: brown">النتيجة النهائية</h4><br>
+                        <h4 style="text-align: center">{{ $percentage }} %</h4><br>
+                        <a href="./module" class="btn btn-lg btn-pill btn-block btn-info" style="margin-right: 350px;  border-radius: 15px; width:250px;">الموديولات التعليمية</a>
+                        {{-- <button class="btn btn-lg btn-pill btn-block btn-info " type="button" style="margin-right: 350px;  border-radius: 15px; width:250px;">بدء الإختبار القبلي </button> <br> --}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 @endsection

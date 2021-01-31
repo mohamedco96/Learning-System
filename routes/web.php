@@ -53,6 +53,11 @@ Route::get('/main1', function () {
     return view('main1');
 })->middleware('auth');
 
+
+Route::get('/quiztest', function () {
+    return view('quiztest');
+})->middleware('auth');
+
 //////////////// Modules ////////////////
 
 Route::get('/module', function () {

@@ -28,6 +28,7 @@
                     aria-controls="pills-contact3" aria-selected="false">المكتبة الإئرائية</a>
             </li>
         </ul>
+        
         <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
             {{-- الأهداف التعليمية --}}
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">

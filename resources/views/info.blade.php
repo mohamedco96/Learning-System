@@ -1,3 +1,11 @@
+
+@guest
+    <?php
+    header('Location:/home');
+    exit();
+    ?>
+@endguest
+
 @extends('layouts.app')
 
 @section('content')

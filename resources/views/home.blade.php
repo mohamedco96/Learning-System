@@ -69,8 +69,10 @@
 
                     <li><a href="#contact">تواصل معنا</a></li>
                     <li><a href="./module">الموديولات</a></li>
+                    @auth
                     <li><a href="./info">تعليمات البيئة</a></li>
                     <li><a href="./about">عن البيئة</a></li>
+                    @endauth
                     <li class="active"><a href="./home">الرئيسية</a></li>
                 </ul>
             </nav>
@@ -199,7 +201,7 @@
                                 <p style="text-align: center;"><span
                                     style="font-family: 'Open Sans'; font-size: 22px;">
                                     أهلا بك عزيزي <strong>{{ Auth::user()->name }} </strong> 
-                                     في بيئة التعلم الافتراضية الخاصة بتمنية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
+                                     في بيئة التعلم الافتراضية الخاصة لتنمية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
                                     برنامج Cartoon Animator 4 &amp; Camtasia Studio<br></span></p>
 
                                     <p style="text-align: center">
