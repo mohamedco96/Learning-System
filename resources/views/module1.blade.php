@@ -49,8 +49,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                    العام
-                                    للموديول:&nbsp;
+                                   الهدف العام للموديول /
+                                    &nbsp;
                                 </span></strong>
                         </p>
                         <p dir="RTL"
