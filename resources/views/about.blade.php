@@ -12,29 +12,30 @@ exit();
     <div class="container" style="padding-top: 50px">
         <div class="row justify-content-center">
             <header style="text-align: center;"><span style="font-family: 'Open Sans';"><strong><span
-                            style="color: rgb(71, 85, 119); font-size: 26px;">التفاعل بين نمط الدعم ( ثابت / مرن ) ومستوى
-                            الدافعية ( منخفض / مرتفع ) في بيئة تعلم افتراضية&nbsp;</span></strong></span></header>
+                            style="color: rgb(71, 85, 119); font-size: 26px;">
+                            تهدف البيئة إلى تنمية مهارات إنتاج الفيديو الرقمى التفاعلى  &nbsp;
+                        </span></strong></span></header>
             <header style="text-align: center;"><span style="font-family: 'Open Sans';"><strong><span
-                            style="color: rgb(71, 85, 119); font-size: 26px;">وأثرة على تنمية مهارات إنتاج الفيديو الرقمي
-                            التفا</span></strong></span><span style="font-size: 26px;"><span
+                            style="color: rgb(71, 85, 119); font-size: 26px;">لدى طلاب الفرقة الثالثة تكنولوجيا التعليم بكلية التربية جامعة دمياط
+                            </span></strong></span><span style="font-size: 26px;"><span
                         style="color: rgb(71, 85, 119);"><strong><span
-                                style="font-family: 'Open Sans';">علي والدافعية للإنجاز لدى طلاب تكنولوجيا
-                                التعليم.</span></strong></span></span></header>
+                                style="font-family: 'Open Sans';">ومستوى الدافعية للإنجاز
+                                .</span></strong></span></span></header>
             <hr>
             <p style="text-align: center;"><span
                     style="font-size: 26px; font-family: 'Open Sans';"><strong><span
-                            style="color: rgb(71, 85, 119);">رسالة دكتوراه في التربية&nbsp;</span></strong></span></p>
+                            style="color: rgb(71, 85, 119);">إعداد الباحثة&nbsp;</span></strong></span></p>
             <p style="text-align: center;"><span
                     style="font-size: 26px; font-family: 'Open Sans';"><strong><span
-                            style="color: rgb(71, 85, 119);">تخصص تكنولوجيا التعليم</span></strong></span></p>
-            <hr>
+                            style="color: rgb(71, 85, 119);">دينا جويدة</span></strong></span></p>
+            {{-- <hr>
             <p style="text-align: center;"><span style="font-size: 26px; color: rgb(226, 80, 65);"><strong><span
                             style="font-family: 'Open Sans';"> إشراف:</span></strong></span></p>
-            <hr>
-            <p><br></p>
+            <hr> --}}
+            {{-- <p><br></p> --}}
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-sm-6">
                 <p style="text-align: center;"><span
                         style="font-family: 'Open Sans'; font-size: 24px; color: rgb(71, 85, 119);"><strong>أ.
@@ -60,7 +61,7 @@ exit();
                             جامعة دمياط</strong></span></p>
             </div>
         </div>
-        <hr>
+        <hr> --}}
         
         <p style="text-align: center">
             <a href="./intro1" class="btn btn-primary" style="margin-bottom: 30px"> مقياس مستوى الدافعية</a><br>

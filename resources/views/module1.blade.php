@@ -271,7 +271,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.2.mp4" type="video/mp4">
+                                        <source src="./video/module1/m1.1.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="#"><span

@@ -41,7 +41,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>1- يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
                                         <ol dir="rtl">
@@ -59,7 +59,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>2- من أهم تطبيقات إنتاج الفيديو الرقمى التفاعلى : </h3>
                                         <ol dir="rtl">
@@ -77,7 +77,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>3- لإضافة مشروع جديد يتم الضغط على قائمة:</h3>
                                         <ol dir="rtl">
@@ -95,7 +95,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>4- لإدراج صورة داخل برنامج  Cartoon Animator 4  يتم الضغط على أمر : </h3>
                                         <ol dir="rtl">
@@ -113,7 +113,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>5- يمكن إدراج ملف فوتوشوب لبرنامج Cartoon Animator 4  من خلال أمر: </h3>
                                         <ol dir="rtl">
@@ -131,7 +131,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>6- لتعديل أبعاد العنصر يستخدم أمر : </h3>
                                         <ol dir="rtl">
@@ -149,7 +149,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>7- لإضافة شخصيات داخل البرنامج يتم الضغط على أمر :</h3>
                                         <ol dir="rtl">
@@ -167,7 +167,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>8- يستخدم أمر Composer  فى</h3>
                                         <ol dir="rtl">
@@ -185,7 +185,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>9- لتعديل أجزاء الشخصيات والعناصر يستخدم أمر: </h3>
                                         <ol dir="rtl">
@@ -203,7 +203,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>10- لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
@@ -221,7 +221,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>11- يتم التعامل مع ملامح الوجه بإستخدام أمر:</h3>
                                         <ol dir="rtl">
@@ -239,7 +239,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>12- لمعاينة حركة المشهد الحالى  داخل مساحة العمل : </h3>
                                         <ol dir="rtl">
@@ -257,7 +257,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>13- لإضافة مشهد جاهز داخل البرنامج يتم الضغط على أمر : </h3>
                                         <ol dir="rtl">
@@ -275,7 +275,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>14- لإدراج ملف صوت داخل البرنامج Cartoon Animator 4  يتم الضغط على أمر </h3>
                                         <ol dir="rtl">
@@ -293,7 +293,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>15- للإضافة حركة انتقالية بين عناصر المشهد تستخدم خاصية:</h3>
                                         <ol dir="rtl">
@@ -311,7 +311,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>16- لتسجيل حركة العناصر داخل المشهد يستخدم أمر: </h3>
                                         <ol dir="rtl">
@@ -329,7 +329,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>17- للاضافة كاميرا داخل المشهد يتم إختيار أمر </h3>
                                         <ol dir="rtl">
@@ -347,7 +347,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>18- لإضافة حركة الشخصيات يتم إختيار أمر</h3>
                                         <ol dir="rtl">
@@ -365,7 +365,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>19- لتصدير الفيديو بصيغة MP4  يتم الضغط على امر </h3>
                                         <ol dir="rtl">
@@ -383,7 +383,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>20- لوضع علامات وقوف داخل الفيديو يستخدم أمر: </h3>
                                         <ol dir="rtl">
@@ -401,7 +401,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>21- لإضافة زر انتقال داخل محتوى الفيديو يتم إختيار أمر</h3>
                                         <ol dir="rtl">
@@ -419,7 +419,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>22- لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر </h3>
                                         <ol dir="rtl">
@@ -437,7 +437,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>23- يتسم الفيديو الرقمى التفاعلى بعدة معايير منها</h3>
                                         <ol dir="rtl">
@@ -455,7 +455,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>24- لتحكم فى طبقات العنصر او الشخصية داخل المشهد يستخدم أمر:</h3>
                                         <ol dir="rtl">
@@ -473,7 +473,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">إختر من متعدد</strong>
+                                        <strong style="color: crimson">أجب عن الأسئلة التالية بالنقر بمؤشر الفأرة على الإجابة الصحيحة من بين الإختيارات التالية: </strong>
                                         <hr>
                                         <h3>25- يعد من أهم مراحل إنتاج الفيديو الرقمى التفاعلى مرحلة </h3>
                                         <ol dir="rtl">
@@ -494,7 +494,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>26- إعداد السيناريو هى الخطوة الأولى فى إعداد الفيديو الرقمى التفاعلى</h3>
                                         <ol dir="rtl">
@@ -508,7 +508,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ  </strong>
                                         <hr>
                                         <h3>27- يمكن الوصول إلى امر تكرار  Duplicateمن شريط الادوات </h3>
                                         <ol dir="rtl">
@@ -522,7 +522,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>28- تستخدم إداة Edit Pose  فى تعديل عظام الشخصيات وتحريكها</h3>
                                         <ol dir="rtl">
@@ -536,7 +536,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>29- للتعديل على اجزاء الشخصيات يتم الضغط على امر sprit editor</h3>
                                         <ol dir="rtl">
@@ -550,7 +550,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>30- لا يمكن تعديل الشخصيات والعناصر داخل برنامج Cartoon Animator 4</h3>
                                         <ol dir="rtl">
@@ -564,7 +564,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>31- يعد برنامج Photoshop  من البرامج الشهيرة فى إنتاج الفيديو الرقمى التفاعلى</h3>
                                         <ol dir="rtl">
@@ -578,7 +578,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>32- يستخدم برنامج Cartoon Animator فى إنتاج لقطات فيديو واقعية</h3>
                                         <ol dir="rtl">
@@ -592,7 +592,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>33- تستخدم أداة  Render   فى برنامج cartoon Animater4 لتصدير الفيديو بصيغة Mp4</h3>
                                         <ol dir="rtl">
@@ -606,7 +606,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>34- لتحرير والتعديل على العناصر والشخصيات من خلال أمر Composer</h3>
                                         <ol dir="rtl">
@@ -620,7 +620,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>35- تستخدم أداة Transition Curve  لتنعيم الحركة</h3>
                                         <ol dir="rtl">
@@ -634,7 +634,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>36- يعتمد برنامج Cartoon Animator  على الأصوات الخارجية فقط</h3>
                                         <ol dir="rtl">
@@ -648,7 +648,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>37- يستخدم أمر  Facial Animator  لتغير تعبيرات ملامح الوجه للشخصيات</h3>
                                         <ol dir="rtl">
@@ -662,7 +662,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>38- يستخدم أمر Morph  لعمل دوران لرأس الشخصية</h3>
                                         <ol dir="rtl">
@@ -676,7 +676,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>39- تستخدم الكاميرا للتقريب والتباعد داخل المشهد </h3>
                                         <ol dir="rtl">
@@ -690,7 +690,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>40- لا يمكن التحكم فى خصائص الكاميرا</h3>
                                         <ol dir="rtl">
@@ -704,7 +704,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>41- لإضافة حركات للعناصر والشخصيات يتم التعامل مع شريط Animation</h3>
                                         <ol dir="rtl">
@@ -718,7 +718,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>42- لا يسمح الفيديو الرقمى التفاعلى للمستخدم التنقل بين محتويات الفيديو بسهولة ويسر</h3>
                                         <ol dir="rtl">
@@ -732,7 +732,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>43- لإضافة أسئلة قصيرة داخل الفيديو يتم الضعط على أمر Interactivity</h3>
                                         <ol dir="rtl">
@@ -746,7 +746,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>44- لا يمكن إضافة تغذية راجعة لمحتويات الفيديو الرقمى التفاعلى</h3>
                                         <ol dir="rtl">
@@ -760,7 +760,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>45- يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية</h3>
                                         <ol dir="rtl">
@@ -774,7 +774,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>46- يعد الفيديو الرقمى التفاعلى وسيلة عرض مناسبة للبيئات التعلم الإلكترونية</h3>
                                         <ol dir="rtl">
@@ -788,7 +788,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>47- يستخدم الشريط الزمنى لمعرفة مدة عرض الفيديو</h3>
                                         <ol dir="rtl">
@@ -802,7 +802,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>48- يستخدم أمر Create Media  لإدراج الصور والرسومات</h3>
                                         <ol dir="rtl">
@@ -816,7 +816,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>49- من معايير إنتاج الفيديو الرقمى التفاعلى وضوح الفكرة وتناسب المحتوى مع الفئة العمرية</h3>
                                         <ol dir="rtl">
@@ -830,7 +830,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <strong style="color: crimson">صح أو خطأ</strong>
+                                        <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
                                         <h3>50- يستخدم أمر Link  لرتبط حركة العناصر ببعضها البعض</h3>
                                         <ol dir="rtl">
