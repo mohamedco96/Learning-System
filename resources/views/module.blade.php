@@ -46,7 +46,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            برامج إنتاج الفيديو الرقمى التفاعلى
 
                         </div>
                         <div class="card-footer">
@@ -71,7 +71,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            مهارات إنتاج فيديو كرتونى ثنائى البعد باستخدام  Cartoon Animator 4
 
                         </div>
                         <div class="card-footer">
@@ -99,7 +99,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            تحريك الشخصيات والعناصر ب Cartoon Animator
 
                         </div>
                         <div class="card-footer">
@@ -124,7 +124,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            إضافة المؤثرات الصوتية والانتقالية بين المشاهد
 
                         </div>
                         <div class="card-footer">
@@ -149,7 +149,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            إضافة العناصر التفاعلية للفيديو ببرنامج Camtasia studio
 
                         </div>
                         <div class="card-footer">
