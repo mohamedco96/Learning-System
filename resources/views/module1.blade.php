@@ -514,7 +514,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد من معايير انتاج الفيديو الرقمى التفاعلى </h3>
+                                        <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q3" value="1" required /> طول مدة عرض الفيديو
