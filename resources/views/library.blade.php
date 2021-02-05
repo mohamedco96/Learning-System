@@ -8,7 +8,7 @@
             <div style="margin-right: 510px">
             <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
                 style="border-radius: 22px; width:150px; ">
-                تحميل الكتاب
+                اضغط هنا 
             </button>
         </div>
         </div>
@@ -17,40 +17,19 @@
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا 
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-        </div>
-
-        <div class="row" style="margin-bottom: 20px">
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                   اضغط هنا
                 </button>
             </div>
         </div>
@@ -59,40 +38,19 @@
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-        </div>
-
-        <div class="row" style="margin-bottom: 20px">
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
-                </button>
-            </div>
-            <div class="col-sm-4">
-                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                    style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
         </div>
@@ -101,19 +59,61 @@
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
                 </button>
             </div>
             <div class="col-sm-4">
                 <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
                     style="border-radius: 22px; width:150px;">
-                    تحميل الكتاب
+                    اضغط هنا
+                </button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 20px">
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                    اضغط هنا 
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                   اضغط هنا 
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                     اضغط هنا 
+                </button>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 20px">
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                    اضغط هنا 
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                    اضغط هنا 
+                </button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
+                    style="border-radius: 22px; width:150px;">
+                    اضغط هنا 
                 </button>
             </div>
         </div>
