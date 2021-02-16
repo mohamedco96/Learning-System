@@ -1,8 +1,10 @@
 @php
-$users = DB::table('users')->where('id', Auth::user()->id)->get();
+$users = DB::table('users')
+    ->where('id', Auth::user()->id)
+    ->get();
 
 foreach ($users as $user) {
-// echo $user->email;
+    // echo $user->email;
 }
 @endphp
 
@@ -12,7 +14,7 @@ foreach ($users as $user) {
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6 col-lg-9">
-                {{-- --}}
+                {{--  --}}
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
@@ -39,9 +41,9 @@ foreach ($users as $user) {
                             aria-controls="pills-contact3" aria-selected="false">المكتبة الإئرائية</a>
                     </li>
                 </ul>
-                {{-- --}}
+                {{--  --}}
 
-                {{--بداية محتوى الموديول--}}
+                {{-- بداية محتوى الموديول --}}
                 <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
 
                     {{-- الأهداف التعليمية --}}
@@ -49,7 +51,7 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                   الهدف العام للموديول /
+                                    الهدف العام للموديول /
                                     &nbsp;
                                 </span></strong>
                         </p>
@@ -84,9 +86,8 @@ foreach ($users as $user) {
                                     التفاعلى</span></li>
                         </ol>
 
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -101,67 +102,48 @@ foreach ($users as $user) {
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo1()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video1()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.1" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.1" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.1" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        {{-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill"
-                                                    href="#pills-home" role="tab" aria-controls="pills-home"
-                                                    aria-selected="true">دعم نصي</a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill"
-                                                    href="#pills-profile" role="tab" aria-controls="pills-profile"
-                                                    aria-selected="false">دعم مصور</a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
-                                                    href="#pills-contact" role="tab" aria-controls="pills-contact"
-                                                    aria-selected="false">دعم فيديو</a>
-                                            </li>
-
-                                        </ul>
-
-                                        <div class="tab-content" id="pills-tabContent" style="margin-top: 30px">
-                                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                            TEST1
-                                            </div>
-                                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                                TEST2
-                                            </div>
-
-                                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                                TEST3
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
 
                     </div>
 
@@ -198,9 +180,8 @@ foreach ($users as $user) {
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
                                     اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
                         </ul>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -215,37 +196,48 @@ foreach ($users as $user) {
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo2()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video2()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.2" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.2" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video width="230" height="180" controls>
-                                            <source src="./video/01.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
 
                     </div>
 
@@ -346,9 +338,8 @@ foreach ($users as $user) {
 
                         </div>
 
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -363,37 +354,48 @@ foreach ($users as $user) {
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo3()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video3()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.3" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.3" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.3" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video width="230" height="180" controls>
-                                            <source src="./video/01.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
 
                     </div>
 
@@ -414,9 +416,8 @@ foreach ($users as $user) {
                             ارفق النشاط
                         </button>
 
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -431,37 +432,49 @@ foreach ($users as $user) {
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo4()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video4()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.4" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.4" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.4" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video width="230" height="180" controls>
-                                            <source src="./video/01.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+
 
                     </div>
 
@@ -573,9 +586,8 @@ foreach ($users as $user) {
                                 style="margin-top: 20px; margin-right: 200px" />
                         </form>
 
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -588,39 +600,49 @@ foreach ($users as $user) {
                         @endif
 
                         {{-- manual Support --}}
-
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo5()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video5()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.5" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.5" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.5" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video width="230" height="180" controls>
-                                            <source src="./video/01.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
 
                     </div>
 
@@ -651,15 +673,14 @@ foreach ($users as $user) {
                                     href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A">
                                     <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
                                         style="border-radius: 22px; width:150px; ">
-                                       إضغط هنا
+                                        إضغط هنا
                                     </button> </a>
                             </div>
                         </div>
                         <hr>
 
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
                         @if ($user->support === 'automatic')
@@ -672,43 +693,54 @@ foreach ($users as $user) {
                         @endif
 
                         {{-- manual Support --}}
-
                         @if ($user->support === 'manual')
-                            <div id="automatic">
-                                <button type="button" class="btn btn-primary support" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    إضغط هنا للدعم
-                                </button>
+                            <hr>
+                            <p style="text-align: center;"><span style="font-size: 28px;"><span
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                            </p>
+                            <p style="text-align: center">
+                                <button type="button" class="btn btn-primary" onclick="text6()">نصي</button>
+                                <button type="button" class="btn btn-primary" onclick="photo6()">مصور</button>
+                                <button type="button" class="btn btn-primary" onclick="video6()">مرئي</button>
+                            </p>
+                            {{-- دعم نصي --}}
+                            <div class="imgbox" id="box1.6" style="display: block; margin-top: 20px">
+                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
+                                    للموديول اولا&nbsp;</p>
+                                <p>الهدف العام للموديول :&nbsp;</p>
+                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <ul>
+                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                        التعليمية</li>
+                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                </ul>
+                            </div>
+                            {{-- دعم مصور --}}
+                            <div class="imgbox" id="box2.6" style="display: none">
+                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                        alt="Girl in a jacket" width="800" height="600"></p>
+                            </div>
+                            {{-- دعم مرئي --}}
+                            <div class="imgbox" id="box3.6" style="display: none">
+                                <p style="text-align: center"><video width="800" height="600" controls>
+                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video></p>
                             </div>
                         @endif
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Support</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video width="230" height="180" controls>
-                                            <source src="./video/01.mp4" type="video/mp4">
-                                            Your browser does not support the video tag.
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{--////////////////////////////// Support
-                        //////////////////////////////
-                        --}}
+
 
                     </div>
                 </div>
-                {{--نهاية محتوى الموديول--}}
+                {{-- نهاية محتوى الموديول --}}
             </div>
 
             <div class="col-sm-6 col-lg-3">
@@ -802,5 +834,7 @@ foreach ($users as $user) {
                 </div>
             </div>
         </div>
+
+
     </div>
 @endsection

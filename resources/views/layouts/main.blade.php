@@ -1,8 +1,10 @@
 @php
-$users = DB::table('users')->where('id', Auth::user()->id)->get();
+$users = DB::table('users')
+    ->where('id', Auth::user()->id)
+    ->get();
 
 foreach ($users as $user) {
-// echo $user->email;
+    // echo $user->email;
 }
 @endphp
 
@@ -98,7 +100,7 @@ foreach ($users as $user) {
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('logout') }}"
                             onclick="event.preventDefault();
-                                                                                                document.getElementById('logout-form').submit();">
+                                                                                                    document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
 
@@ -173,6 +175,114 @@ foreach ($users as $user) {
     <script src="//localhost:35729/livereload.js"></script>
 
     <script src="question.js"></script>
+
+    <script>
+        function text1() {
+            document.getElementById("box1.1").style.display = "block";
+            document.getElementById("box2.1").style.display = "none";
+            document.getElementById("box3.1").style.display = "none";
+        }
+
+        function photo1() {
+            document.getElementById("box1.1").style.display = "none";
+            document.getElementById("box2.1").style.display = "block";
+            document.getElementById("box3.1").style.display = "none";
+        }
+
+        function video1() {
+            document.getElementById("box1.1").style.display = "none";
+            document.getElementById("box2.1").style.display = "none";
+            document.getElementById("box3.1").style.display = "block";
+        }
+        ///////////////////////////////////////////////////////////////////////////
+        function text2() {
+            document.getElementById("box1.2").style.display = "block";
+            document.getElementById("box2.2").style.display = "none";
+            document.getElementById("box3.2").style.display = "none";
+        }
+
+        function photo2() {
+            document.getElementById("box1.2").style.display = "none";
+            document.getElementById("box2.2").style.display = "block";
+            document.getElementById("box3.2").style.display = "none";
+        }
+
+        function video2() {
+            document.getElementById("box1.2").style.display = "none";
+            document.getElementById("box2.2").style.display = "none";
+            document.getElementById("box3.2").style.display = "block";
+        }
+        ///////////////////////////////////////////////////////////////////////////
+        function text3() {
+            document.getElementById("box1.3").style.display = "block";
+            document.getElementById("box2.3").style.display = "none";
+            document.getElementById("box3.3").style.display = "none";
+        }
+
+        function photo3() {
+            document.getElementById("box1.3").style.display = "none";
+            document.getElementById("box2.3").style.display = "block";
+            document.getElementById("box3.3").style.display = "none";
+        }
+
+        function video3() {
+            document.getElementById("box1.3").style.display = "none";
+            document.getElementById("box2.3").style.display = "none";
+            document.getElementById("box3.3").style.display = "block";
+        }
+        ///////////////////////////////////////////////////////////////////////////
+        function text4() {
+            document.getElementById("box1.4").style.display = "block";
+            document.getElementById("box2.4").style.display = "none";
+            document.getElementById("box3.4").style.display = "none";
+        }
+
+        function photo4() {
+            document.getElementById("box1.4").style.display = "none";
+            document.getElementById("box2.4").style.display = "block";
+            document.getElementById("box3.4").style.display = "none";
+        }
+
+        function video4() {
+            document.getElementById("box1.4").style.display = "none";
+            document.getElementById("box2.4").style.display = "none";
+            document.getElementById("box3.4").style.display = "block";
+        }        ///////////////////////////////////////////////////////////////////////////
+        function text5() {
+            document.getElementById("box1.5").style.display = "block";
+            document.getElementById("box2.5").style.display = "none";
+            document.getElementById("box3.5").style.display = "none";
+        }
+
+        function photo5() {
+            document.getElementById("box1.5").style.display = "none";
+            document.getElementById("box2.5").style.display = "block";
+            document.getElementById("box3.5").style.display = "none";
+        }
+
+        function video5() {
+            document.getElementById("box1.5").style.display = "none";
+            document.getElementById("box2.5").style.display = "none";
+            document.getElementById("box3.5").style.display = "block";
+        }        ///////////////////////////////////////////////////////////////////////////
+        function text6() {
+            document.getElementById("box1.6").style.display = "block";
+            document.getElementById("box2.6").style.display = "none";
+            document.getElementById("box3.6").style.display = "none";
+        }
+
+        function photo6() {
+            document.getElementById("box1.6").style.display = "none";
+            document.getElementById("box2.6").style.display = "block";
+            document.getElementById("box3.6").style.display = "none";
+        }
+
+        function video6() {
+            document.getElementById("box1.6").style.display = "none";
+            document.getElementById("box2.6").style.display = "none";
+            document.getElementById("box3.6").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
