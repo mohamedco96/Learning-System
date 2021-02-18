@@ -207,7 +207,7 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
-                                <p>اتبع التعليمات التالية 
+                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية 
                                     &nbsp;</p>
                                 <p>الموديول الاول  :&nbsp;</p>
                                 <p>أساسيات التعامل مع الفيديو الرقمى التفاعلى&nbsp;</p>
@@ -266,7 +266,7 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.1.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="#"><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
@@ -297,7 +297,7 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.2.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="#"><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
@@ -328,7 +328,7 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="#"><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
