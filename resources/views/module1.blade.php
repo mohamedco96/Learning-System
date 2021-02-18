@@ -104,7 +104,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong> الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
@@ -198,7 +198,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
@@ -207,32 +207,32 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
-                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <p>اتبع التعليمات التالية 
+                                    &nbsp;</p>
+                                <p>الموديول الاول  :&nbsp;</p>
+                                <p>أساسيات التعامل مع الفيديو الرقمى التفاعلى&nbsp;</p>
+                                <p>تعليمات الموديول &nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                    <li style="line-height: 2;">تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل فى حالة الضرورة  </li>
+                                    <li style="line-height: 2;">اطلع على الخطة الزمنية لدراسة الموديول </li>
+                                    <li style="line-height: 2;">اطلع على الجدول الزمنى لدراسة الموديول </li>
+                                    <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك سواء محتوى نصى وفيديو 
                                         التعليمية</li>
-                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
-                                        التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
+                                    <li style="line-height: 2;">-	بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى 
+                                        إلا فى حالة حصولك على درجة الاتقان (90%)  &nbsp;</li>
+                                    <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.2" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module1/Manual support/التعليمات.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.2" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/التعليمات .mp4 " type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -356,7 +356,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
@@ -365,32 +365,32 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: block; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
-                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <p>	مفهوم الفيديو الرقمى التفاعلى 
+                                   &nbsp;</p>
+                                <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
+                                <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات حركية وإطارات ثابتة، وأسئلة ، وقوائم،&nbsp;</p>
+                                <p>بينما تكون إستجابات الطالب عن طريق الكمبيوتر هى المحددة لعدد تتابع مشاهد الفيديو، وعليها يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
-                                        التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعريف طارق عامر(2015)</li>
+                                    <li style="line-height: 2;">بأنه برنامج فيديو مقسم إلى اجزاء صغيرة تتكون من تتابعات حركية وإطارات ثابتة وقوائم وتكون استجابات المتعلم عن طريق الكمبيوتر هى المحددة لتتابع لقطات او مشاهدة الفيديو وعليها يتأثر شكل وطبيعة العرض</li>
+                                    <li style="line-height: 2;">تعريف الباحثة للفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">بأنه مقاطع فيديو قصيرة تتكون من لقطات رسوم متحركة ثنائية البعد وإيقونات تحكم وإستجابة وأسئلة وأنشطة، تسمح للمتعلم بالتحرك داخل الفيديو وفقا لسرعته وخطة أهداف التعليمية، 
+                                        وروابط خارجية ؛ وأدوات تفاعل وطرح أسئلة وتغذية راجعة فى ضوء إستجابات المتعلمين.</li>
+                                    <li style="line-height: 2;">	أهمية الفيديو التفاعلى :</li>
+                                    <li style="line-height: 2;">يذكر أشرف الكحيل (2017) من خصائص الفيديو التفاعلى 
+                                        -	يحلل الفيديو الأفكار المعقدة إلى لقطات يمكن معالجتها بسهولة، فهو يقلل من حمل القراءة بالنسبة إلى المتعلم، من خلال تقديم المحتوى كمرئيات جذابة&nbsp;</li>
+                                    <li style="line-height: 2;">	يقدم الفيديو معلومات باستخدام سرد، مما يسمح للمتعلم بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.3" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module1/Manual support/المحتوى.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.3" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -434,7 +434,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
@@ -443,32 +443,30 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.4" style="display: block; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
-                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى 
+                                    &nbsp;</p>
+                                
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">قم بالاطلاع على المكتبة الأثرائية </li>
+                                    <li style="line-height: 2;">استخدام محركات البحث المختلفة </li>
+                                    <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الموعد المحدد </li>
+                                    <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر 
+                                        بيانات التواصل المختلفة  </li>
+                                    {{-- <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.4" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module1/Manual support/النشاط.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.4" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -603,7 +601,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
@@ -612,13 +610,13 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: block; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
-                                <p>الأهداف الإجرائية&nbsp;</p>
+                                <p> بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول،
+                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،  &nbsp;</p>
+                                <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.&nbsp;</p>
+                                <p>-	تأكيد من إجابتك أولا ولا تترك اى سؤال فارغ لكى تتمكن من تسليم اجابتك &nbsp;</p>
+                                
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    {{-- <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
@@ -626,18 +624,18 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.5" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module1/Manual support/التقييم.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.5" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/التقييم البنائى .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -696,7 +694,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text6()">نصي</button>
@@ -705,13 +703,12 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.6" style="display: block; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
-                                <p>الأهداف الإجرائية&nbsp;</p>
+                               للحصول على معلومات اضافبة  <p>عزيزى الطالب مرفق إليك مصادر اثرائية داخل المكتبة 
+                                &nbsp;</p>
+                                <p>اطلع على محتويات المكتبة الاثرائية بصورة جيدة&nbsp;</p>
+
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    {{-- <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
@@ -719,18 +716,18 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.6" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module1/Manual support/المكتبة الاثرائية.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.6" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/المكتبة .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
