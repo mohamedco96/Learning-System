@@ -101,7 +101,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video1()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.1" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.1" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -181,7 +181,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video2()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -323,7 +323,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video3()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.3" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -386,7 +386,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video4()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.4" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -537,7 +537,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video5()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.5" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -657,7 +657,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video6()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.6" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>

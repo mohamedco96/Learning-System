@@ -303,11 +303,11 @@
 
     {{-- Automatic Support --}}
 
-    <div id="automatic">
+    {{-- <div id="automatic">
         <button type="button" class="btn btn-primary support" data-toggle="modal" data-target="#exampleModal">
             إضغط هنا للدعم
         </button>
-    </div>
+    </div> --}}
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

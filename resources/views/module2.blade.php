@@ -113,7 +113,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video1()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.1" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.1" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -204,7 +204,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video2()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
                                 <p>عليك عزيزى الطالب/ة إتباع التعليمات التالية  
                                    &nbsp;</p>
                                 <p>الموديول الثانى&nbsp;</p>
@@ -358,7 +358,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video3()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.3" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
                                 <p>-	متطلبات تثبيت برنامج Cartoon Animator 
                                     &nbsp;</p>
                                 <p>نظام تشغيل XP, 7,8,10 :&nbsp;</p>
@@ -433,7 +433,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video4()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.4" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
                                 <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى 
                                    &nbsp;</p>
                                 <p>قم بالاطلاع على المكتبة الأثرائية  :&nbsp;</p>
@@ -597,7 +597,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video5()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.5" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p>بعد دراستك الموديول وتسليم النشاط قم بأداء التقييم البنائى للموديول
                                    &nbsp;</p>
                                 <p> :&nbsp;</p>
@@ -731,7 +731,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video6()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.6" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
                                 <p>عزيى الطالب/ ة مرفق بداخل المكتبة الاثرائية مجموعة مصادر اضافية 
                                     &nbsp;</p>
                                 <p> يمكنك الإطلاع على محتويات المكتبة الإثرائية بصورة جيدة  &nbsp;</p>

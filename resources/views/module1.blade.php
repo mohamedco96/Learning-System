@@ -112,7 +112,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video1()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.1" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.1" style="display: none; margin-top: 20px">
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
@@ -206,7 +206,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video2()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.2" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
                                 <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية 
                                     &nbsp;</p>
                                 <p>الموديول الاول  :&nbsp;</p>
@@ -364,7 +364,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video3()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.3" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
                                 <p>	مفهوم الفيديو الرقمى التفاعلى 
                                    &nbsp;</p>
                                 <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
@@ -442,7 +442,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video4()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.4" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
                                 <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى 
                                     &nbsp;</p>
                                 
@@ -609,7 +609,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video5()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.5" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p> بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول،
                                     ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،  &nbsp;</p>
                                 <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.&nbsp;</p>
@@ -702,7 +702,7 @@ foreach ($users as $user) {
                                 <button type="button" class="btn btn-primary" onclick="video6()">مرئي</button>
                             </p>
                             {{-- دعم نصي --}}
-                            <div class="imgbox" id="box1.6" style="display: block; margin-top: 20px">
+                            <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
                                للحصول على معلومات اضافبة  <p>عزيزى الطالب مرفق إليك مصادر اثرائية داخل المكتبة 
                                 &nbsp;</p>
                                 <p>اطلع على محتويات المكتبة الاثرائية بصورة جيدة&nbsp;</p>

@@ -10,8 +10,10 @@
 
 @section('content')
     <div class="container" style="padding-top: ">
-        <img src="./img/info.png" alt="Chania" class="" style="width: 1100px; height: 600px; mar">
-
+        <p style="text-align: center"><video width="800" height="600" controls>
+            <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video></p>
         <p style="text-align: center">
             <a href="./intro1" class="btn btn-primary" style="margin-bottom: 30px"> مقياس مستوى الدافعية</a><br>
             <a href="./intro2" class="btn btn-primary">الإختبار القبلي</a>
