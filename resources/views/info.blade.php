@@ -11,7 +11,7 @@
 @section('content')
     <div class="container" style="padding-top: ">
         <p style="text-align: center"><video width="800" height="600" controls>
-            <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+            <source src="./video/تعليمات البيئة .mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video></p>
         <p style="text-align: center">

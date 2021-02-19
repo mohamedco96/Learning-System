@@ -571,7 +571,7 @@ foreach ($users as $user) {
                     </div>
 
 
-                    {{-- المكتبة الإئرائية --}}
+                    {{-- المكتبة الإثرائية --}}
                     <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p><strong><span

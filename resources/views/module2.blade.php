@@ -105,7 +105,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
@@ -196,7 +196,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
@@ -277,7 +277,7 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على برنامج Cartoon Animator4 لانتاج الفيديوهات
+                                                    سوف نتعرف فى هذا الدرس على برنامج Cartoon Animator لانتاج الفيديوهات
                                                     الكرتونية
                                                     وخطوات تثبيت البرنامج
                                                 </strong></span></span></p>
@@ -308,7 +308,7 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس واجهة برنامج Cartoon Animator4
+                                                    سوف نتعرف فى هذا الدرس واجهة برنامج Cartoon Animator
 
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1-je8P0cLQEpngP1Nx7ZJXG5rUoqTbFuw"
@@ -350,7 +350,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
@@ -425,7 +425,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
@@ -589,7 +589,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(41, 105, 176);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
@@ -631,7 +631,7 @@ foreach ($users as $user) {
                     </div>
 
 
-                    {{-- المكتبة الإئرائية --}}
+                    {{-- المكتبة الإثرائية --}}
                     <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p><strong><span
@@ -665,7 +665,7 @@ foreach ($users as $user) {
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        برنامج cartoon animator 4
+                                        برنامج cartoon animator 
                                     </span></strong></p>
                             <div style="margin-right: 530px">
                                 <a href="https://www.shlinks2.com/2019/07/Cartoon-Animator-4-0-Pipeline.html">
