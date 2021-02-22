@@ -247,7 +247,7 @@ foreach ($users as $user) {
                             <div class="row">
                                 <div class="col-sm-6">
                                     <p><span
-                                            style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                            style="color: rgb(228, 40, 7); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                     style="font-size: 24px;">الدرس الأول</span></strong></span></p>
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
@@ -277,7 +277,7 @@ foreach ($users as $user) {
                             <div class="row">
                                 <div class="col-sm-6">
                                     <p><span
-                                            style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                            style="color: rgb(228, 40, 7); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                     style="font-size: 24px;">الدرس الثاني</span></strong></span></p>
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
@@ -308,7 +308,7 @@ foreach ($users as $user) {
                             <div class="row">
                                 <div class="col-sm-6">
                                     <p><span
-                                            style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                            style="color: rgb(228, 40, 7); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                     style="font-size: 24px;">الدرس الثالث</span></strong></span></p>
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span

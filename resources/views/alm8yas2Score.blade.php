@@ -50,480 +50,480 @@
         $score=0;
         
         switch ($q1) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
 
         switch ($q2) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q3) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q4) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q5) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q6) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q7) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q8) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q9) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q10) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q11) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q12) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q13) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q14) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q15) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q16) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q17) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q18) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q19) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q20) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q21) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q22) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q23) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q24) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q25) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q26) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q27) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
-            case "5":
-                $score +=5;
+            case "3":
+                $score +=3;
+                break;
+            case "2":
+                $score +=2;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
         switch ($q28) {
-            case "1":
-                $score +=1;
-                break;
-            case "2":
-                $score +=2;
-                break;
-            case "3":
-                $score +=3;
+            case "5":
+                $score +=5;
                 break;
             case "4":
                 $score +=4;
                 break;
+            case "3":
+                $score +=3;
+                break;
             case "5":
                 $score +=5;
+                break;
+            case "1":
+                $score +=1;
                 break;
         }
        
