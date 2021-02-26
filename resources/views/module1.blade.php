@@ -104,7 +104,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong> الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong> الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
@@ -198,7 +198,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
@@ -356,7 +356,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
@@ -434,7 +434,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
@@ -601,7 +601,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
@@ -694,7 +694,7 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(253, 134, 30);'><strong>الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text6()">نصي</button>
