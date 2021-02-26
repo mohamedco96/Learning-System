@@ -35,7 +35,7 @@
 <body class="cursors png">
 
     <!-- ======= Header ======= -->
-    <header id="header" style="background-color: #14333f">
+    <header id="header" style="background-color: #34b3e4">
         <div class="container d-flex">
 
             <nav class="nav-menu float-right d-none d-lg-block" >

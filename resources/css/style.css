@@ -79,13 +79,13 @@ font-family:"Georgia", Arial, sans-serif;
     width: 100%;
     height: auto;
     margin: auto;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #f3dc45;
     text-align: center;
 }
 .quizMessage {
     background-color: peachpuff;
-    border-radius: 6px;
+    border-radius: 10px;
     width: 20%;
     margin: auto;
     text-align: center;
