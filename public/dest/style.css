@@ -1958,6 +1958,7 @@ fieldset[disabled] a.btn {
 .btn-primary {
   color: #fff;
   background-color: #20a8d8;
+  border-radius: 5px;
   border-color: #20a8d8; }
   .btn-primary:hover {
     color: #fff;
@@ -2124,14 +2125,14 @@ fieldset[disabled] a.btn {
     border-color: #f86c6b; }
 
 .btn-outline-primary {
-  color: #20a8d8;
+  color: #f63c3a;
   background-image: none;
   background-color: transparent;
-  border-color: #20a8d8; }
+  border-color: #f63c3a; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #20a8d8;
-    border-color: #20a8d8; }
+    background-color: #eea444;
+    border-color: #eea444; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     color: #fff;
     background-color: #20a8d8;
@@ -2142,8 +2143,8 @@ fieldset[disabled] a.btn {
     border-color: #20a8d8; }
     .btn-outline-primary:active:hover, .btn-outline-primary:active:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active:hover, .btn-outline-primary.active:focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle:hover, .open > .btn-outline-primary.dropdown-toggle:focus, .open > .btn-outline-primary.dropdown-toggle.focus {
       color: #fff;
-      background-color: #156d8c;
-      border-color: #105269; }
+      background-color: #e29b3e;
+      border-color: #e29b3e; }
   .btn-outline-primary.disabled:focus, .btn-outline-primary.disabled.focus, .btn-outline-primary:disabled:focus, .btn-outline-primary:disabled.focus {
     border-color: #74cbea; }
   .btn-outline-primary.disabled:hover, .btn-outline-primary:disabled:hover {
@@ -2738,7 +2739,8 @@ input[type="button"].btn-block {
 .nav-pills .nav-item.open .nav-link:hover {
   color: #fff;
   cursor: default;
-  background-color: #20a8d8; }
+  border-radius: 5px;
+  background-color: #f6883a; }
 
 .nav-stacked .nav-item {
   display: block;
@@ -4670,6 +4672,7 @@ a.text-danger:focus, a.text-danger:hover {
   margin-right: -20px;
   margin-right: -1.25rem;
   line-height: inherit;
+  border-radius: 10px;
   color: #263238;
   vertical-align: bottom;
   background: transparent;
@@ -5295,12 +5298,13 @@ body:not(.top-nav) .sidebar {
   position: absolute;
   top: 0;
   z-index: 1;
+  margin-top: 20px;
   display: inline !important;
   width: 200px;
   height: 100%;
   padding: 0;
   color: #fff;
-  background: #99dbf5; }
+  background: #39748c; }
   body:not(.top-nav) .sidebar .sidebar-close {
     position: absolute;
     left: 0;

@@ -2124,14 +2124,14 @@ background-color: #f86c6b;
 border-color: #f86c6b; }
 
 .btn-outline-primary {
-color: #f5950a;
+color:  #f63c3a;
 background-image: none;
 background-color: transparent;
-border-color: #20a8d8; }
+border-color: #f63c3a; }
 .btn-outline-primary:hover {
 color: #fff;
-background-color: #20a8d8;
-border-color: #20a8d8; }
+background-color: #eea444;
+border-color: #eea444; }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
 color: #fff;
 background-color: #20a8d8;
@@ -2142,8 +2142,8 @@ background-color: #20a8d8;
 border-color: #20a8d8; }
 .btn-outline-primary:active:hover, .btn-outline-primary:active:focus, .btn-outline-primary:active.focus, .btn-outline-primary.active:hover, .btn-outline-primary.active:focus, .btn-outline-primary.active.focus, .open > .btn-outline-primary.dropdown-toggle:hover, .open > .btn-outline-primary.dropdown-toggle:focus, .open > .btn-outline-primary.dropdown-toggle.focus {
 color: #fff;
-background-color: #156d8c;
-border-color: #105269; }
+background-color: #e29b3e;
+border-color: #e29b3e; }
 .btn-outline-primary.disabled:focus, .btn-outline-primary.disabled.focus, .btn-outline-primary:disabled:focus, .btn-outline-primary:disabled.focus {
 border-color: #74cbea; }
 .btn-outline-primary.disabled:hover, .btn-outline-primary:disabled:hover {
@@ -2738,7 +2738,8 @@ padding: 0.5em 1em; }
 .nav-pills .nav-item.open .nav-link:hover {
 color: #fff;
 cursor: default;
-background-color: #20a8d8; }
+border-radius: 5px;
+background-color: #f6883a; }
 
 .nav-stacked .nav-item {
 display: block;
@@ -2922,6 +2923,7 @@ display: block !important; } }
 .card {
 position: relative;
 display: block;
+border-radius: 10px;
 margin-bottom: 12px;
 margin-bottom: 0.75rem;
 background-color: #99dbf5;
@@ -5292,12 +5294,13 @@ body:not(.top-nav) .sidebar {
 position: absolute;
 top: 0;
 z-index: 1;
+margin-top: 20px;
 display: inline !important;
 width: 200px;
 height: 100%;
 padding: 0;
 color: #fff;
-background: #306579; }
+background: #39748c0; }
 body:not(.top-nav) .sidebar .sidebar-close {
 position: absolute;
 left: 0;
