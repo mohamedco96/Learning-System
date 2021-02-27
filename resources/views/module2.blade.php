@@ -105,7 +105,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
@@ -121,10 +122,11 @@ foreach ($users as $user) {
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">يحدد ماهية برامج إنتاج الفيديو الرقمى </li>
-                                    <li style="line-height: 2;">يستنتج الإمكانات الفنية والتكنولوجية لإنتاج الفيديو الرقمى التفاعلى </li>
+                                    <li style="line-height: 2;">يستنتج الإمكانات الفنية والتكنولوجية لإنتاج الفيديو الرقمى
+                                        التفاعلى </li>
                                     <li style="line-height: 2;">يذكر أهم برامج إنتاج الفيديو الرقمى التفاعلى </li>
-                                    <li style="line-height: 2;">يقارن بين إمكانات برامج إنتاج الفيديو الرقمى التفاعلى 
-                                        </li>
+                                    <li style="line-height: 2;">يقارن بين إمكانات برامج إنتاج الفيديو الرقمى التفاعلى
+                                    </li>
                                     <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
@@ -196,7 +198,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
@@ -205,21 +208,25 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
-                                <p>عليك عزيزى الطالب/ة إتباع التعليمات التالية  
-                                   &nbsp;</p>
+                                <p>عليك عزيزى الطالب/ة إتباع التعليمات التالية
+                                    &nbsp;</p>
                                 <p>الموديول الثانى&nbsp;</p>
                                 <p>برامج إنتاج الفيديو الرقمى التفاعلى&nbsp;</p>
                                 <p>تعليمات الموديول&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">-تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل فى حالة الضرورة </li>
+                                    <li style="line-height: 2;">-تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل
+                                        فى حالة الضرورة </li>
                                     <li style="line-height: 2;">اطلع على الخطة الزمنية لدراسة الموديول </li>
-                                    <li style="line-height: 2;">اطلع على الجدول الزمنى لدراسة الموديول  </li>
-                                    <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك محتوى نصى وفيديو 
-                                       </li>
+                                    <li style="line-height: 2;">اطلع على الجدول الزمنى لدراسة الموديول </li>
+                                    <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك محتوى نصى وفيديو
+                                    </li>
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
-                                    <li style="line-height: 2;"> -بعد دراستك الموديول وتسليم النشاط قم بأداء التقييم البنائى للموديول
-                                        ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،  &nbsp;</li>
-                                    <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.</li>
+                                    <li style="line-height: 2;"> -بعد دراستك الموديول وتسليم النشاط قم بأداء التقييم البنائى
+                                        للموديول
+                                        ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%)
+                                        ، &nbsp;</li>
+                                    <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
+                                        مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
@@ -350,7 +357,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
@@ -359,14 +367,15 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p>-	متطلبات تثبيت برنامج Cartoon Animator 
+                                <p>- متطلبات تثبيت برنامج Cartoon Animator
                                     &nbsp;</p>
                                 <p>نظام تشغيل XP, 7,8,10 :&nbsp;</p>
-                                <p>الذاكرة Ram  : 2 جيجا فيما أكثر&nbsp;</p>
+                                <p>الذاكرة Ram : 2 جيجا فيما أكثر&nbsp;</p>
                                 <p>القرص الصلب Hard disk: 2 جيجا فيما اكثر مساحة فارغة &nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">المعالج : intel 2  فيما أكثر</li>
-                                    <li style="line-height: 2;">قبل تفعيل البرنامج عليك بفصل الانترنت عن الجهاز، لكى تتم عملية التفعيل بنجاح </li>
+                                    <li style="line-height: 2;">المعالج : intel 2 فيما أكثر</li>
+                                    <li style="line-height: 2;">قبل تفعيل البرنامج عليك بفصل الانترنت عن الجهاز، لكى تتم
+                                        عملية التفعيل بنجاح </li>
                                     {{-- <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
                                         التعليمية</li>
@@ -402,10 +411,44 @@ foreach ($users as $user) {
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 28px;">&nbsp;</span></span></p>
-                        <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                            style="border-radius: 22px; width:150px;">
-                            ارفق النشاط
-                        </button>
+                        {{-- File Upload --}}
+                        <form action="{{ route('file.upload.post2') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <input type="file" name="file" class="form-control">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-lg btn-pill btn-block btn-outline-success"
+                                        style="border-radius: 22px; width:150px;">ارفق النشاط</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                                {{-- <p>{{ url('/') }}/uploads/{{ Session::get('file') }}</p> --}}
+                            </div>
+                            {{-- <img src="uploads/{{ Session::get('file') }}"> --}}
+
+                        @endif
+
+                        @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <strong>Whoops!</strong> There were some problems with your input.
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        {{-- End of file upload --}}
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
                         {{-- automatic Support --}}
@@ -425,7 +468,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
@@ -434,13 +478,14 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
-                                <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى 
-                                   &nbsp;</p>
-                                <p>قم بالاطلاع على المكتبة الأثرائية  :&nbsp;</p>
+                                <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى
+                                    &nbsp;</p>
+                                <p>قم بالاطلاع على المكتبة الأثرائية :&nbsp;</p>
                                 <p>استخدام محركات البحث المختلفة &nbsp;</p>
                                 <p>قم بتنفيذ النشاط وتسليمه فى الموعد المحدد &nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر بيانات التواصل المختلفة </li>
+                                    <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر بيانات
+                                        التواصل المختلفة </li>
                                     {{-- <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
@@ -589,7 +634,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
@@ -599,12 +645,15 @@ foreach ($users as $user) {
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p>بعد دراستك الموديول وتسليم النشاط قم بأداء التقييم البنائى للموديول
-                                   &nbsp;</p>
+                                    &nbsp;</p>
                                 <p> :&nbsp;</p>
-                                <p>ولا يسمح لك بالانتقال إلى الموديول التالى إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</p>
-                                <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.&nbsp;</p>
+                                <p>ولا يسمح لك بالانتقال إلى الموديول التالى إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;
+                                </p>
+                                <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة
+                                    الاتقان.&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تأكيد من إجابتك أولا ولا تترك اى سؤال فارغ لكى تتمكن من تسليم اجابتك </li>
+                                    <li style="line-height: 2;">تأكيد من إجابتك أولا ولا تترك اى سؤال فارغ لكى تتمكن من
+                                        تسليم اجابتك </li>
                                     {{-- <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
@@ -623,7 +672,8 @@ foreach ($users as $user) {
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.5" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/التقييم البنائى  .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/التقييم البنائى  .mp4"
+                                            type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -634,77 +684,53 @@ foreach ($users as $user) {
                     {{-- المكتبة الإثرائية --}}
                     <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span
-                                        style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">إمكانات
-                                        الفيديو
-                                        الرقمى التفاعلى </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://sites.google.com/site/interactivevideo125/home/alamkanat-altlymyh-llfydyw-altfaly">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        اضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                الفيديو
+                                الرقمى التفاعلى <a
+                                    href="https://sites.google.com/site/interactivevideo125/home/alamkanat-altlymyh-llfydyw-altfaly"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        برامج إنتاج الفيديو التفاعلى
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://bestonebest.com/movie-editing-production-program">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                برامج إنتاج الفيديو التفاعلى <a
+                                    href="https://bestonebest.com/movie-editing-production-program"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        برنامج cartoon animator 
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://www.shlinks2.com/2019/07/Cartoon-Animator-4-0-Pipeline.html">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                برنامج cartoon animator <a
+                                    href="https://www.shlinks2.com/2019/07/Cartoon-Animator-4-0-Pipeline.html"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        متطلبات تشغيل البرنامج
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://www.foxaden.com/2019/05/operating-requirements-cartoon-animator-4.html">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                متطلبات تشغيل البرنامج <a
+                                    href="https://www.foxaden.com/2019/05/operating-requirements-cartoon-animator-4.html"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        تحميل البرنامج
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://drive.google.com/file/d/1uF3SGpE89BVPEcDevVYnPh4Q0Pbe1_1O/view?usp=sharing">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                تحميل البرنامج <a
+                                    href="https://drive.google.com/file/d/1uF3SGpE89BVPEcDevVYnPh4Q0Pbe1_1O/view?usp=sharing"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+
                         </div>
-                         {{-- ////////////////////////////// Support
+                        {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
                         {{-- automatic Support --}}
 
@@ -717,7 +743,7 @@ foreach ($users as $user) {
                             </div>
                         @endif
 
-                       
+
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
@@ -732,9 +758,9 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
-                                <p>عزيى الطالب/ ة مرفق بداخل المكتبة الاثرائية مجموعة مصادر اضافية 
+                                <p>عزيى الطالب/ ة مرفق بداخل المكتبة الاثرائية مجموعة مصادر اضافية
                                     &nbsp;</p>
-                                <p> يمكنك الإطلاع على محتويات المكتبة الإثرائية بصورة جيدة  &nbsp;</p>
+                                <p> يمكنك الإطلاع على محتويات المكتبة الإثرائية بصورة جيدة &nbsp;</p>
                                 {{-- <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
@@ -751,8 +777,9 @@ foreach ($users as $user) {
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.6" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/المكتبة الاثرائية.jpg"
-                                        alt="Girl in a jacket" width="800" height="600"></p>
+                                <p style="text-align: center"><img
+                                        src="./video/module1/Manual support/المكتبة الاثرائية.jpg" alt="Girl in a jacket"
+                                        width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.6" style="display: none">

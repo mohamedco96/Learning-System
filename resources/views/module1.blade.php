@@ -104,7 +104,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong> الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>
+                                            الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
@@ -198,7 +199,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
@@ -207,21 +209,24 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
-                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية 
+                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية
                                     &nbsp;</p>
-                                <p>الموديول الاول  :&nbsp;</p>
+                                <p>الموديول الاول :&nbsp;</p>
                                 <p>أساسيات التعامل مع الفيديو الرقمى التفاعلى&nbsp;</p>
                                 <p>تعليمات الموديول &nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل فى حالة الضرورة  </li>
+                                    <li style="line-height: 2;">تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل
+                                        فى حالة الضرورة </li>
                                     <li style="line-height: 2;">اطلع على الخطة الزمنية لدراسة الموديول </li>
                                     <li style="line-height: 2;">اطلع على الجدول الزمنى لدراسة الموديول </li>
-                                    <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك سواء محتوى نصى وفيديو 
+                                    <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك سواء محتوى نصى وفيديو
                                         التعليمية</li>
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
-                                    <li style="line-height: 2;">-	بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى 
-                                        إلا فى حالة حصولك على درجة الاتقان (90%)  &nbsp;</li>
-                                    <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.</li>
+                                    <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى
+                                        للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى
+                                        إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</li>
+                                    <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
+                                        مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
@@ -356,7 +361,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
@@ -365,21 +371,29 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p>	مفهوم الفيديو الرقمى التفاعلى 
-                                   &nbsp;</p>
+                                <p> مفهوم الفيديو الرقمى التفاعلى
+                                    &nbsp;</p>
                                 <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
-                                <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات حركية وإطارات ثابتة، وأسئلة ، وقوائم،&nbsp;</p>
-                                <p>بينما تكون إستجابات الطالب عن طريق الكمبيوتر هى المحددة لعدد تتابع مشاهد الفيديو، وعليها يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p>
+                                <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات
+                                    حركية وإطارات ثابتة، وأسئلة ، وقوائم،&nbsp;</p>
+                                <p>بينما تكون إستجابات الطالب عن طريق الكمبيوتر هى المحددة لعدد تتابع مشاهد الفيديو، وعليها
+                                    يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">تعريف طارق عامر(2015)</li>
-                                    <li style="line-height: 2;">بأنه برنامج فيديو مقسم إلى اجزاء صغيرة تتكون من تتابعات حركية وإطارات ثابتة وقوائم وتكون استجابات المتعلم عن طريق الكمبيوتر هى المحددة لتتابع لقطات او مشاهدة الفيديو وعليها يتأثر شكل وطبيعة العرض</li>
+                                    <li style="line-height: 2;">بأنه برنامج فيديو مقسم إلى اجزاء صغيرة تتكون من تتابعات
+                                        حركية وإطارات ثابتة وقوائم وتكون استجابات المتعلم عن طريق الكمبيوتر هى المحددة
+                                        لتتابع لقطات او مشاهدة الفيديو وعليها يتأثر شكل وطبيعة العرض</li>
                                     <li style="line-height: 2;">تعريف الباحثة للفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">بأنه مقاطع فيديو قصيرة تتكون من لقطات رسوم متحركة ثنائية البعد وإيقونات تحكم وإستجابة وأسئلة وأنشطة، تسمح للمتعلم بالتحرك داخل الفيديو وفقا لسرعته وخطة أهداف التعليمية، 
+                                    <li style="line-height: 2;">بأنه مقاطع فيديو قصيرة تتكون من لقطات رسوم متحركة ثنائية
+                                        البعد وإيقونات تحكم وإستجابة وأسئلة وأنشطة، تسمح للمتعلم بالتحرك داخل الفيديو وفقا
+                                        لسرعته وخطة أهداف التعليمية،
                                         وروابط خارجية ؛ وأدوات تفاعل وطرح أسئلة وتغذية راجعة فى ضوء إستجابات المتعلمين.</li>
-                                    <li style="line-height: 2;">	أهمية الفيديو التفاعلى :</li>
-                                    <li style="line-height: 2;">يذكر أشرف الكحيل (2017) من خصائص الفيديو التفاعلى 
-                                        -	يحلل الفيديو الأفكار المعقدة إلى لقطات يمكن معالجتها بسهولة، فهو يقلل من حمل القراءة بالنسبة إلى المتعلم، من خلال تقديم المحتوى كمرئيات جذابة&nbsp;</li>
-                                    <li style="line-height: 2;">	يقدم الفيديو معلومات باستخدام سرد، مما يسمح للمتعلم بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li>
+                                    <li style="line-height: 2;"> أهمية الفيديو التفاعلى :</li>
+                                    <li style="line-height: 2;">يذكر أشرف الكحيل (2017) من خصائص الفيديو التفاعلى
+                                        - يحلل الفيديو الأفكار المعقدة إلى لقطات يمكن معالجتها بسهولة، فهو يقلل من حمل
+                                        القراءة بالنسبة إلى المتعلم، من خلال تقديم المحتوى كمرئيات جذابة&nbsp;</li>
+                                    <li style="line-height: 2;"> يقدم الفيديو معلومات باستخدام سرد، مما يسمح للمتعلم
+                                        بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
@@ -411,10 +425,44 @@ foreach ($users as $user) {
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 28px;">&nbsp;</span></span></p>
-                        <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                            style="border-radius: 22px; width:150px;">
-                            ارفق النشاط
-                        </button>
+                        {{-- File Upload --}}
+                        <form action="{{ route('file.upload.post1') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <input type="file" name="file" class="form-control">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-lg btn-pill btn-block btn-outline-success"
+                                        style="border-radius: 22px; width:150px;">ارفق النشاط</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                                {{-- <p>{{ url('/') }}/uploads/{{ Session::get('file') }}</p> --}}
+                            </div>
+                            {{-- <img src="uploads/{{ Session::get('file') }}"> --}}
+
+                        @endif
+
+                        @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <strong>Whoops!</strong> There were some problems with your input.
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        {{-- End of file upload --}}
 
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
@@ -434,7 +482,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
@@ -443,15 +492,15 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
-                                <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى 
+                                <p>عزيزى الطالب لكى تتمكن من إجراء النشاط التعليمى
                                     &nbsp;</p>
-                                
+
                                 <ul>
                                     <li style="line-height: 2;">قم بالاطلاع على المكتبة الأثرائية </li>
                                     <li style="line-height: 2;">استخدام محركات البحث المختلفة </li>
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الموعد المحدد </li>
-                                    <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر 
-                                        بيانات التواصل المختلفة  </li>
+                                    <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر
+                                        بيانات التواصل المختلفة </li>
                                     {{-- <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
@@ -601,7 +650,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
@@ -611,10 +661,12 @@ foreach ($users as $user) {
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p> بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول،
-                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،  &nbsp;</p>
-                                <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة الاتقان.&nbsp;</p>
-                                <p>-	تأكيد من إجابتك أولا ولا تترك اى سؤال فارغ لكى تتمكن من تسليم اجابتك &nbsp;</p>
-                                
+                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،
+                                    &nbsp;</p>
+                                <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة
+                                    الاتقان.&nbsp;</p>
+                                <p>- تأكيد من إجابتك أولا ولا تترك اى سؤال فارغ لكى تتمكن من تسليم اجابتك &nbsp;</p>
+
                                 <ul>
                                     {{-- <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
@@ -635,7 +687,8 @@ foreach ($users as $user) {
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.5" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/التقييم البنائى .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/التقييم البنائى .mp4"
+                                            type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -648,34 +701,22 @@ foreach ($users as $user) {
                     {{-- المكتبة الإثرائية --}}
                     <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">مفهوم
-                                        الفيديو
-                                        الرقمى التفاعلى</span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                مفهوم الفيديو الرقم التفاعلي <a
+                                    href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        استخدامات الفيديو التفاعلى فى العملية التعليمية
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                استخدامات الفيديو التفاعلى فى العملية التعليمية <a
+                                    href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
-                        <hr>
 
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
@@ -694,7 +735,8 @@ foreach ($users as $user) {
                         @if ($user->support === 'manual')
                             <hr>
                             <p style="text-align: center;"><span style="font-size: 28px;"><span
-                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم والمساعدة</strong></span></span>
+                                        style='font-family: "Arial Black", Gadget, sans-serif; color: rgb(228, 135, 15);'><strong>الدعم
+                                            والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
                                 <button type="button" class="btn btn-primary" onclick="text6()">نصي</button>
@@ -703,8 +745,8 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
-                               للحصول على معلومات اضافبة  <p>عزيزى الطالب مرفق إليك مصادر اثرائية داخل المكتبة 
-                                &nbsp;</p>
+                                للحصول على معلومات اضافبة <p>عزيزى الطالب مرفق إليك مصادر اثرائية داخل المكتبة
+                                    &nbsp;</p>
                                 <p>اطلع على محتويات المكتبة الاثرائية بصورة جيدة&nbsp;</p>
 
                                 <ul>
@@ -721,8 +763,9 @@ foreach ($users as $user) {
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.6" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/المكتبة الاثرائية.jpg"
-                                        alt="Girl in a jacket" width="800" height="600"></p>
+                                <p style="text-align: center"><img
+                                        src="./video/module1/Manual support/المكتبة الاثرائية.jpg" alt="Girl in a jacket"
+                                        width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.6" style="display: none">

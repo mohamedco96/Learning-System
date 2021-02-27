@@ -150,3 +150,15 @@ Route::get('/file', function () {
 Route::get('/upload', function () {
     return view('upload');
 });
+
+
+//////////////////////
+// uplaod files //
+
+
+
+Route::get('file-upload', [App\Http\Controllers\FileUploadController::class, 'fileUpload'])->name('file.upload');
+
+Route::post('file-upload1', [App\Http\Controllers\FileUploadController::class, 'fileUploadPost1'])->name('file.upload.post1');
+Route::post('file-upload2', [App\Http\Controllers\FileUploadController::class, 'fileUploadPost2'])->name('file.upload.post2');
+Route::post('file-upload3', [App\Http\Controllers\FileUploadController::class, 'fileUploadPost3'])->name('file.upload.post3');

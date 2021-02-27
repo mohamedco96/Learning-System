@@ -367,10 +367,45 @@ foreach ($users as $user) {
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 28px;">&nbsp;</span></span></p>
-                        <button class="btn btn-lg btn-pill btn-block btn-outline-success  " type="button"
-                            style="border-radius: 22px; width:150px;">
-                            ارفق النشاط
-                        </button>
+
+                        {{-- File Upload --}}
+                        <form action="{{ route('file.upload.post3') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <input type="file" name="file" class="form-control">
+                                </div>
+                                <br>
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-lg btn-pill btn-block btn-outline-success"
+                                        style="border-radius: 22px; width:150px;">ارفق النشاط</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                                {{-- <p>{{ url('/') }}/uploads/{{ Session::get('file') }}</p> --}}
+                            </div>
+                            {{-- <img src="uploads/{{ Session::get('file') }}"> --}}
+
+                        @endif
+
+                        @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <strong>Whoops!</strong> There were some problems with your input.
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        {{-- End of file upload --}}
 
 
                         {{-- manual Support --}}
@@ -574,76 +609,66 @@ foreach ($users as $user) {
                     {{-- المكتبة الإثرائية --}}
                     <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab3">
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span
-                                        style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">إمكانات
-                                        الفيديو
-                                        الرقمى التفاعلى </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://sites.google.com/site/interactivevideo125/home/alamkanat-altlymyh-llfydyw-altfaly">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        اضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                الفيديو
+                                الرقمى التفاعلى <a
+                                    href="https://sites.google.com/site/interactivevideo125/home/alamkanat-altlymyh-llfydyw-altfaly"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        برامج إنتاج الفيديو التفاعلى
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://bestonebest.com/movie-editing-production-program">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                برامج إنتاج الفيديو التفاعلى <a
+                                    href="https://bestonebest.com/movie-editing-production-program"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        برنامج cartoon animator 4
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://www.shlinks2.com/2019/07/Cartoon-Animator-4-0-Pipeline.html">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                برنامج cartoon animator <a
+                                    href="https://www.shlinks2.com/2019/07/Cartoon-Animator-4-0-Pipeline.html"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        متطلبات تشغيل البرنامج
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a href="https://www.foxaden.com/2019/05/operating-requirements-cartoon-animator-4.html">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                متطلبات تشغيل البرنامج <a
+                                    href="https://www.foxaden.com/2019/05/operating-requirements-cartoon-animator-4.html"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
                         </div>
                         <hr>
 
                         <div class="row" style="margin-bottom: 20px; text-align: center">
-                            <p><strong><span style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif;">
-                                        تحميل البرنامج
-                                    </span></strong></p>
-                            <div style="margin-right: 530px">
-                                <a
-                                    href="https://drive.google.com/file/d/1uF3SGpE89BVPEcDevVYnPh4Q0Pbe1_1O/view?usp=sharing">
-                                    <button class="btn btn-lg btn-pill btn-block btn-outline-success" type="button"
-                                        style="border-radius: 22px; width:150px; ">
-                                        إضغط هنا
-                                    </button> </a>
-                            </div>
+
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                تحميل البرنامج <a
+                                    href="https://drive.google.com/file/d/1uF3SGpE89BVPEcDevVYnPh4Q0Pbe1_1O/view?usp=sharing"
+                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+
                         </div>
+                        {{-- ////////////////////////////// Support
+                        ////////////////////////////// --}}
+                        {{-- automatic Support --}}
+
+                        @if ($user->support === 'automatic')
+                            <div id="manual">
+                                <video width="230" height="180" controls>
+                                    <source src="./video/module2/automatic support/المكتبة .mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        @endif
+
+
                         {{-- manual Support --}}
 
                         @if ($user->support === 'manual')
@@ -658,10 +683,10 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
-                                <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
-                                    للموديول اولا&nbsp;</p>
-                                <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>عزيى الطالب/ ة مرفق بداخل المكتبة الاثرائية مجموعة مصادر اضافية
+                                    &nbsp;</p>
+                                <p> يمكنك الإطلاع على محتويات المكتبة الإثرائية بصورة جيدة &nbsp;</p>
+                                {{-- <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
@@ -672,18 +697,19 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.6" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
-                                        alt="Girl in a jacket" width="800" height="600"></p>
+                                <p style="text-align: center"><img
+                                        src="./video/module1/Manual support/المكتبة الاثرائية.jpg" alt="Girl in a jacket"
+                                        width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.6" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module1/automatic support/المكتبة .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>

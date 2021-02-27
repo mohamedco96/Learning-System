@@ -115,7 +115,7 @@ foreach ($users as $user) {
 
     <div class="sidebar">
         <nav class="sidebar-nav">
-            <ul class="nav">
+            <ul class="nav" style="margin-top: 25px">
 
                 <li class="nav-title center">
                     @if (session('status'))

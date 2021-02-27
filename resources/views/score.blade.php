@@ -533,12 +533,12 @@
         $level='';
         // echo  '#####'.$level.'<br>';
 
-        if ($score <= 70){
+        if ($score <= 85){
             // echo  '#####'.'test1'.'<br>';
             $level='low';
         }
 
-        if ($score >= 70){
+        if ($score >= 85){
             // echo  '#####'.'test2'.'<br>';
             $level='high';
         }
