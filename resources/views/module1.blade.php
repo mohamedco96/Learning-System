@@ -646,6 +646,7 @@ foreach ($users as $user) {
                             </div>
                         @endif
 
+                        
                         {{-- manual Support --}}
                         @if ($user->support === 'manual')
                             <hr>
