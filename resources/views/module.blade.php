@@ -84,7 +84,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            مهارات إنتاج فيديو كرتونى ثنائى البعد باستخدام Cartoon Animator 4
+                        مهارات إنتاج فيديو كرتونى ثنائى البعد 
 
                         </div>
                         <div class="card-footer">
@@ -177,7 +177,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            إضافة العناصر التفاعلية للفيديو ببرنامج Camtasia studio
+                            إضافة العناصر التفاعلية للفيديو ببرنامج Camtasia 
 
                         </div>
                         <div class="card-footer">

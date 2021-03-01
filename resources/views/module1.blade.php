@@ -272,7 +272,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -303,7 +303,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -334,7 +334,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; "><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 22px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -419,12 +419,12 @@ foreach ($users as $user) {
                                         style="font-size: 22px; font-family: 'Open Sans', Charcoal, sans-serif;">النشاط
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
-                                    style="font-size: 28px;">
+                                    style="font-size: 20px;">
                                     اكتب مقالا لا يتعدى 150 كلمة عن مفهوم الفيديو الرقمى التفاعلى واستخداماته فى العملية
                                     التعليمية
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
-                                    style="font-size: 28px;">&nbsp;</span></span></p>
+                                    style="font-size: 22px;">&nbsp;</span></span></p>
                         {{-- File Upload --}}
                         <form action="{{ route('file.upload.post1') }}" method="POST" enctype="multipart/form-data">
                             @csrf
@@ -706,7 +706,7 @@ foreach ($users as $user) {
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
                                 مفهوم الفيديو الرقم التفاعلي <a
                                     href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
-                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا  </strong></a></p>
 
                         </div>
                         <hr>
@@ -716,7 +716,7 @@ foreach ($users as $user) {
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
                                 استخدامات الفيديو التفاعلى فى العملية التعليمية <a
                                     href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
-                                    rel="noopener noreferrer" target="_blank"><strong>تنزيل </strong></a></p>
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا  </strong></a></p>
                         </div>
 
                         {{-- ////////////////////////////// Support
