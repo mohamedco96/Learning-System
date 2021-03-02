@@ -272,7 +272,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -303,7 +303,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 24px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -334,7 +334,7 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 22px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>

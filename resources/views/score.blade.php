@@ -602,11 +602,11 @@
                     <div class="card-block">
                         <h4 style="text-align: center">مستوى الدافعية</h4>
                         @if ($score <= 50)
-                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 400px; border-radius: 22px; width:150px;">منخفض</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 400px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
+                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
+                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
 						@else
-						<button class="btn btn-lg btn-pill btn-block btn-secondary  " type="button" style="margin-right: 400px; border-radius: 22px; width:150px;">منخفض</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-warning " type="button" style="margin-right: 400px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
+						<button class="btn btn-lg btn-pill btn-block btn-secondary  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
+                        <button class="btn btn-lg btn-pill btn-block btn-warning " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
                         @endif
 
                         <a href="./intro2" class="btn btn-lg btn-pill btn-block btn-info" style="margin-right: 350px;  border-radius: 15px; width:250px;">بدء الإختبار القبلي</a>

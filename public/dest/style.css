@@ -2926,6 +2926,7 @@ input[type="button"].btn-block {
   display: block;
   margin-bottom: 12px;
   margin-bottom: 0.75rem;
+  border-radius: 15px;
   background-color: #99dbf5;
   border: 1px solid #cfd8dc; }
 
