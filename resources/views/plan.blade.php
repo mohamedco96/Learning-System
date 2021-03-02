@@ -4,7 +4,7 @@
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-sm-4" style="text-align: center">
-                <h2 style="font-family: 'Open Sans'; font-weight: bold">1</h2>
+                <h2 style="font-family: tahoma;font-weight: bold;">1</h2>
                 <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الأول</h3>
             </div>
             <div class="col-sm-8" style="">
@@ -25,7 +25,7 @@
 
         <div class="row">
             <div class="col-sm-4" style="text-align: center">
-                <h2 style="font-family: 'Open Sans'; font-weight: bold">2</h2>
+                <h2 style="font-family: tahoma;font-weight: bold;">2</h2>
                 <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الثانى</h3>
             </div>
             <div class="col-sm-8" style="">
@@ -50,7 +50,7 @@
 
         <div class="row">
             <div class="col-sm-4" style="text-align: center">
-                <h2 style="font-family: 'Open Sans'; font-weight: bold">3</h2>
+                <h2 style="font-family: tahoma;font-weight: bold;">3</h2>
                 <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الثالث </h3>
             </div>
             <div class="col-sm-8" style="">
@@ -72,7 +72,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4" style="text-align: center">
-                    <h2 style="font-family: 'Open Sans'; font-weight: bold">4</h2>
+                    <h2 style="font-family: tahoma;font-weight: bold;">4</h2>
                     <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الرابع</h3>
                 </div>
                 <div class="col-sm-8" style="">
@@ -94,7 +94,7 @@
                 </div>
                             <div class="row">
                 <div class="col-sm-4" style="text-align: center">
-                    <h2 style="font-family: 'Open Sans'; font-weight: bold">4</h2>
+                    <h2 style="font-family: tahoma;font-weight: bold;">4</h2>
                     <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الرابع</h3>
                 </div>
                 <div class="col-sm-8" style="">
@@ -116,7 +116,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4" style="text-align: center">
-                        <h2 style="font-family: 'Open Sans'; font-weight: bold">5</h2>
+                        <h2 style="font-family: tahoma;font-weight: bold;">5</h2>
                         <h3 style="font-family: 'Open Sans'; color: #39afe2; font-weight: bold">الأسبوع الخامس</h3>
                     </div>
                     <div class="col-sm-8" style="">

@@ -73,8 +73,8 @@
                     <div class="card-block">
                         {{-- <h4 style="text-align: center">درجة الطالب  <strong>{{ $score }}</strong></h4>
                         <h4 style="text-align: center">النسبة المئوية <strong>{{ $percentage }}</strong></h4> --}}
-                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:200px;">درجة الطالب <strong>{{ $score }}</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:200px;">النسبة المئوية <strong>{{ $percentage }}</button> <br>
+                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="font-family: tahoma; margin-right: 350px; border-radius: 22px; width:200px;">درجة الطالب <strong>{{ $score }}</button> <br>
+                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="font-family: tahoma; margin-right: 350px;  border-radius: 22px; width:200px;">النسبة المئوية <strong>{{ $percentage }}</button> <br>
                         <p >
                             <div class="body_next">
                                 {{-- Question --}}
@@ -400,9 +400,9 @@
                     <div class="card-block">
                         {{-- <h4 style="text-align: center">درجة الطالب  <strong>{{ $score }}</strong></h4>
                         <h4 style="text-align: center">النسبة المئوية <strong>{{ $percentage }}</strong></h4> --}}
-                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 400px; border-radius: 22px; width:200px;">درجتك هي <strong>{{ $score }}</button> <br>
-                        <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 400px;  border-radius: 22px; width:200px;">النسبة المئوية <strong>{{ $percentage }}</button> <br>
-                        <p >
+                        <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="font-family: tahoma; margin-right: 350px; border-radius: 22px; width:200px;">درجة الطالب <strong>{{ $score }}</button> <br>
+                            <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="font-family: tahoma; margin-right: 350px;  border-radius: 22px; width:200px;">النسبة المئوية <strong>{{ $percentage }}</button> <br>
+                           <p >
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
