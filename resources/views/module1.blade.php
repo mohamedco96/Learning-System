@@ -67,22 +67,27 @@ foreach ($users as $user) {
                             <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>الأهداف
                                     الإجرائية:</span></strong>
                         </p>
+                        <p dir="RTL"
+                            style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
+                            <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>عزيزى الطالب/ة عليك بعد دراسة هذا الموديول
+                                    أن تكون قادرا على أن </span></strong>
+                        </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                    يذكر مفهوم الفيديو الرقمى
+                                    تذكر مفهوم الفيديو الرقمى
                                     التفاعلى
                                 </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يعدد مميزات الفيديو الرقمى
+                        </p>
+
+                                <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يستنتج محتويات الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يحدد أسباب استخدام الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
                                     التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يحدد مراحل إنتاج الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد مراحل إنتاج الفيديو الرقمى
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يعدد تطبيقات التربوية والتعليمية
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
                                     للفيديو الرقمى التفاعلى&nbsp;</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يذكر معايير تصميم الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
                                     التفاعلى</span></li>
                         </ol>
 
@@ -120,15 +125,15 @@ foreach ($users as $user) {
                                 <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">يذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يستنتج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
+                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تستنج محتويات الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
                                         التعليمية</li>
-                                    <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">يعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
+                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">يذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
@@ -271,8 +276,8 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.1.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -302,8 +307,8 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.2.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/"target="_blank" ><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -333,15 +338,15 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="https://www.facebook.com/dina.gwida.5/"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" target="_blank"><strong><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
                             </div>
                             <hr>
 
-                            
+
                         </div>
 
                         {{-- ////////////////////////////// Support

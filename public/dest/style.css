@@ -318,7 +318,7 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #20a8d8;
+  color: #00080a;
   text-decoration: none; }
   a:focus, a:hover {
     color: #167495;
@@ -2959,6 +2959,8 @@ input[type="button"].btn-block {
 
 .card-header {
   padding: 12px 20px;
+  font-weight: bold;
+  font-size: 18px;
   padding: 0.75rem 1.25rem;
   /* background-color: #eceff1; */
   border-bottom: 2px solid #ffffff; }
