@@ -78,7 +78,6 @@ foreach ($users as $user) {
                                     التفاعلى
                                 </span></li>
                         </p>
-
                                 <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
                                     التفاعلى</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
