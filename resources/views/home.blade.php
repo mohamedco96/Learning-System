@@ -90,7 +90,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
-                    <div class="carousel-item active" style="background-image: url('img/slider web 1.jpg');">
+                    <div class="carousel-item active" style="background-image: url('img/slide.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mamba</span></h2>
@@ -105,7 +105,7 @@
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="carousel-item" style="background-image: url('img/slider web 2.jpg');">
+                    <div class="carousel-item" style="background-image: url('img/slide2.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
@@ -120,7 +120,7 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url('img/slider web 3.jpg');">
+                    <div class="carousel-item" style="background-image: url('img/slide3.jpg');">
                         <div class="carousel-container">
                             {{-- <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
@@ -201,7 +201,7 @@
                                 <p style="text-align: center;"><span
                                     style="font-family: 'Open Sans'; font-size: 22px;">
                                     أهلا بك عزيزي <strong>{{ Auth::user()->name }} </strong> 
-                                     في بيئة التعلم الافتراضية الخاصة لتنمية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
+                                     في بيئة التعلم الافتراضية  لتنمية مهارات إنتاج الفيديو الرقمي التفاعلي بإستخدام 
                                     برنامج Cartoon Animator 4 &amp; Camtasia Studio<br></span></p>
 
                                     <p style="text-align: center">

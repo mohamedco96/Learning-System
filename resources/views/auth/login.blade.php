@@ -47,7 +47,7 @@
                               
 
                                     <button type="submit" class="btn btn-primary p-x-2">
-                                        {{ __('تسجيل الدخول') }}
+                                        {{ __('تسجيل دخول') }}
                                     </button>
                 
                                     @if (Route::has('password.request'))
@@ -65,7 +65,7 @@
                     <div class="card-block text-xs-center">
                         <div>
                             <h2>ليس لديك حساب ؟!</h2>
-                            <p>سجل الاٌن مجاناٌ</p>
+                            {{-- <p>سجل الاٌن مجاناٌ</p> --}}
                             <a href="/register" class="btn btn-primary active m-t-1">تسجيل حساب جديد</a>
                         </div>
                     </div>

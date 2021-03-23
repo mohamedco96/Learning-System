@@ -10,6 +10,7 @@
                         <i class="fa fa-check"></i> مقياس مستوى الدافعية
                     </div>
                     <div class="card-block">
+                        عزيزى الطالب يهدف هذا المقياس مشاركتك برايك فى بعض العبارات التالية لكى يساعدك على اتمام الدراسة بنجاح ، لذا عليك اختيار الإجابة الأكثر تعبيرا عن رايك  <br>
                          تعليمات مقياس مستوى الدافعية <br>
                          -	اقرأ كل عبارة من العبارات التالية بدقة وعناية ، وضع علامة (* ) إمام الاختيار المناسب لك  <br>
                         * تأكد من الإجابة عن جميع العبارات ، وضع علامة واحدة فقط أمام كل منها  <br>
@@ -29,11 +30,11 @@
 
         {{-- Automatic Support --}}
 
-        <div id="automatic">
+        {{-- <div id="automatic">
             <button type="button" class="btn btn-primary support" data-toggle="modal" data-target="#exampleModal">
                 إضغط هنا للدعم
             </button>
-        </div>
+        </div> --}}
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

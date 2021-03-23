@@ -9,7 +9,7 @@
     }
 
             
-        //     if ($percentage < 90) { 
+        //     if ($percentage < 85) { 
             
         //     header('Location:/module1');
         //     exit();

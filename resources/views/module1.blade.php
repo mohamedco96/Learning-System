@@ -58,8 +58,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                إكتساب مفهوم الفيديو
-                                الرقمى التفاعلى ومميزاته وإمكاناته
+                                الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
+                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
                             </span>
                         </p>
                         <p dir="RTL"
@@ -76,8 +76,7 @@ foreach ($users as $user) {
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
                                     تذكر مفهوم الفيديو الرقمى
                                     التفاعلى
-                                </span></li>
-                        </p>
+                                </span></li> </p>
                                 <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
                                     التفاعلى</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
@@ -96,7 +95,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -112,9 +111,9 @@ foreach ($users as $user) {
                                             الدعم والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text1()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo1()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video1()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text1()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo1()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video1()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.1" style="display: none; margin-top: 20px">
@@ -170,8 +169,8 @@ foreach ($users as $user) {
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                                     على الخطة الزمنية لدراسة الموديول&nbsp;</span></li>
                             <li><span
-                                    style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الاطلاع
-                                    على الجدول الزمنى الخاص بالموديول&nbsp;</span></li>
+                                    style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يمكنك 
+                                    الاستعانة بوسائط الدعم المتاحة فى كل نافذة، لتتمكن من عملية الدراسة بنجاح&nbsp;</span></li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                                     على محتوى الموديول بدقة متوافر محتوى نصى &ndash; فيديو</span></li>
@@ -191,7 +190,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/التعليمات .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -207,9 +206,9 @@ foreach ($users as $user) {
                                             والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text2()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo2()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video2()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text2()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo2()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video2()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
@@ -354,7 +353,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -370,9 +369,9 @@ foreach ($users as $user) {
                                             والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text3()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo3()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video3()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text3()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo3()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video3()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
@@ -425,7 +424,7 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    اكتب مقالا لا يتعدى 150 كلمة عن مفهوم الفيديو الرقمى التفاعلى واستخداماته فى العملية
+                                    اكتب مفهومك للفيديو الرقمى التفاعلى وحدد استخدماته فى العملية
                                     التعليمية
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
@@ -475,7 +474,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -491,9 +490,9 @@ foreach ($users as $user) {
                                             والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text4()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo4()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video4()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text4()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo4()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video4()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.4" style="display: none; margin-top: 20px">
@@ -634,7 +633,7 @@ foreach ($users as $user) {
 
                             </div>
                             <input type="hidden" name="id" value={{ Auth::user()->id }} />
-                            <input type="submit" value="Submit" name="submit" class="btn btn-sm btn-primary"
+                            <input type="submit" value="تسليم الإجابات" name="submit" class="btn btn-sm btn-primary"
                                 style="margin-top: 20px; margin-right: 200px" />
                         </form>
 
@@ -644,7 +643,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/التقييم البنائى .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -660,9 +659,9 @@ foreach ($users as $user) {
                                             والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text5()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo5()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video5()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text5()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo5()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video5()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
@@ -730,7 +729,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
-                                <video width="230" height="180" controls>
+                                <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/المكتبة .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -745,9 +744,9 @@ foreach ($users as $user) {
                                             والمساعدة</strong></span></span>
                             </p>
                             <p style="text-align: center">
-                                <button type="button" class="btn btn-primary" onclick="text6()">نصي</button>
-                                <button type="button" class="btn btn-primary" onclick="photo6()">مصور</button>
-                                <button type="button" class="btn btn-primary" onclick="video6()">مرئي</button>
+                                <button type="button" class="btn btn-primary" onclick="text6()">نص</button>
+                                <button type="button" class="btn btn-primary" onclick="photo6()">صورة</button>
+                                <button type="button" class="btn btn-primary" onclick="video6()">فيديو</button>
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.6" style="display: none; margin-top: 20px">
@@ -773,7 +772,7 @@ foreach ($users as $user) {
                                         src="./video/module1/Manual support/المكتبة الاثرائية.jpg" alt="Girl in a jacket"
                                         width="800" height="600"></p>
                             </div>
-                            {{-- دعم مرئي --}}
+                            {{-- دعم فيديو --}}
                             <div class="imgbox" id="box3.6" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
                                         <source src="./video/module1/automatic support/المكتبة .mp4" type="video/mp4">
@@ -792,7 +791,7 @@ foreach ($users as $user) {
             <div class="col-sm-6 col-lg-3">
                 <div class="jzdbox1 jzdbasf jzdcal">
 
-                    <div class="jzdcalt">Jan 2021</div>
+                    <div class="jzdcalt">April 2021</div>
 
                     <span>Su</span>
                     <span>Mo</span>

@@ -23,7 +23,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            أساسيات التعامل مع الفيديو الرقمى التفاعلى
+                            أساسيات عن الفيديو الرقمى التفاعلى
                         </div>
                         <div class="card-footer">
                             @if ($user->module1 === '1')
@@ -117,7 +117,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            تحريك الشخصيات والعناصر ب Cartoon Animator
+                            تحريك الشخصيات والعناصر الفيديو التفاعلى  
 
                         </div>
                         <div class="card-footer">
@@ -147,7 +147,7 @@ foreach ($users as $user) {
                             @endif
                         </div>
                         <div class="card-block">
-                            إضافة المؤثرات الصوتية والانتقالية بين المشاهد
+                            إضافة المؤثرات الصوتية والانتقالية بين المشاهد الفيديو
 
                         </div>
                         <div class="card-footer">

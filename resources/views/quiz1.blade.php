@@ -15,7 +15,7 @@ exit();
 
                 <div class="card" style="margin-top: 60px">
                     <div class="card-header">
-                        <strong> المقياس </strong>
+                        <strong> اختر الاستجابة المناسب لك الذي يعبر عن رأيك  </strong>
                     </div>
                     <div class="card-block">
                         <form action="score" method="get">
@@ -668,7 +668,7 @@ exit();
 
                             </div>
                             <input type="hidden" name="id" value={{ Auth::user()->id }} />
-                            <input type="submit" value="Submit" name="submit" class="btn btn-sm btn-primary"
+                            <input type="submit" value="تسليم الإجابات " name="Submit" class="btn btn-sm btn-primary"
                                 style="margin-top: 20px; margin-right: 200px" />
                         </form>
                     </div>

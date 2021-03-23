@@ -552,7 +552,7 @@ foreach ($users as $user) {
                                     <div class="form-group">
                                         <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
-                                        <h3>30- لا يمكن تعديل الشخصيات والعناصر داخل برنامج Cartoon Animator 4</h3>
+                                        <h3>30- 	يستخدم برنامج Cartoon Animator للتعديل على الشخصيات وتحريكها  </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q30" value="1" required /> صح</li>
@@ -692,7 +692,7 @@ foreach ($users as $user) {
                                     <div class="form-group">
                                         <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
-                                        <h3>40- لا يمكن التحكم فى خصائص الكاميرا</h3>
+                                        <h3>40- 	يتيح برنامج Cartoon Animator  إمكانية التحكم بخصائص الكاميرا</h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q40" value="1" required /> صح</li>
@@ -720,7 +720,7 @@ foreach ($users as $user) {
                                     <div class="form-group">
                                         <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
-                                        <h3>42- لا يسمح الفيديو الرقمى التفاعلى للمستخدم التنقل بين محتويات الفيديو بسهولة ويسر</h3>
+                                        <h3>42- يسمح الفيديو الرقمى التفاعلى للمستخدم بحرية التحكم والانتقال </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q42" value="1" required /> صح</li>
@@ -748,7 +748,7 @@ foreach ($users as $user) {
                                     <div class="form-group">
                                         <strong style="color: crimson">إختر علامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </strong>
                                         <hr>
-                                        <h3>44- لا يمكن إضافة تغذية راجعة لمحتويات الفيديو الرقمى التفاعلى</h3>
+                                        <h3>44- من خصائص الفيديو الرقمى التفاعلى تقييم حرية المتعلم </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q44" value="1" required /> صح</li>
@@ -845,7 +845,7 @@ foreach ($users as $user) {
                             </div>
                             <input type="hidden" name="id" value={{ Auth::user()->id }} />
                             <p style="text-align: center; margin-right: 20px">
-                            <input type="submit" value="Submit" name="submit" class="btn btn-sm btn-primary"
+                            <input type="submit" value="تسليم الإجابات" name="Submit" class="btn btn-sm btn-primary"
                                 style="margin-top: 20px" />
                             </p>
                         </form>
