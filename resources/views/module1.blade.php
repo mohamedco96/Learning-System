@@ -17,12 +17,16 @@ foreach ($users as $user) {
                 {{--  --}}
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item">
+                        <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                            role="tab" aria-controls="pills-profile" aria-selected="true">التعليمات</a>
+                    </li>
+                    {{-- <li class="nav-item">
                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
                             aria-controls="pills-home" aria-selected="true">الأهداف التعليمية</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                            aria-controls="pills-profile" aria-selected="false">التعليمات</a>
+                        <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="false">الأهداف التعليمية</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
@@ -69,15 +73,17 @@ foreach ($users as $user) {
                         </p>
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
-                            <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>عزيزى الطالب/ة عليك بعد دراسة هذا الموديول
+                            <strong><span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>عزيزى الطالب/ة
+                                    عليك بعد دراسة هذا الموديول
                                     أن تكون قادرا على أن </span></strong>
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
                                     تذكر مفهوم الفيديو الرقمى
                                     التفاعلى
-                                </span></li> </p>
-                                <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
+                                </span></li>
+                            </p>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
                                     التفاعلى</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
                                     التفاعلى فى العملية التعليمية</span></li>
@@ -95,6 +101,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -169,8 +176,9 @@ foreach ($users as $user) {
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                                     على الخطة الزمنية لدراسة الموديول&nbsp;</span></li>
                             <li><span
-                                    style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يمكنك 
-                                    الاستعانة بوسائط الدعم المتاحة فى كل نافذة، لتتمكن من عملية الدراسة بنجاح&nbsp;</span></li>
+                                    style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يمكنك
+                                    الاستعانة بوسائط الدعم المتاحة فى كل نافذة، لتتمكن من عملية الدراسة بنجاح&nbsp;</span>
+                            </li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>الإطلاع
                                     على محتوى الموديول بدقة متوافر محتوى نصى &ndash; فيديو</span></li>
@@ -190,6 +198,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/التعليمات .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -275,7 +284,8 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; "
+                                                rel="noopener noreferrer"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -305,8 +315,9 @@ foreach ($users as $user) {
                                         <source src="./video/module1/m1.2.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                    <p><a href="https://www.facebook.com/dina.gwida.5/"target="_blank" ><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; "
+                                                rel="noopener noreferrer"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -337,7 +348,8 @@ foreach ($users as $user) {
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
-                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; " rel="noopener noreferrer" ><strong><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; "
+                                                rel="noopener noreferrer"><strong><span
                                                         style="color: rgb(28, 146, 181);">التواصل مع
                                                         الباحثة</span></strong></span></a></p>
                                 </div>
@@ -353,6 +365,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -474,6 +487,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -531,7 +545,7 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module1Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -643,6 +657,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/التقييم البنائى .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
@@ -650,7 +665,7 @@ foreach ($users as $user) {
                             </div>
                         @endif
 
-                        
+
                         {{-- manual Support --}}
                         @if ($user->support === 'manual')
                             <hr>
@@ -710,7 +725,7 @@ foreach ($users as $user) {
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
                                 مفهوم الفيديو الرقم التفاعلي <a
                                     href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
-                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا  </strong></a></p>
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
 
                         </div>
                         <hr>
@@ -720,7 +735,7 @@ foreach ($users as $user) {
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
                                 استخدامات الفيديو التفاعلى فى العملية التعليمية <a
                                     href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
-                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا  </strong></a></p>
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
 
                         {{-- ////////////////////////////// Support
@@ -729,6 +744,7 @@ foreach ($users as $user) {
 
                         @if ($user->support === 'automatic')
                             <div id="manual">
+                                <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
                                     <source src="./video/module1/automatic support/المكتبة .mp4" type="video/mp4">
                                     Your browser does not support the video tag.

@@ -44,15 +44,15 @@
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('تسجيل دخول') }}</a>
                             </li>
                         @endif
-
+{{-- 
                         @if (Route::has('register'))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                             </li>
-                        @endif
+                        @endif --}}
                     @else
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('logout') }}"
@@ -158,37 +158,51 @@
                 <div class="row no-gutters">
                     <div class="col video-box">
                         @guest
-                            <form method="POST" action="{{ route('register') }}" dir="rtl" style="margin-top: 20px">
+                            <form method="POST" action="{{ route('login') }}" dir="rtl" style="margin-top: 20px">
                                 @csrf
+                                <h1>تسجيل الدخول</h1>
                                 <div class="form-group" style="margin-bottom: 20px">
-                                    <input id="name" type="text" class="form-control @error('name') is-invalid @enderror"
-                                        name="name" value="{{ old('name') }}" required autocomplete="name" autofocus
-                                        placeholder="الإسم">
-                                    {{-- <small id="emailHelp"
-                                        class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    --}}
+                                    <span class="input-group-addon"><i class="icon-user"></i>
+                                    </span>
+                                    <!-- <input type="text" class="form-control en" placeholder="نام کاربری یا ایمیل"> -->
+                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="البريد الإلكتروني ">
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                                 </div>
+
                                 <div class="form-group" style="margin-bottom: 20px">
-                                    <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
-                                        name="email" value="{{ old('email') }}" required autocomplete="email"
-                                        placeholder="البريد الإلكتروني">
+                                    <span class="input-group-addon"><i class="icon-lock"></i>
+                                    </span>
+                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="كلمة المرور">
+        
+                                    @error('password')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
+
                                 <div class="form-group" style="margin-bottom: 20px">
-                                    <input id="password" type="password"
-                                        class="form-control @error('password') is-invalid @enderror" name="password"
-                                        required autocomplete="new-password" placeholder="كلمة المرور">
+                                    <div class="input-group m-b-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                    
+                                            <label class="form-check-label" for="remember">
+                                                {{ __('تذكرني') }}
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-group" style="margin-bottom: 20px">
-                                    <input id="password-confirm" type="password" class="form-control"
-                                        name="password_confirmation" required autocomplete="new-password"
-                                        placeholder="إعادة كلمة المرور">
-                                </div>
+
 
                                 {{-- <button type="submit"
                                     class="btn btn-primary">Submit</button> --}}
                                     <p style="text-align: center">
                                         <button type="submit" class="btn btn-block btn-success">
-                                            {{ __('Register') }}
+                                            {{ __('تسجيل دخول') }}
                                         </button>
                                     </p>
 

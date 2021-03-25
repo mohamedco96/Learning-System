@@ -88,6 +88,31 @@ Route::get('/module6', function () {
     return view('module6');
 })->middleware('auth');
 
+
+Route::get('/module1Result', function () {
+    return view('module1Result');
+})->middleware('auth');
+
+Route::get('/module2Result', function () {
+    return view('module2Result');
+})->middleware('auth');
+
+Route::get('/module3Result', function () {
+    return view('module3Result');
+})->middleware('auth');
+
+Route::get('/module4Result', function () {
+    return view('module4Result');
+})->middleware('auth');
+
+Route::get('/module5Result', function () {
+    return view('module5Result');
+})->middleware('auth');
+
+Route::get('/module6Result', function () {
+    return view('module6Result');
+})->middleware('auth');
+
 //////////////////////////////////////////
 
 Route::get('/plan', function () {
@@ -110,10 +135,6 @@ Route::get('/score', function () {
 
 Route::get('/score2', function () {
     return view('score2');
-})->middleware('auth');
-
-Route::get('/score3', function () {
-    return view('score3');
 })->middleware('auth');
 
 
