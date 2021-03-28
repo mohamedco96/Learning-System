@@ -46,13 +46,13 @@
 
         $percentage = ($score / 5) * 100;
 
-    //     if ($percentage < 90) { 
+    //     if ($percentage < 85) { 
         
     //     // header('Location:/module1');
     //     // exit();
     // } 
     
-    if ($percentage >= 90) {
+    if ($percentage >= 85) {
        
         $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
@@ -65,7 +65,7 @@
         ?>
 
     </div>
-    @if ($percentage < 90)
+    @if ($percentage < 85)
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
@@ -527,7 +527,7 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد إجابة خاطئة}</button>
+                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد إجابة خاطئة</button>
                                                 </li>
                                                 <li>
                                                     <h4> تصدير و نشر الفيديو</h4>

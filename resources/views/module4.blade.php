@@ -551,19 +551,19 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
+                                        <h3>لتعديل أجزاء الشخصيات والعناصر يستخدم أمر: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> تعزيز التعلم النشط
+                                                <input type="radio" name="q1" value="1" required /> Add new sprite 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> تنمية مهارات المتعلم
+                                                <input type="radio" name="q1" value="2" required /> Editor pose 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" required /> زيادة ثقة المتعلم
+                                                <input type="radio" name="q1" value="3" required /> Character
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="4" required /> توفير الوقت
+                                                <input type="radio" name="q1" value="4" required /> Sprite editor
                                             </li>
                                         </ol>
                                     </div>
@@ -571,19 +571,19 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>تستخدم مرحلة التخطيط فى </h3>
+                                        <h3>لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" required /> انطلاق الفكرة
+                                                <input type="radio" name="q2" value="1" required /> Create Bone 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="2" required /> كتابة السيناريو
+                                                <input type="radio" name="q2" value="2" required /> Composer
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required /> انتاج المشاهد
+                                                <input type="radio" name="q2" value="3" required /> Animation 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="4" required /> تصدير و نشر الفيديو
+                                                <input type="radio" name="q2" value="4" required />Edit Pose
                                             </li>
 
                                         </ol>
@@ -592,24 +592,24 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <h3>يتم التعامل مع ملامح الوجه بإستخدام أمر:   </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q3" value="1" required /> طول مدة عرض الفيديو
+                                                <input type="radio" name="q3" value="1" required /> Face Key editor 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> الاعتماد على مؤثرات
-                                                صوتية بصورة
-                                                كبيرة
+                                                <input type="radio" name="q3" value="2" required />  Head 3d move 
+                                                
+                                                
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required /> استخدام عناصر توجيه
-                                                الانتباه
+                                                <input type="radio" name="q3" value="3" required /> Template 
+                                                
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="4" required />التركيز على عنصر واحد فقط
-                                                داخل
-                                                المشهد
+                                                <input type="radio" name="q3" value="4" required />Facial Animation 
+                                                
+                                                
                                             </li>
                                         </ol>
                                     </div>
@@ -617,8 +617,8 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
-                                            تفاعلية </h3>
+                                        <h3> يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه
+                                            </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q4" value="1" required /> صح
@@ -633,7 +633,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <h3>يستخدم أمر2D motion key Editor لاضافة عظام للشخصيات    </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q5" value="1" required /> صح

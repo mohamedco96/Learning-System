@@ -27,16 +27,16 @@
         $score=0;
         
         
-       if($q1 == '1'){
+       if($q1 == '2'){
            $score++;
        }
-       if($q2 == '2'){
+       if($q2 == '3'){
            $score++;
        }
-       if($q3 == '3'){
+       if($q3 == '4'){
            $score++;
        }
-       if($q4 == '1'){
+       if($q4 == '2'){
            $score++;
        }
        if($q5 == '1'){
@@ -46,13 +46,13 @@
 
         $percentage = ($score / 5) * 100;
 
-    //     if ($percentage < 90) { 
+    //     if ($percentage < 85) { 
         
     //     // header('Location:/module1');
     //     // exit();
     // } 
     
-    if ($percentage >= 90) {
+    if ($percentage >= 85) {
        
         $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
@@ -65,7 +65,7 @@
         ?>
 
     </div>
-    @if ($percentage < 90)
+    @if ($percentage < 85)
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
@@ -80,70 +80,70 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
+                                        <h3>لادراج صورة داخل برنامج Cartoon animator 4  يتم الضغط على أمر</h3>
                                         <ol dir="rtl">
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">تعزيز التعلم النشط   إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  New Project </button>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> تنمية مهارات المتعلم إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Create media</button>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li>
                                                 @break
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   زيادة ثقة المتعلم إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة Composer</button>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   توفير الوقت إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">    إجابة خاطئة  Scene</button>
                                                 </li>                                                    
                                                 @break
 
@@ -156,70 +156,70 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>تستخدم مرحلة التخطيط فى </h3>
+                                        <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئةProp</button>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> Import PSD</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> انطلاق الفكرة إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Create media </button>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> Import PSD</h4>
                                                 </li>
                                                 @break
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة   Scene</button>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4>Prop  </h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   تصدير و نشر الفيديو إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">   إجابة خاطئة Import PSD</button>
                                                 </li>                                                    
                                                 @break
 
@@ -233,70 +233,70 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">استخدام عناصر توجيه الانتباه إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة	animation</button>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4> Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Actor</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(1)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> طول مدة عرض الفيديو إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Scene </button>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Actor</h4>
                                                 </li>
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   الاعتماد على مؤثرات صوتية بصورة كبيرة إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة	Prop</button>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4> Actor</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   التركيز على عنصر واحد فقط داخل المشهد إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">    إجابة صحيحة  Actor </button>
                                                 </li>                                                    
                                                 @break
 
@@ -309,14 +309,14 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
-                                            تفاعلية </h3>
+                                        <h3> يستخدم أمر transform  لتحرير العناصر 
+                                             </h3>
                                             <ol dir="rtl">
                                                 @switch($q4)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -329,7 +329,7 @@
                                                     </li>
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
     
@@ -342,7 +342,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <h3>يمكن التعديل على شخصيات برنامج Cartoon Animator   </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
                                                 @case(1)
@@ -392,7 +392,7 @@
     </div>
     @endif
 
-    @if ($percentage >= 90)
+    @if ($percentage >= 85)
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
@@ -413,64 +413,64 @@
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">تعزيز التعلم النشط إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  New Project </button>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> تنمية مهارات المتعلم إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Create media</button>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li>
                                                 @break
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   زيادة ثقة المتعلم إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة Composer</button>
                                                 </li>
                                                 <li>
-                                                    <h4> توفير الوقت</h4>
+                                                    <h4> Scene</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>تعزيز التعلم النشط</h4>
+                                                    <h4>New Project </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>تنمية مهارات المتعلم</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>زيادة ثقة المتعلم</h4>
+                                                    <h4>Composer </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   توفير الوقت إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">    إجابة خاطئة  Scene</button>
                                                 </li>                                                    
                                                 @break
 
@@ -483,70 +483,70 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>تستخدم مرحلة التخطيط فى </h3>
+                                        <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئةProp</button>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> Import PSD</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> انطلاق الفكرة إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Create media </button>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> Import PSD</h4>
                                                 </li>
                                                 @break
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد إجابة خاطئة}</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة   Scene</button>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4>Prop  </h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>Prop </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>Create media</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   تصدير و نشر الفيديو إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">   إجابة خاطئة Import PSD</button>
                                                 </li>                                                    
                                                 @break
 
@@ -560,70 +560,70 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">استخدام عناصر توجيه الانتباه إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة	animation</button>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4> Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Actor</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(1)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> طول مدة عرض الفيديو إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Scene </button>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Actor</h4>
                                                 </li>
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   الاعتماد على مؤثرات صوتية بصورة كبيرة إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة	Prop</button>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4> Actor</h4>
                                                 </li> 
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>استخدام عناصر توجيه الانتباه</h4>
+                                                    <h4>animation</h4>
                                                 </li>
                                                 <li>
-                                                    <h4> طول مدة عرض الفيديو</h4>
+                                                    <h4>Scene</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>الاعتماد على مؤثرات صوتية بصورة كبيرة</h4>
+                                                    <h4>Prop</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   التركيز على عنصر واحد فقط داخل المشهد إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">    إجابة صحيحة  Actor </button>
                                                 </li>                                                    
                                                 @break
 
@@ -636,14 +636,14 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
-                                            تفاعلية </h3>
+                                        <h3> يستخدم أمر transform  لتحرير العناصر 
+                                             </h3>
                                             <ol dir="rtl">
                                                 @switch($q4)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -656,7 +656,7 @@
                                                     </li>
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
     
@@ -669,7 +669,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <h3>يمكن التعديل على شخصيات برنامج Cartoon Animator   </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
                                                 @case(1)

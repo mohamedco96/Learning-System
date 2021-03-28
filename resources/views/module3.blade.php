@@ -551,19 +551,21 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
+                                        <h3>-	لادراج صورة داخل برنامج Cartoon animator 4  يتم الضغط على أمر
+                                            
+                                             </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> تعزيز التعلم النشط
+                                                <input type="radio" name="q1" value="1" required /> New Project 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> تنمية مهارات المتعلم
+                                                <input type="radio" name="q1" value="2" required /> Create media
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" required /> زيادة ثقة المتعلم
+                                                <input type="radio" name="q1" value="3" required /> Composer 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="4" required /> توفير الوقت
+                                                <input type="radio" name="q1" value="4" required /> Scene
                                             </li>
                                         </ol>
                                     </div>
@@ -571,19 +573,19 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>تستخدم مرحلة التخطيط فى </h3>
+                                        <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" required /> انطلاق الفكرة
+                                                <input type="radio" name="q2" value="1" required /> Prop
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="2" required /> كتابة السيناريو
+                                                <input type="radio" name="q2" value="2" required /> Create media
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required /> انتاج المشاهد
+                                                <input type="radio" name="q2" value="3" required /> Scene
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="4" required /> تصدير و نشر الفيديو
+                                                <input type="radio" name="q2" value="4" required /> Import PSD
                                             </li>
 
                                         </ol>
@@ -592,24 +594,24 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q3" value="1" required /> طول مدة عرض الفيديو
+                                                <input type="radio" name="q3" value="1" required /> animation
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> الاعتماد على مؤثرات
-                                                صوتية بصورة
-                                                كبيرة
+                                                <input type="radio" name="q3" value="2" required /> Scene
+                                                
+                                                
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required /> استخدام عناصر توجيه
-                                                الانتباه
+                                                <input type="radio" name="q3" value="3" required /> Prop
+                                                
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="4" required />التركيز على عنصر واحد فقط
-                                                داخل
-                                                المشهد
+                                                <input type="radio" name="q3" value="4" required />Actor
+                                                
+                                                
                                             </li>
                                         </ol>
                                     </div>
@@ -617,8 +619,8 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
-                                            تفاعلية </h3>
+                                        <h3> -	يستخدم أمر transform  لتحرير العناصر 
+                                            </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q4" value="1" required /> صح
@@ -633,7 +635,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <h3>يمكن التعديل على شخصيات برنامج Cartoon Animator   </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q5" value="1" required /> صح

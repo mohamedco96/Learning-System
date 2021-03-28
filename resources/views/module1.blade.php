@@ -63,7 +63,7 @@ foreach ($users as $user) {
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
                                 الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
-                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
+                                مثل المفهوم والمميزات والتطبيقات التربوية
                             </span>
                         </p>
                         <p dir="RTL"
@@ -82,7 +82,6 @@ foreach ($users as $user) {
                                     تذكر مفهوم الفيديو الرقمى
                                     التفاعلى
                                 </span></li>
-                            </p>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
                                     التفاعلى</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
@@ -93,6 +92,7 @@ foreach ($users as $user) {
                                     للفيديو الرقمى التفاعلى&nbsp;</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
                                     التفاعلى</span></li>
+                         </p>
                         </ol>
 
                         {{-- ////////////////////////////// Support
@@ -103,7 +103,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                    <source src="./video/module2/automatic support/الاهداف دعم  .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -127,18 +127,20 @@ foreach ($users as $user) {
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>الإلمام بالمعلومات الأساسية للفيديو الرقمى التفاعلى مثل المفهوم والمميزات والتطبيقات التربوية&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى </li>
                                     <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تستنج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
-                                        التفاعلى&nbsp;</li>
+                                    <li style="line-height: 2;">تستنتج محتويات الفيديو الرقمى التفاعلى </li>
+                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية التعليمية  
+                                    </li>
+                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى </li>
+                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى التفاعلى  
+                                        &nbsp;</li>
                                     <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+
+
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
