@@ -16,11 +16,11 @@ exit();
                             تهدف البيئة إلى تنمية مهارات إنتاج الفيديو الرقمى التفاعلى  &nbsp;
                         </span></strong></span></header>
             <header style="text-align: center;"><span style="font-family: 'Open Sans';"><strong><span
-                            style="color: rgb(71, 85, 119); font-size: 26px;">لدى طلاب الفرقة الثالثة تكنولوجيا التعليم بكلية التربية جامعة دمياط
+                            style="color: rgb(71, 85, 119); font-size: 26px;"> لدى طلاب الفرقة الثالثة تكنولوجيا التعليم بكلية التربية جامعة دمياط و مستوى الدافعية للإنجاز
                             </span></strong></span><span style="font-size: 26px;"><span
-                        style="color: rgb(71, 85, 119);"><strong><span
-                                style="font-family: 'Open Sans';">ومستوى الدافعية للإنجاز
-                                .</span></strong></span></span></header>
+                        style="color: rgb(71, 85, 119);"><strong><span 
+                              تنقسم البيئة إلى 6 موديولات عليك أولا اتباع تعليمات البية   style="font-family: 'Open Sans';">
+                                </span></strong></span></span></header>
             <hr>
             <p style="text-align: center;"><span
                     style="font-size: 26px; font-family: 'Open Sans';"><strong><span

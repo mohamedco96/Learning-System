@@ -62,8 +62,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
-                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
+                                إضافة المؤثرات الصوتية والانتقالية بين المشاهد 
+                                
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,20 +79,19 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                    تذكر مفهوم الفيديو الرقمى
-                                    التفاعلى
+                                تعدد طرق إدراج صوت لبرنامج Cartoon Animator 
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
-                                    التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد مراحل إنتاج الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صوت من ملفات الجهاز 
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تسجيل الصوت داخل البرنامج 
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد 
+                                    </span></li>
+                            {{-- <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
                                     للفيديو الرقمى التفاعلى&nbsp;</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
-                                    التفاعلى</span></li>
+                                    التفاعلى</span></li> --}}
                         </ol>
 
                         {{-- ////////////////////////////// Support

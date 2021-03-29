@@ -62,8 +62,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
-                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
+                                إكتساب مهارات إعداد مشهد كرتونى ووضع الشخصيات داخل المشهد
+                                
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,20 +79,32 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                    تذكر مفهوم الفيديو الرقمى
-                                    التفاعلى
+                               	تعد مشروع جديد برنامج Cartoon Animator
+                                  
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
-                                    التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد مراحل إنتاج الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
-                                    للفيديو الرقمى التفاعلى&nbsp;</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
-                                    التفاعلى</span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض ملفات العمل للبرنامج 
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>  تعدل فى خصائص عناصر العمل داخل البرنامج 
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'> توضح خطوات إدارج شخصيات لمساحة العمل بالبرنامج 
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض خصائص الشخصيات المدرجة داخل البرنامج 
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تضيف مشهد متكامل للبرنامج 
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدل على وضعيات الشخصيات 
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات إدراج عناصر المشهد 
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تغير تعبيرات الوجه للشخصيات  
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صورة للمشهد 
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستخدم أدوات تحرير العناصر  
+                                        </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>	تعرض خطوات إضافة عظام للشخصيات
+                                   &nbsp;</span></li>
                         </ol>
 
                         {{-- ////////////////////////////// Support
@@ -103,7 +115,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                    <source src="./video/module3/automatic support/الاهداف الموديول الثالث.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -127,29 +139,35 @@ foreach ($users as $user) {
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>إكتساب مهارات إعداد مشهد كرتونى ووضع الشخصيات داخل المشهد&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تستنج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
-                                        التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعد مشروع جديد برنامج Cartoon Animator</li>
+                                    <li style="line-height: 2;">تعرض ملفات العمل للبرنامج </li>
+                                    <li style="line-height: 2;">تعدل فى خصائص عناصر العمل </li>
+                                    <li style="line-height: 2;">توضح خطوات إدارج شخصيات لمساحة العمل 
+                                        </li>
+                                    <li style="line-height: 2;">تعرض خصائص الشخصيات المدرجة داخل البرنامج </li>
+                                    <li style="line-height: 2;">تضيف مشهد متكامل للبرنامج 
+                                        &nbsp;</li>
+                                    <li style="line-height: 2;">تعدل على وضعيات الشخصيات </li>
+                                    <li style="line-height: 2;">تشرح خطوات إدراج عناصر المشهد  </li>
+                                    <li style="line-height: 2;">تطبق خطوات تغير تعبيرات الوجه للشخصيات </li>
+                                    <li style="line-height: 2;">تميز بين خطوات إدراج صورة للمشهد </li>
+                                    <li style="line-height: 2;">تستخدم أدوات تحرير العناصر </li>
+                                    <li style="line-height: 2;">تعرض خطوات إضافة عظام للشخصيات</li>
+
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.1" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module3/Manual support/الاهداف -01.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.1" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module3/automatic support/الاهداف الموديول الثالث.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -221,10 +239,10 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
-                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية
+                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية لضمان اتمام دراسة الموديول بنجاح 
                                     &nbsp;</p>
-                                <p>الموديول الاول :&nbsp;</p>
-                                <p>أساسيات التعامل مع الفيديو الرقمى التفاعلى&nbsp;</p>
+                                <p> الموديول الثالث:  &nbsp;</p>
+                                <p>مهارات إنتاج فيديو كرتونى ثنائى البعد باستخدام  Cartoon Animator &nbsp;</p>
                                 <p>تعليمات الموديول &nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل
@@ -234,16 +252,19 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">اطلع على محتوى الموديول ومتوافر لديك سواء محتوى نصى وفيديو
                                         التعليمية</li>
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
-                                    <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى
-                                        للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى
-                                        إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</li>
+                                    <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء التقييم البنائى
+                                        للموديول، ولا يسمح لك بالانتقال إلى الموديول الثالى
+                                        إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
+                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام 
+                                            عليك الاطلاع عليها اسفل الشاشة</li>
+    
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.2" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/التعليمات.jpg"
+                                <p style="text-align: center"><img src="./video/module3/Manual support/تعليمات-01.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
@@ -269,9 +290,9 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على مفهوم الفيديو الرقمى التفاعلى ومميزاته
+                                                    سوف نتعرف فى هذا الدرس على كيفية إنشاء مشروع جديد والتعامل مع محتويات البرنامج 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1mWhVuvR-JD0KMyD08E6wc_fHDCY1ahXl/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -280,7 +301,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.1.mp4" type="video/mp4">
+                                        <source src="./video/module3/le1 M3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -300,11 +321,11 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على محتويات الفيديو الرقمى التفاعلى ومراحل إنتاج
-                                                    الفيديو
-                                                    التفاعلى
+                                                    سوف نتعرف فى هذا الدرس على كيفية أدراج شخصيات جاهزة والتعديل عليها
+                                                    
+                                                    
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1b-bkyFMig71Wz7SHqU7mmczI1KJpOcn-/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -312,7 +333,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.2.mp4" type="video/mp4">
+                                        <source src="./video/module3/le2 M3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -332,11 +353,10 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على التطبيقات التربوية للفيديو التفاعلى فى
-                                                    العملية
-                                                    التعليمية ومعايير إنتاجه
+                                                    سوف نتعرف فى هذا الدرس على كيفية التعديل على تفاصيل الشخصيات 
+                                                
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1OHe43XBHhptzdDmCtdrmGVnU_1eJUmy1/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -344,7 +364,37 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.3.mp4" type="video/mp4">
+                                        <source src="./video/module3/le3 m3 .mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; "
+                                                rel="noopener noreferrer"><strong><span
+                                                        style="color: rgb(28, 146, 181);">التواصل مع
+                                                        الباحثة</span></strong></span></a></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p><span
+                                            style="color: rgb(228, 40, 7); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                                    style="font-size: 24px;">الدرس الرابع</span></strong></span></p>
+                                    <p><span
+                                            style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
+                                                style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
+                                                سوف نتعرف فى هذا الدرس على كيفية تغير ملامح الشخصيات  
+                                                
+                                                </strong></span></span></p>
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
+                                            rel="noopener noreferrer" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                                        style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
+                                                        نصى</span></strong></span></a></p>
+                                </div>
+                                <div class="col-sm-6" style="">
+                                    <video width="320" height="240" controls>
+                                        <source src="./video/module3/le4 M3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -367,7 +417,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                    <source src="./video/module3/automatic support/support content 3 .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -388,40 +438,36 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p> مفهوم الفيديو الرقمى التفاعلى
+                                <p> للحصول على مصادر للعمل يمكنك البحث على المصادر التالية : 
                                     &nbsp;</p>
-                                <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
+                                {{-- <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
                                 <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات
                                     حركية وإطارات ثابتة، وأسئلة ، وقوائم،&nbsp;</p>
                                 <p>بينما تكون إستجابات الطالب عن طريق الكمبيوتر هى المحددة لعدد تتابع مشاهد الفيديو، وعليها
-                                    يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p>
+                                    يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p> --}}
                                 <ul>
-                                    <li style="line-height: 2;">تعريف طارق عامر(2015)</li>
-                                    <li style="line-height: 2;">بأنه برنامج فيديو مقسم إلى اجزاء صغيرة تتكون من تتابعات
-                                        حركية وإطارات ثابتة وقوائم وتكون استجابات المتعلم عن طريق الكمبيوتر هى المحددة
-                                        لتتابع لقطات او مشاهدة الفيديو وعليها يتأثر شكل وطبيعة العرض</li>
-                                    <li style="line-height: 2;">تعريف الباحثة للفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">بأنه مقاطع فيديو قصيرة تتكون من لقطات رسوم متحركة ثنائية
-                                        البعد وإيقونات تحكم وإستجابة وأسئلة وأنشطة، تسمح للمتعلم بالتحرك داخل الفيديو وفقا
-                                        لسرعته وخطة أهداف التعليمية،
-                                        وروابط خارجية ؛ وأدوات تفاعل وطرح أسئلة وتغذية راجعة فى ضوء إستجابات المتعلمين.</li>
-                                    <li style="line-height: 2;"> أهمية الفيديو التفاعلى :</li>
+                                    <li style="line-height: 2;">Pixabay </li>
+                                    <li style="line-height: 2;">Freepik</li>
+                                    <li style="line-height: 2;">Pexel </li>
+                                    <li style="line-height: 2;">Pngtree
+                                        </li>
+                                    {{-- <li style="line-height: 2;"> أهمية الفيديو التفاعلى :</li>
                                     <li style="line-height: 2;">يذكر أشرف الكحيل (2017) من خصائص الفيديو التفاعلى
                                         - يحلل الفيديو الأفكار المعقدة إلى لقطات يمكن معالجتها بسهولة، فهو يقلل من حمل
                                         القراءة بالنسبة إلى المتعلم، من خلال تقديم المحتوى كمرئيات جذابة&nbsp;</li>
                                     <li style="line-height: 2;"> يقدم الفيديو معلومات باستخدام سرد، مما يسمح للمتعلم
-                                        بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li>
+                                        بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.3" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/المحتوى.jpg"
+                                <p style="text-align: center"><img src="./video/module3/Manual support/محتوى.png"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.3" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                        <source src="./video/module3/automatic support/support content 3 .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -437,8 +483,8 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    اكتب مفهومك للفيديو الرقمى التفاعلى وحدد استخدماته فى العملية
-                                    التعليمية
+                                   قم بإ عداد مشهد كرتونى هادف ليتناسب مع مهارات الموديول التى اكتسبتها 
+                                    
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -489,7 +535,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                    <source src="./video/module3/automatic support/support activitie 3.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -517,6 +563,7 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">قم بالاطلاع على المكتبة الأثرائية </li>
                                     <li style="line-height: 2;">استخدام محركات البحث المختلفة </li>
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الموعد المحدد </li>
+                                    <li style="line-height: 2;">عليك بضغط الملف وارفاقه بصيغة Rar ثم الضغط على زر ارفاق النشاط لتسليم النشاط</li>
                                     <li style="line-height: 2;">فى حالة وجود اى صعوبة يمكنك التواصل مع الباحثة عبر
                                         بيانات التواصل المختلفة </li>
                                     {{-- <li style="line-height: 2;">يحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
@@ -527,13 +574,13 @@ foreach ($users as $user) {
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.4" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/النشاط.jpg"
+                                <p style="text-align: center"><img src="./video/module3/Manual support/نشاط.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.4" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                        <source src="./video/module3/automatic support/support activitie 3.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -683,7 +730,7 @@ foreach ($users as $user) {
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p> بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول،
-                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،
+                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (85%) ،
                                     &nbsp;</p>
                                 <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة
                                     الاتقان.&nbsp;</p>
@@ -725,8 +772,8 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                مفهوم الفيديو الرقم التفاعلي <a
-                                    href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
+                                نماذج Cartoon Animator  <a
+                                    href="https://www.youtube.com/watch?v=kjFmOAobi4Y&list=RDCMUCgigyhFYBO-trin-NBtJWeQ&start_radio=1&t=0"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
 
                         </div>
@@ -735,11 +782,11 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                استخدامات الفيديو التفاعلى فى العملية التعليمية <a
-                                    href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
+                                انواع الشخصيات داخل Cartoon Animator  <a
+                                    href="https://www.youtube.com/watch?v=yRlV7aMB7O8"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
-
+                        <hr>
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
                         {{-- automatic Support --}}
