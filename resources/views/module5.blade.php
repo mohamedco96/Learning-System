@@ -62,8 +62,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
-                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
+                                إكتساب مهارة إضافة مؤثرات صوتية وحركات إنتقالية
+                                
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,20 +79,20 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                    تذكر مفهوم الفيديو الرقمى
-                                    التفاعلى
+                               	تعدد طرق إدراج صوت لبرنامج Cartoon Animator
+                                    
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صوت من ملفات الجهاز 
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تسجيل الصوت داخل البرنامج 
                                     التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد مراحل إنتاج الفيديو الرقمى
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد 
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
+                            {{-- <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
                                     للفيديو الرقمى التفاعلى&nbsp;</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
-                                    التفاعلى</span></li>
+                                    التفاعلى</span></li> --}}
                         </ol>
 
                         {{-- ////////////////////////////// Support
@@ -103,7 +103,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                    <source src="./video/module5/automatic support/الاهداف الموديول الخامس .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -127,29 +127,29 @@ foreach ($users as $user) {
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>إكتساب مهارة إضافة مؤثرات صوتية وحركات إنتقالية&nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تستنج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعدد طرق إدراج صوت لبرنامج Cartoon Animator</li>
+                                    <li style="line-height: 2;">تميز بين خطوات إدراج صوت من ملفات الجهاز </li>
+                                    <li style="line-height: 2;">تطبق خطوات تسجيل الصوت داخل البرنامج </li>
+                                    <li style="line-height: 2;">تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد 
+                                        </li>
+                                    {{-- <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
                                         التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li> --}}
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.1" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module5/Manual support/الاهداف-01.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.1" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module5/automatic support/الاهداف الموديول الخامس .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -190,7 +190,7 @@ foreach ($users as $user) {
                                     عن اسئلة التقييم البنائى للموديول&nbsp;</span></li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
-                                    اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
+                                    اجتياز الموديول بنسبة 85% للانتقال للموديول التالى&nbsp;</span></li>
                         </ul>
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
