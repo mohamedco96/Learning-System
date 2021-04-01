@@ -223,8 +223,8 @@ foreach ($users as $user) {
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
                                 <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية
                                     &nbsp;</p>
-                                <p>الموديول الاول :&nbsp;</p>
-                                <p>أساسيات التعامل مع الفيديو الرقمى التفاعلى&nbsp;</p>
+                                <p>الموديول الخامس :&nbsp;</p>
+                                <p>إكتساب مهارة إضافة مؤثرات صوتية وحركات إنتقالية&nbsp;</p>
                                 <p>تعليمات الموديول &nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">تعرف على بيانات الباحثة أدوات التواصل لكى تتمكن من التواصل
@@ -236,7 +236,7 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
                                     <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى
                                         للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى
-                                        إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</li>
+                                        إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                 </ul>
@@ -269,9 +269,9 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على مفهوم الفيديو الرقمى التفاعلى ومميزاته
+                                                 سوف نتعرف فى هذا الدرس على كيفية إضافة تاثيرات انتقالية 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1mWhVuvR-JD0KMyD08E6wc_fHDCY1ahXl/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -280,7 +280,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.1.mp4" type="video/mp4">
+                                        <source src="./video/module5/le1 m5.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -300,11 +300,10 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على محتويات الفيديو الرقمى التفاعلى ومراحل إنتاج
-                                                    الفيديو
-                                                    التفاعلى
+                                                    سوف نتعرف فى هذا الدرس على كيفية إضافة صوت للمشاهد    
+                                                    
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1b-bkyFMig71Wz7SHqU7mmczI1KJpOcn-/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -312,7 +311,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.2.mp4" type="video/mp4">
+                                        <source src="./video/module5/le2 m5.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -332,11 +331,9 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على التطبيقات التربوية للفيديو التفاعلى فى
-                                                    العملية
-                                                    التعليمية ومعايير إنتاجه
+                                                    سوف نتعرف فى هذا الدرس على كيفية اخراج الفيديو بصيغة Mp4
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1OHe43XBHhptzdDmCtdrmGVnU_1eJUmy1/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -344,7 +341,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.3.mp4" type="video/mp4">
+                                        <source src="./video/module5/le3 m5.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -367,7 +364,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                    <source src="./video/module5/automatic support/le4 m5.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -415,13 +412,13 @@ foreach ($users as $user) {
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.3" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/المحتوى.jpg"
+                                <p style="text-align: center"><img src="./video/module5/Manual support/دعم-محتوى.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.3" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                        <source src="./video/module5/automatic support/le4 m5.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -437,8 +434,8 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    اكتب مفهومك للفيديو الرقمى التفاعلى وحدد استخدماته فى العملية
-                                    التعليمية
+                                    قم باضافة المؤثرات الانتقالية بين عناصر المشهد وعليك بتصدير المشهد بصيغة MP4
+                                   
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -489,7 +486,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                    <source src="./video/module5/automatic support/دعم المحتوى الخامس .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -527,13 +524,13 @@ foreach ($users as $user) {
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.4" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/النشاط.jpg"
+                                <p style="text-align: center"><img src="./video/module5/Manual support/دعم-نشاط.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.4" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                        <source src="./video/module5/automatic support/دعم المحتوى الخامس .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -680,7 +677,7 @@ foreach ($users as $user) {
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.5" style="display: none; margin-top: 20px">
                                 <p> بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى للموديول،
-                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (90%) ،
+                                    ، ولا يسمح لك بالانتقال إلى الموديول الثانى إلا فى حالة حصولك على درجة الاتقان (85%) ،
                                     &nbsp;</p>
                                 <p>ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة مرات فى حالة عدم تحقيق درجة
                                     الاتقان.&nbsp;</p>
@@ -722,8 +719,8 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                مفهوم الفيديو الرقم التفاعلي <a
-                                    href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
+                                تطبيق عملى مشهد سباحة  <a
+                                    href="https://www.youtube.com/watch?v=jPdL965vr3M"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
 
                         </div>
@@ -732,8 +729,17 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                استخدامات الفيديو التفاعلى فى العملية التعليمية <a
-                                    href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
+                                إنشاء مشهد من الفوتوشوب والكارتون انيميتور  <a
+                                    href="https://www.youtube.com/watch?v=vU_ufVQCX50"
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
+                        </div>
+                        <hr>
+
+                        <div class="row" style="margin-bottom: 20px; text-align: center">
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                فيديو عن كيفية الوضوء   <a
+                                    href="https://www.youtube.com/watch?v=vU_ufVQCX50"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
 

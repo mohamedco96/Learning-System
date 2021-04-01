@@ -53,7 +53,8 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+  font-size:16px; }
 
 b,
 strong {
@@ -318,7 +319,7 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #00080a;
+  color: #22b5e8;
   text-decoration: none; }
   a:focus, a:hover {
     color: #167495;

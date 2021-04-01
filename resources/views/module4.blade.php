@@ -456,7 +456,7 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    قم بإنشاء مشهد كرتونى عن تعليم الوضوء مع إضافة المؤثرات الصوتية والحركات الانتقالية بين المشاهد 
+                                    فى ضوء ما تم دراسة قم بتحريك عناصر المشهد الذى انتجته فى الموديول السابق  
                                     
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span

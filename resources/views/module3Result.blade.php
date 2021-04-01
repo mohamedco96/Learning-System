@@ -54,7 +54,7 @@
     
     if ($percentage >= 85) {
        
-        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
+        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module4` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module2');
         // exit();

@@ -2070,7 +2070,7 @@ border-color: #4dbd74; }
 
 .btn-warning {
 color: #fff;
-background-color: #f8cb00;
+background-color: #f86d00fa;
 border-color: #f8cb00; }
 .btn-warning:hover {
 color: #fff;
@@ -2300,7 +2300,7 @@ text-decoration: none; }
 
 .btn-lg, .btn-group-lg > .btn {
 padding: 12px 24px;
-padding: 0.75rem 1.5rem;
+padding: 0.75rem 0.5rem;
 font-size: 20px;
 font-size: 1.25rem; }
 

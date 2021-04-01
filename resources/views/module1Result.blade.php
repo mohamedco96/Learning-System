@@ -162,26 +162,26 @@
                                                 @case(2)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> تصدير و نشر الفيديو </h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> انطلاق الفكرة إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
                                                 </li>
                                                 <li>
                                                     <h4>انتاج المشاهد</h4>
@@ -193,10 +193,10 @@
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
@@ -209,13 +209,13 @@
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
