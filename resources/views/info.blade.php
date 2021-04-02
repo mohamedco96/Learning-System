@@ -10,6 +10,7 @@
 
 @section('content')
     <div class="container" style="padding-top: ">
+        <p class="" style="text-align: center; margin-top: 50px">نص</p>
         <p style="text-align: center"><video width="800" height="600" controls>
             <source src="./video/تعليمات البيئة .mp4" type="video/mp4">
             Your browser does not support the video tag.

@@ -528,7 +528,7 @@
         }
        
 
-        $percentage = ($score / 28) * 100;
+        $percentage = ($score / 140) * 100;
 
         $level='';
         // echo  '#####'.$level.'<br>';

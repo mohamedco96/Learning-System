@@ -555,6 +555,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">اختر من متعدد </h4>
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
                                         <ol dir="rtl">
@@ -575,6 +576,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">اختر من متعدد </h4>
                                     <div class="form-group">
                                         <h3>تستخدم مرحلة التخطيط فى </h3>
                                         <ol dir="rtl">
@@ -596,6 +598,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">اختر من متعدد </h4>
                                     <div class="form-group">
                                         <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
@@ -621,6 +624,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إختر الإجابة الصحيحة</h4>
                                     <div class="form-group">
                                         <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
                                             تفاعلية </h3>
@@ -637,6 +641,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إختر الإجابة الصحيحة</h4>
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
                                         <ol dir="rtl">
@@ -649,6 +654,26 @@ foreach ($users as $user) {
                                         </ol>
                                     </div>
                                 </section>
+
+                                {{-- <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q6" value="1" required /> تعزيز التعلم النشط
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q6" value="2" required /> تنمية مهارات المتعلم
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q6" value="3" required /> زيادة ثقة المتعلم
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q6" value="4" required /> توفير الوقت
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section> --}}
 
                             </div>
                             <input type="hidden" name="id" value={{ Auth::user()->id }} />

@@ -21,6 +21,8 @@
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
         
+        // $q6 = $_GET['q6'];
+        
         $id = $_GET['id'];
         }
 
@@ -43,8 +45,14 @@
            $score++;
        }
 
+    //    if($q6 == '1'){
+    //        $score++;
+    //    }
+
 
         $percentage = ($score / 5) * 100;
+
+        // $percentage = ($score / 6) * 100;
 
     //     if ($percentage < 85) { 
         
