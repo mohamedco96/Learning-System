@@ -569,6 +569,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>يعد من أهم تطبيقات إنتاج فيديو كرتوني برنامج </h3>
                                         <ol dir="rtl">
@@ -589,6 +590,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>اى مما يلى يعد من إمكانات الفيديو التفاعلى  </h3>
                                         <ol dir="rtl">
@@ -610,6 +612,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3> لاضافة محتويات داخل المشهد يتم التعامل مع شريط  </h3>
                                         <ol dir="rtl">
@@ -633,17 +636,71 @@ foreach ($users as $user) {
                                         </ol>
                                     </div>
                                 </section>
+                                 {{-- Question --}}
+                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
+                                    <div class="form-group">
+                                        <h3> لاضافة محتويات داخل المشهد يتم التعامل مع شريط  </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q3" value="1" required />Workspace
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="2" required /> Layer Manager 
+                                                
+                                                
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="3" required /> 
+                                                Scene Manager 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q3" value="4" required />Content manager 
+                                                
+                                                
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                 {{-- Question --}}
+                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
+                                    <div class="form-group">
+                                        <h3> لإضافة مشروع جديد يتم الضغط على قائمة:   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q4" value="1" required />New 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="2" required /> File 
+                                                
+                                                
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="3" required /> 
+                                                Project 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="4" required />Edit
+                                                
+                                                
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                               
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown"> إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
                                     <div class="form-group">
                                         <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل  
                                              </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> صح
+                                                <input type="radio" name="q5" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> خطأ
+                                                <input type="radio" name="q5" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -655,10 +712,40 @@ foreach ($users as $user) {
                                         <h3>يستخدم برنامج adobe Premiere  فى تحرير وتعديل الفيديوهات  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q6" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q6" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown"> إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
+                                    <div class="form-group">
+                                        <h3>يمكن الوصول إلى امر تكرار  Duplicateمن شريط الادوات  </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q7" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q7" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown"> إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
+                                    <div class="form-group">
+                                        <h3>يعد برنامج Photoshop  من البرامج الشهيرة فى إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q8" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q8" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>

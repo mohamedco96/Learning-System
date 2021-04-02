@@ -192,7 +192,7 @@ foreach ($users as $user) {
                                     عن اسئلة التقييم البنائى للموديول&nbsp;</span></li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
-                                    اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
+                                    اجتياز الموديول بنسبة 85% للانتقال للموديول التالى&nbsp;</span></li>
                         </ul>
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
@@ -238,7 +238,7 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
                                     <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى
                                         للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى
-                                        إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</li>
+                                        إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                     <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام 
@@ -555,7 +555,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
-                                    <h4 style="color: brown">اختر من متعدد </h4>
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو الرقمى التفاعلى فى </h3>
                                         <ol dir="rtl">
@@ -576,7 +576,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
-                                    <h4 style="color: brown">اختر من متعدد </h4>
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>تستخدم مرحلة التخطيط فى </h3>
                                         <ol dir="rtl">
@@ -598,7 +598,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
-                                    <h4 style="color: brown">اختر من متعدد </h4>
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
@@ -621,19 +621,44 @@ foreach ($users as $user) {
                                             </li>
                                         </ol>
                                     </div>
-                                </section>
-                                {{-- Question --}}
+                                </section>                             
+                               {{-- Question --}}
                                 <section class="section_next">
-                                    <h4 style="color: brown">إختر الإجابة الصحيحة</h4>
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
-                                        <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
-                                            تفاعلية </h3>
+                                        <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> صح
+                                                <input type="radio" name="q4" value="1" required /> الإنغماس الكامل 
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> خطأ
+                                                <input type="radio" name="q4" value="2" required /> توفير الوقت والمكان 
+                                                
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="3" required /> بيئة تعليمية متكاملة 
+                                               
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="4" required />إمكانية الإبحار 
+                                                
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown"> إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
+                                    <div class="form-group">
+                                        <h3> من معايير إنتاج الفيديو الرقمى التفاعلى وضوح الفكرة وتناسب المحتوى مع الفئة العمرية
+                                             </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q7" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q7" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -641,19 +666,35 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
-                                    <h4 style="color: brown">إختر الإجابة الصحيحة</h4>
+                                    <h4 style="color: brown">إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q6" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q6" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>
                                 </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
+                                    <div class="form-group">
+                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q6" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q6" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+
 
                                 {{-- <section class="section_next">
                                     <div class="form-group">

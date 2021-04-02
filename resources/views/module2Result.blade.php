@@ -20,7 +20,10 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
-        
+        $q5 = $_GET['q6'];
+        $q5 = $_GET['q7'];
+        $q5 = $_GET['q8'];
+
         $id = $_GET['id'];
         }
 
@@ -39,12 +42,21 @@
        if($q4 == '2'){
            $score++;
        }
-       if($q5 == '1'){
+       if($q5 == '2'){
+           $score++;
+       }
+       if($q6 == '1'){
+           $score++;
+       }
+       if($q7 == '1'){
+           $score++;
+       }
+       if($q8 == '2'){
            $score++;
        }
 
 
-        $percentage = ($score / 5) * 100;
+        $percentage = ($score / 8) * 100;
 
     //     if ($percentage < 85) { 
         
@@ -309,10 +321,87 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
+                                        <h3> لإضافة مشروع جديد يتم الضغط على قائمة:  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">   إجابة خاطئة  New </button>
+                                                </li>
+                                                <li>
+                                                    <h4> File  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Project </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Edit </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>New </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة صحيحة   File</button>
+                                                </li>
+                                                <li>
+                                                    <h4>Project</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Edit </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>New  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>File </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Project</button>
+                                                </li>
+                                                <li>
+                                                    <h4> Edit </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>New</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> File </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Project /h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Edit</button>
+                                                </li>                                                    
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
                                         <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل  
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -344,7 +433,7 @@
                                     <div class="form-group">
                                         <h3>يستخدم برنامج adobe Premiere  فى تحرير وتعديل الفيديوهات  </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -362,6 +451,71 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يمكن الوصول إلى امر تكرار  Duplicateمن شريط الادوات  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    
+                                    <div class="form-group">
+                                        <h3>يعد برنامج Photoshop  من البرامج الشهيرة فى إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <ol dir="rtl">
+                                            @switch($q8)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
 

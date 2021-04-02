@@ -20,7 +20,9 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
-        
+        $q5 = $_GET['q6'];
+        $q5 = $_GET['q7'];
+
         // $q6 = $_GET['q6'];
         
         $id = $_GET['id'];
@@ -38,10 +40,16 @@
        if($q3 == '3'){
            $score++;
        }
-       if($q4 == '1'){
+       if($q4 == '3'){
            $score++;
        }
        if($q5 == '1'){
+           $score++;
+       }
+       if($q6 == '1'){
+           $score++;
+       }
+       if($q7 == '1'){
            $score++;
        }
 
@@ -50,7 +58,7 @@
     //    }
 
 
-        $percentage = ($score / 5) * 100;
+        $percentage = ($score / 7) * 100;
 
         // $percentage = ($score / 6) * 100;
 
@@ -317,10 +325,87 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
+                                        <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4> توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>إمكانية الإبحار </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> توفير الوقت والمكان    إجابة خاطئة  </button>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>إمكانية الإبحار </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">   بيئة تعليمية متكاملة  إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4> إمكانية الإبحار </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <h4> توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">   إمكانية الإبحار  إجابة خاطئة</button>
+                                                </li>                                                    
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
                                         <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
                                             تفاعلية </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -352,7 +437,7 @@
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -379,7 +464,39 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+                                  {{-- Question --}}
+                                  <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>من معايير إنتاج الفيديو الرقمى التفاعلى وضوح الفكرة وتناسب المحتوى مع الفئة العمرية  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+  
                             </div>
                         </p>
                         {{-- @if ($score <= 50)
@@ -400,7 +517,7 @@
     </div>
     @endif
 
-    @if ($percentage >= 90)
+    @if ($percentage >= 85)
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-md-8 m-x-auto pull-xs-none vamiddle">
@@ -421,7 +538,7 @@
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">تعزيز التعلم النشط إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;">تعزيز التعلم النشط   إجابة صحيحة</button>
                                                 </li>
                                                 <li>
                                                     <h4>تنمية مهارات المتعلم</h4>
@@ -497,26 +614,26 @@
                                                 @case(2)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو إجابة صحيحة</button>
+                                                    style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4> تصدير و نشر الفيديو </h4>
                                                 </li> 
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> انطلاق الفكرة إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
                                                 </li>
                                                 <li>
                                                     <h4>انتاج المشاهد</h4>
@@ -528,10 +645,10 @@
 
                                                 @case(3)
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
@@ -544,13 +661,13 @@
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>كتابة السيناريو</h4>
+                                                    <h4>كتابة السيناريو </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>انطلاق الفكرة</h4>
+                                                    <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
@@ -644,10 +761,87 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
+                                        <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4> توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>إمكانية الإبحار </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> توفير الوقت والمكان    إجابة خاطئة  </button>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>إمكانية الإبحار </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">   بيئة تعليمية متكاملة  إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4> إمكانية الإبحار </h4>
+                                                </li> 
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>الإنغماس الكامل </h4>
+                                                </li>
+                                                <li>
+                                                    <h4> توفير الوقت والمكان </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>بيئة تعليمية متكاملة </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">   إمكانية الإبحار  إجابة خاطئة</button>
+                                                </li>                                                    
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
                                         <h3> يعد الفيديو الرقمى التفاعلى مقاطع فيديو مترابطة ذات معنى وتحتوى على عناصر
                                             تفاعلية </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -679,7 +873,7 @@
                                     <div class="form-group">
                                         <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -706,7 +900,39 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+                                  {{-- Question --}}
+                                  <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>من معايير إنتاج الفيديو الرقمى التفاعلى وضوح الفكرة وتناسب المحتوى مع الفئة العمرية  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+  
                             </div>
                         </p>
                         {{-- @if ($score <= 50)
