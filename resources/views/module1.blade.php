@@ -683,7 +683,7 @@ foreach ($users as $user) {
                                 <section class="section_next">
                                     <h4 style="color: brown">إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
                                     <div class="form-group">
-                                        <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
+                                        <h3>من معايير إنتاج الفيديو الرقمى التفاعلى وضوح الفكرة وتناسب المحتوى مع الفئة العمرية  </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q7" value="1" required /> صح
@@ -880,13 +880,13 @@ foreach ($users as $user) {
 
                     <div class="jzdcalt">April 2021</div>
 
+                    <span>Th</span>
+                    <span>Fr</span>
+                    <span>Sa</span>
                     <span>Su</span>
                     <span>Mo</span>
                     <span>Tu</span>
                     <span>We</span>
-                    <span>Th</span>
-                    <span>Fr</span>
-                    <span>Sa</span>
 
 
                     <span class="jzdb">
@@ -908,35 +908,31 @@ foreach ($users as $user) {
                         <!--BLANK-->
                     </span>
                     <span>1</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">2</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">3</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">4</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">5</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">6</span>
+                    <span >2</span>
+                    <span >3</span>
+                    <span >4</span>
+                    <span >5</span>
+                    <span >6</span>
                     <span class="circle" data-title="دراسة الموديول"
                         style="background-color: #f4f085; color: black">7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
-                    <span>11</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">12</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">13</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">14</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">8</span>
+                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">9</span>
+                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">10</span>
+                    <span  class="circle" data-title="تسليم الأنشطة"
+                    style="background-color: #aca1cc; color: black">11</span>
+                    <span class="circle" data-title="تسليم الأنشطة"
+                    style="background-color: #aca1cc; color: black" >12</span>
+                    <span class=>13</span>
+                    <span class="circle" >14</span>
                     <span>15</span>
                     <span>16</span>
                     <span>17</span>
                     <span>18</span>
                     <span>19</span>
                     <span>20</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">21</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">22</span>
+                    <span >21</span>
+                    <span >22</span>
                     <span>23</span>
                     <span>24</span>
                     <span>25</span>

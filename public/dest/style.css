@@ -58,7 +58,8 @@ strong {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+  font-size: 20px; }
 
 dfn {
   font-style: italic; }
@@ -319,7 +320,7 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #22b5e8;
+  color: #2f2828;
   text-decoration: none; }
   a:focus, a:hover {
     color: #167495;
