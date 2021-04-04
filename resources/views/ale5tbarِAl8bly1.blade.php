@@ -13,9 +13,16 @@ foreach ($users as $user) {
 }
 @endphp
 
-@if ($user->score1 === null)
+@if ($user->alm8yas1Score === null)
     <?php
     header('Location:/intro1');
+    exit();
+    ?>
+@endif
+
+@if ($user->ale5tbarِAl8bly1Score != null)
+    <?php
+    header('Location:/home');
     exit();
     ?>
 @endif
@@ -35,7 +42,7 @@ foreach ($users as $user) {
                       الاختبار القبلي
                     </div>
                     <div class="card-block">
-                        <form action="score2" method="get">
+                        <form action="ale5tbarِAl8bly1Score" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}

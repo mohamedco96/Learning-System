@@ -62,8 +62,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                التعرف على بعض برامج وتطبيقات إنتاج الفيديو الرقمى التفاعلى والمقارنة بينهما 
-                                
+                                التعرف على بعض برامج وتطبيقات إنتاج الفيديو الرقمى التفاعلى والمقارنة بينهما
+
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,14 +79,14 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                	يحدد ماهية برامج إنتاج الفيديو الرقمى 
+                                	يحدد ماهية برامج إنتاج الفيديو الرقمى
                                     التفاعلى
                                 </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يستنتج الإمكانات الفنية والتكنولوجية لإنتاج الفيديو الرقمى 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>يستنتج الإمكانات الفنية والتكنولوجية لإنتاج الفيديو الرقمى
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر أهم برامج إنتاج الفيديو الرقمى التفاعلى 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر أهم برامج إنتاج الفيديو الرقمى التفاعلى
                                   </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تقارن بين إمكانات برامج إنتاج الفيديو الرقمى 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تقارن بين إمكانات برامج إنتاج الفيديو الرقمى
                                     التفاعلى</span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد إمكانات برنامج Cartoon Animator4
                                 لإنتاج الأفلام الكرتونية &nbsp;</span></li>
@@ -96,9 +96,9 @@ foreach ($users as $user) {
                                     </span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>تشغل برنامج Cartoon Animator4
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تفرق بين قوائم البرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تفرق بين قوائم البرنامج
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تتحكم فى طرق عرض القوائم 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تتحكم فى طرق عرض القوائم
                                     </span></li>
 
 
@@ -144,10 +144,10 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">تحدد ماهية برامج إنتاج الفيديو الرقمى </li>
                                     <li style="line-height: 2;">تستنتج الإمكانات الفنية والتكنولوجية لإنتاج الفيديو الرقمى التفاعلى </li>
                                     <li style="line-height: 2;">تذكر أهم برامج إنتاج الفيديو الرقمى التفاعلى </li>
-                                    <li style="line-height: 2;">تقارن بين إمكانات برامج إنتاج الفيديو الرقمى التفاعلى 
+                                    <li style="line-height: 2;">تقارن بين إمكانات برامج إنتاج الفيديو الرقمى التفاعلى
                                         </li>
                                     <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد إمكانات برنامج Cartoon Animator4 لإنتاج الأفلام الكرتونية 
+                                    <li style="line-height: 2;">تعدد إمكانات برنامج Cartoon Animator4 لإنتاج الأفلام الكرتونية
                                         &nbsp;</li>
                                     <li style="line-height: 2;">تذكر متطلبات تثبيت برنامج Cartoon Animator4</li>
                                     <li style="line-height: 2;">تنفذ خطوات تثبيت برنامج Cartoon Animator4</li>
@@ -258,7 +258,7 @@ foreach ($users as $user) {
                                         إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
-                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام 
+                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام
                                             عليك الاطلاع عليها اسفل الشاشة</li>
 
                                 </ul>
@@ -322,9 +322,9 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على برنامج Cartoon Animator  لانتاج فيديو كرتونى 
-                                                   ومتطلبات تثبيته 
-                                                    
+                                                    سوف نتعرف فى هذا الدرس على برنامج Cartoon Animator  لانتاج فيديو كرتونى
+                                                   ومتطلبات تثبيته
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1-je8P0cLQEpngP1Nx7ZJXG5rUoqTbFuw"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -355,8 +355,8 @@ foreach ($users as $user) {
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على واجهة برنامج Cartoon Animator
-                                                    
-                                                    
+
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1-je8P0cLQEpngP1Nx7ZJXG5rUoqTbFuw"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -410,17 +410,17 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p> متطلبات تثبيت برنامج Cartoon Animator 4 
+                                <p> متطلبات تثبيت برنامج Cartoon Animator 4
                                     &nbsp;</p>
                                 {{-- <p>نظام تشغيل xp, 7,8,10&nbsp;</p>
-                                <p>الذاكرة Ram  : 2 جيجا فيما أكثر 
+                                <p>الذاكرة Ram  : 2 جيجا فيما أكثر
                                     &nbsp;</p>
-                                <p>القرص الصلب: 2 جيجا فيما اكثر مساحة فارغة 
+                                <p>القرص الصلب: 2 جيجا فيما اكثر مساحة فارغة
                                     &nbsp;</p> --}}
                                 <ul>
                                     <li style="line-height: 2;">نظام تشغيل xp, 7,8,10</li>
-                                    <li style="line-height: 2;">الذاكرة Ram  : 2 جيجا فيما أكثر 
-                                        
+                                    <li style="line-height: 2;">الذاكرة Ram  : 2 جيجا فيما أكثر
+
                                         </li>
                                     <li style="line-height: 2;">القرص الصلب: 2 جيجا فيما اكثر مساحة فارغة </li>
                                     <li style="line-height: 2;">المعالج : intel 2  فيما أكثر</li>
@@ -457,7 +457,7 @@ foreach ($users as $user) {
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
                                     اكتب ملخصا عن أهم برامج انتاج الفيديو الرقمى التفاعلى ومميزاتهم
-                                   
+
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -564,7 +564,7 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module2Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -574,16 +574,16 @@ foreach ($users as $user) {
                                         <h3>يعد من أهم تطبيقات إنتاج فيديو كرتوني برنامج </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> Adobe Premiere pro 
+                                                <input type="radio" name="q1" value="1" required /> Adobe Premiere pro
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> Adobe Illustrator 
+                                                <input type="radio" name="q1" value="2" required /> Adobe Illustrator
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" required /> Cartoon Animator  
+                                                <input type="radio" name="q1" value="3" required /> Cartoon Animator
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="4" required /> Adobe Photoshop 
+                                                <input type="radio" name="q1" value="4" required /> Adobe Photoshop
                                             </li>
                                         </ol>
                                     </div>
@@ -595,16 +595,16 @@ foreach ($users as $user) {
                                         <h3>اى مما يلى يعد من إمكانات الفيديو التفاعلى  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" required /> الابحار فى محتوى الفيديو 
+                                                <input type="radio" name="q2" value="1" required /> الابحار فى محتوى الفيديو
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="2" required />سهولة التعديل على محتويات الفيديو من قبل المستخدم 
+                                                <input type="radio" name="q2" value="2" required />سهولة التعديل على محتويات الفيديو من قبل المستخدم
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required /> سهولة الحذف والاضافة من قبل المستخدم 
+                                                <input type="radio" name="q2" value="3" required /> سهولة الحذف والاضافة من قبل المستخدم
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="4" required /> التحكم فى وقت العرض 
+                                                <input type="radio" name="q2" value="4" required /> التحكم فى وقت العرض
                                             </li>
 
                                         </ol>
@@ -620,18 +620,18 @@ foreach ($users as $user) {
                                                 <input type="radio" name="q3" value="1" required />Workspace
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> Layer Manager 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="2" required /> Layer Manager
+
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required /> 
-                                                Scene Manager 
+                                                <input type="radio" name="q3" value="3" required />
+                                                Scene Manager
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="4" required />Content manager 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="4" required />Content manager
+
+
                                             </li>
                                         </ol>
                                     </div>
@@ -646,18 +646,18 @@ foreach ($users as $user) {
                                                 <input type="radio" name="q3" value="1" required />Workspace
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> Layer Manager 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="2" required /> Layer Manager
+
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required /> 
-                                                Scene Manager 
+                                                <input type="radio" name="q3" value="3" required />
+                                                Scene Manager
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="4" required />Content manager 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="4" required />Content manager
+
+
                                             </li>
                                         </ol>
                                     </div>
@@ -669,31 +669,31 @@ foreach ($users as $user) {
                                         <h3> لإضافة مشروع جديد يتم الضغط على قائمة:   </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required />New 
+                                                <input type="radio" name="q4" value="1" required />New
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> File 
-                                                
-                                                
+                                                <input type="radio" name="q4" value="2" required /> File
+
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="3" required /> 
-                                                Project 
+                                                <input type="radio" name="q4" value="3" required />
+                                                Project
                                             </li>
                                             <li>
                                                 <input type="radio" name="q4" value="4" required />Edit
-                                                
-                                                
+
+
                                             </li>
                                         </ol>
                                     </div>
                                 </section>
-                               
+
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <h4 style="color: brown"> إخترعلامة (صح) أمام الإجابة الصحيحة  و علامة (خطأ) امام الإجابة الخطأ </h4>
                                     <div class="form-group">
-                                        <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل  
+                                        <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل
                                              </h3>
                                         <ol dir="rtl">
                                             <li>

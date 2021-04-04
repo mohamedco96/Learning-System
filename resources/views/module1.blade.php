@@ -133,10 +133,10 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى </li>
                                     <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">تستنتج محتويات الفيديو الرقمى التفاعلى </li>
-                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية التعليمية  
+                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية التعليمية
                                     </li>
                                     <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى </li>
-                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى التفاعلى  
+                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى التفاعلى
                                         &nbsp;</li>
                                     <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
 
@@ -241,7 +241,7 @@ foreach ($users as $user) {
                                         إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
-                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام 
+                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام
                                             عليك الاطلاع عليها اسفل الشاشة</li>
 
                                 </ul>
@@ -621,7 +621,7 @@ foreach ($users as $user) {
                                             </li>
                                         </ol>
                                     </div>
-                                </section>                             
+                                </section>
                                {{-- Question --}}
                                 <section class="section_next">
                                     <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
@@ -629,19 +629,19 @@ foreach ($users as $user) {
                                         <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> الإنغماس الكامل 
+                                                <input type="radio" name="q4" value="1" required /> الإنغماس الكامل
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> توفير الوقت والمكان 
-                                                
+                                                <input type="radio" name="q4" value="2" required /> توفير الوقت والمكان
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="3" required /> بيئة تعليمية متكاملة 
-                                               
+                                                <input type="radio" name="q4" value="3" required /> بيئة تعليمية متكاملة
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="4" required />إمكانية الإبحار 
-                                                
+                                                <input type="radio" name="q4" value="4" required />إمكانية الإبحار
+
                                             </li>
                                         </ol>
                                     </div>
@@ -655,10 +655,10 @@ foreach ($users as $user) {
                                              </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q7" value="1" required /> صح
+                                                <input type="radio" name="q5" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q7" value="2" required /> خطأ
+                                                <input type="radio" name="q5" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -686,10 +686,10 @@ foreach ($users as $user) {
                                         <h3>يستخدم الفيديو التفاعلى اداة لحل المشكلات الدراسية </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q6" value="1" required /> صح
+                                                <input type="radio" name="q7" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q6" value="2" required /> خطأ
+                                                <input type="radio" name="q7" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>

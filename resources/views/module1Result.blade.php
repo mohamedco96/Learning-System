@@ -20,17 +20,17 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
-        $q5 = $_GET['q6'];
-        $q5 = $_GET['q7'];
+        $q6 = $_GET['q6'];
+        $q7 = $_GET['q7'];
 
         // $q6 = $_GET['q6'];
-        
+
         $id = $_GET['id'];
         }
 
         $score=0;
-        
-        
+
+
        if($q1 == '1'){
            $score++;
        }
@@ -62,21 +62,21 @@
 
         // $percentage = ($score / 6) * 100;
 
-    //     if ($percentage < 85) { 
-        
+    //     if ($percentage < 85) {
+
     //     // header('Location:/module1');
     //     // exit();
-    // } 
-    
+    // }
+
     if ($percentage >= 85) {
-       
-        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
+
+        $Sql = "UPDATE `users` SET  `module1Score` = $score, `module1Percentage` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module2');
         // exit();
         }
 
-    
+
         $conn->close();
         ?>
 
@@ -112,7 +112,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> توفير الوقت</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -144,7 +144,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> توفير الوقت</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -160,7 +160,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   توفير الوقت إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -188,7 +188,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> تصدير و نشر الفيديو </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -220,7 +220,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> تصدير و نشر الفيديو</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -236,14 +236,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   تصدير و نشر الفيديو إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -265,7 +265,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -297,7 +297,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> طول مدة عرض الفيديو</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -313,7 +313,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   التركيز على عنصر واحد فقط داخل المشهد إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -341,7 +341,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>إمكانية الإبحار </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -373,7 +373,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> إمكانية الإبحار </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -389,7 +389,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   إمكانية الإبحار  إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -415,7 +415,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -425,7 +425,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -496,7 +496,7 @@
                                         </ol>
                                     </div>
                                 </section>
-  
+
                             </div>
                         </p>
                         {{-- @if ($score <= 50)
@@ -548,7 +548,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> توفير الوقت</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -580,7 +580,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> توفير الوقت</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -596,7 +596,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   توفير الوقت إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -624,7 +624,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> تصدير و نشر الفيديو </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -656,7 +656,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> تصدير و نشر الفيديو</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -672,14 +672,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   تصدير و نشر الفيديو إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -701,7 +701,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>التركيز على عنصر واحد فقط داخل المشهد</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -733,7 +733,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> طول مدة عرض الفيديو</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -749,7 +749,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   التركيز على عنصر واحد فقط داخل المشهد إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -777,7 +777,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>إمكانية الإبحار </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -809,7 +809,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> إمكانية الإبحار </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -825,7 +825,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   إمكانية الإبحار  إجابة خاطئة</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -851,7 +851,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -861,7 +861,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -932,7 +932,7 @@
                                         </ol>
                                     </div>
                                 </section>
-  
+
                             </div>
                         </p>
                         {{-- @if ($score <= 50)

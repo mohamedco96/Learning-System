@@ -1,4 +1,18 @@
+@php
+    $users = DB::table('users')
+        ->where('id', Auth::user()->id)
+        ->get();
 
+    foreach ($users as $user) {
+        // echo $user->email;
+    }
+@endphp
+@if ($user->level != null)
+    <?php
+    header('Location:/home');
+    exit();
+    ?>
+@endif
 @guest
 <?php
 header('Location:/home');
@@ -18,7 +32,7 @@ exit();
                         <strong> اختر الاستجابة المناسب لك الذي يعبر عن رأيك  </strong>
                     </div>
                     <div class="card-block">
-                        <form action="score" method="get">
+                        <form action="alm8yas1Score" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -687,7 +701,7 @@ exit();
                 إضغط هنا للدعم
             </button>
         </div>
-    
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -705,31 +719,31 @@ exit();
                             <input type="text" id="form4Example1" class="form-control" name="name"
                                 placeholder="الإسم" required />
                         </div>
-    
+
                         <!-- Email input -->
                         <div class="form-outline mb-4">
                             <input type="email" id="form4Example2" class="form-control" name="email"
                                 placeholder="البريد الإلكتروني" required />
                         </div>
-    
+
                          <!-- Subject input -->
                          <div class="form-outline mb-4">
                             <input type="text" id="form4Example2" class="form-control" name="Subject"
                                 placeholder="العنوان" required />
                         </div>
-    
+
                         <!-- Message input -->
                         <div class="form-outline mb-4">
                             <textarea class="form-control" id="form4Example3" rows="4" name="message"
                                 placeholder="رسالتك" required></textarea>
                         </div>
-    
+
                         <!-- Submit button -->
                         <div class="text-center">
                             {{-- <button type="submit" class="btn btn-primary btn-block mb-4">ارسل</button> --}}
                             <input type="submit" value="ارسل" name="submit" class="btn btn-sm btn-primary"/>
                         </div>
-    
+
                     </form>
                 </div>
             </div>

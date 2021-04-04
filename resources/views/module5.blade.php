@@ -63,7 +63,7 @@ foreach ($users as $user) {
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
                                 إكتساب مهارة إضافة مؤثرات صوتية وحركات إنتقالية
-                                
+
                             </span>
                         </p>
                         <p dir="RTL"
@@ -80,14 +80,14 @@ foreach ($users as $user) {
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
                                	تعدد طرق إدراج صوت لبرنامج Cartoon Animator
-                                    
+
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صوت من ملفات الجهاز 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صوت من ملفات الجهاز
                                     التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تسجيل الصوت داخل البرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تسجيل الصوت داخل البرنامج
                                     التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد
                                     التفاعلى</span></li>
                             {{-- <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
                                     للفيديو الرقمى التفاعلى&nbsp;</span></li>
@@ -133,7 +133,7 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">تعدد طرق إدراج صوت لبرنامج Cartoon Animator</li>
                                     <li style="line-height: 2;">تميز بين خطوات إدراج صوت من ملفات الجهاز </li>
                                     <li style="line-height: 2;">تطبق خطوات تسجيل الصوت داخل البرنامج </li>
-                                    <li style="line-height: 2;">تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد 
+                                    <li style="line-height: 2;">تجرب خطوات إضافة المؤثرات الإنتقالية بين المشاهد
                                         </li>
                                     {{-- <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
                                     <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
@@ -269,7 +269,7 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                 سوف نتعرف فى هذا الدرس على كيفية إضافة تاثيرات انتقالية 
+                                                 سوف نتعرف فى هذا الدرس على كيفية إضافة تاثيرات انتقالية
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -300,8 +300,8 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على كيفية إضافة صوت للمشاهد    
-                                                    
+                                                    سوف نتعرف فى هذا الدرس على كيفية إضافة صوت للمشاهد
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -435,7 +435,7 @@ foreach ($users as $user) {
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
                                     قم باضافة المؤثرات الانتقالية بين عناصر المشهد وعليك بتصدير المشهد بصيغة MP4
-                                   
+
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -542,7 +542,7 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module5Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -551,16 +551,16 @@ foreach ($users as $user) {
                                         <h3>لمعاينة حركة المشهد الحالى  داخل مساحة العمل : </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> Preview 
+                                                <input type="radio" name="q1" value="1" required /> Preview
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> Current frame Preview 
+                                                <input type="radio" name="q1" value="2" required /> Current frame Preview
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" required /> Render 
+                                                <input type="radio" name="q1" value="3" required /> Render
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="4" required /> Apply Current Render 
+                                                <input type="radio" name="q1" value="4" required /> Apply Current Render
                                             </li>
                                         </ol>
                                     </div>
@@ -571,16 +571,16 @@ foreach ($users as $user) {
                                         <h3>لإدراج ملف صوت داخل البرنامج Cartoon Animator 4  يتم الضغط على أمر </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" required /> Wave File 
+                                                <input type="radio" name="q2" value="1" required /> Wave File
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="2" required /> Create Script 
+                                                <input type="radio" name="q2" value="2" required /> Create Script
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required /> Composer 
+                                                <input type="radio" name="q2" value="3" required /> Composer
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="4" required /> Additional Voice 
+                                                <input type="radio" name="q2" value="4" required /> Additional Voice
                                             </li>
 
                                         </ol>
@@ -595,17 +595,17 @@ foreach ($users as $user) {
                                                 <input type="radio" name="q3" value="1" required /> Save as
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> Render Video 
-                                                
+                                                <input type="radio" name="q3" value="2" required /> Render Video
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required />Export 
-                                                
+                                                <input type="radio" name="q3" value="3" required />Export
+
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="4" required />Save project as
-                                                
-                                                
+
+
                                             </li>
                                         </ol>
                                     </div>
@@ -613,7 +613,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يستخدم أمر  Project setting  لتعديل حجم الفيديو  
+                                        <h3> يستخدم أمر  Project setting  لتعديل حجم الفيديو
                                              </h3>
                                         <ol dir="rtl">
                                             <li>

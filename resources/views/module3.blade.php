@@ -63,7 +63,7 @@ foreach ($users as $user) {
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
                                 إكتساب مهارات إعداد مشهد كرتونى ووضع الشخصيات داخل المشهد
-                                
+
                             </span>
                         </p>
                         <p dir="RTL"
@@ -80,28 +80,28 @@ foreach ($users as $user) {
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
                                	تعد مشروع جديد برنامج Cartoon Animator
-                                  
+
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض ملفات العمل للبرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض ملفات العمل للبرنامج
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>  تعدل فى خصائص عناصر العمل داخل البرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>  تعدل فى خصائص عناصر العمل داخل البرنامج
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'> توضح خطوات إدارج شخصيات لمساحة العمل بالبرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'> توضح خطوات إدارج شخصيات لمساحة العمل بالبرنامج
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض خصائص الشخصيات المدرجة داخل البرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض خصائص الشخصيات المدرجة داخل البرنامج
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تضيف مشهد متكامل للبرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تضيف مشهد متكامل للبرنامج
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدل على وضعيات الشخصيات 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدل على وضعيات الشخصيات
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات إدراج عناصر المشهد 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات إدراج عناصر المشهد
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تغير تعبيرات الوجه للشخصيات  
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات تغير تعبيرات الوجه للشخصيات
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صورة للمشهد 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات إدراج صورة للمشهد
                                         </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستخدم أدوات تحرير العناصر  
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستخدم أدوات تحرير العناصر
                                         </span></li>
                             <li><span style='line-height:150%;font-family:"Open Sans";'>	تعرض خطوات إضافة عظام للشخصيات
                                    &nbsp;</span></li>
@@ -145,10 +145,10 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">تعد مشروع جديد برنامج Cartoon Animator</li>
                                     <li style="line-height: 2;">تعرض ملفات العمل للبرنامج </li>
                                     <li style="line-height: 2;">تعدل فى خصائص عناصر العمل </li>
-                                    <li style="line-height: 2;">توضح خطوات إدارج شخصيات لمساحة العمل 
+                                    <li style="line-height: 2;">توضح خطوات إدارج شخصيات لمساحة العمل
                                         </li>
                                     <li style="line-height: 2;">تعرض خصائص الشخصيات المدرجة داخل البرنامج </li>
-                                    <li style="line-height: 2;">تضيف مشهد متكامل للبرنامج 
+                                    <li style="line-height: 2;">تضيف مشهد متكامل للبرنامج
                                         &nbsp;</li>
                                     <li style="line-height: 2;">تعدل على وضعيات الشخصيات </li>
                                     <li style="line-height: 2;">تشرح خطوات إدراج عناصر المشهد  </li>
@@ -239,7 +239,7 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.2" style="display: none; margin-top: 20px">
-                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية لضمان اتمام دراسة الموديول بنجاح 
+                                <p>عليك عزيزى الطالب/ة اتباع التعليمات التالية لضمان اتمام دراسة الموديول بنجاح
                                     &nbsp;</p>
                                 <p> الموديول الثالث:  &nbsp;</p>
                                 <p>مهارات إنتاج فيديو كرتونى ثنائى البعد باستخدام  Cartoon Animator &nbsp;</p>
@@ -257,9 +257,9 @@ foreach ($users as $user) {
                                         إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
-                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام 
+                                    <li style="line-height: 2;">تتيح لك البيئة اساليب دعم ومساعدة لكى تتمكن من اتمام المهام
                                             عليك الاطلاع عليها اسفل الشاشة</li>
-    
+
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
@@ -290,7 +290,7 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على كيفية إنشاء مشروع جديد والتعامل مع محتويات البرنامج 
+                                                    سوف نتعرف فى هذا الدرس على كيفية إنشاء مشروع جديد والتعامل مع محتويات البرنامج
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -322,8 +322,8 @@ foreach ($users as $user) {
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على كيفية أدراج شخصيات جاهزة والتعديل عليها
-                                                    
-                                                    
+
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -353,8 +353,8 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على كيفية التعديل على تفاصيل الشخصيات 
-                                                
+                                                    سوف نتعرف فى هذا الدرس على كيفية التعديل على تفاصيل الشخصيات
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -383,8 +383,8 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                سوف نتعرف فى هذا الدرس على كيفية تغير ملامح الشخصيات  
-                                                
+                                                سوف نتعرف فى هذا الدرس على كيفية تغير ملامح الشخصيات
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -438,7 +438,7 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p> للحصول على مصادر للعمل يمكنك البحث على المصادر التالية : 
+                                <p> للحصول على مصادر للعمل يمكنك البحث على المصادر التالية :
                                     &nbsp;</p>
                                 {{-- <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
                                 <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات
@@ -483,8 +483,8 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                   قم بإ عداد مشهد كرتونى هادف ليتناسب مع مهارات الموديول التى اكتسبتها 
-                                    
+                                   قم بإ عداد مشهد كرتونى هادف ليتناسب مع مهارات الموديول التى اكتسبتها
+
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -592,24 +592,24 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module3Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
                                         <h3>-	لادراج صورة داخل برنامج Cartoon animator 4  يتم الضغط على أمر
-                                            
+
                                              </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> New Project 
+                                                <input type="radio" name="q1" value="1" required /> New Project
                                             </li>
                                             <li>
                                                 <input type="radio" name="q1" value="2" required /> Create media
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="3" required /> Composer 
+                                                <input type="radio" name="q1" value="3" required /> Composer
                                             </li>
                                             <li>
                                                 <input type="radio" name="q1" value="4" required /> Scene
@@ -648,17 +648,17 @@ foreach ($users as $user) {
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="2" required /> Scene
-                                                
-                                                
+
+
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="3" required /> Prop
-                                                
+
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="4" required />Actor
-                                                
-                                                
+
+
                                             </li>
                                         </ol>
                                     </div>
@@ -666,7 +666,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> -	يستخدم أمر transform  لتحرير العناصر 
+                                        <h3> -	يستخدم أمر transform  لتحرير العناصر
                                             </h3>
                                         <ol dir="rtl">
                                             <li>

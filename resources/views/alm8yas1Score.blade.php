@@ -13,7 +13,36 @@
         if ($conn->connect_error) {
         die('Connection failed: ' . $conn->connect_error);
         }
+        $q1 = $_GET['q1'];
+        $q2 = $_GET['q2'];
+        $q3 = $_GET['q3'];
+        $q4 = $_GET['q4'];
+        $q5 = $_GET['q5'];
+        $q6 = $_GET['q6'];
+        $q7 = $_GET['q7'];
+        $q8 = $_GET['q8'];
+        $q9 = $_GET['q9'];
+        $q10 = $_GET['q10'];
+        $q11 = $_GET['q11'];
+        $q12 = $_GET['q12'];
+        $q13 = $_GET['q13'];
+        $q14 = $_GET['q14'];
+        $q15 = $_GET['q15'];
+        $q16 = $_GET['q16'];
+        $q17 = $_GET['q17'];
+        $q18 = $_GET['q18'];
+        $q19 = $_GET['q19'];
+        $q20 = $_GET['q20'];
+        $q21 = $_GET['q21'];
+        $q22 = $_GET['q22'];
+        $q23 = $_GET['q23'];
+        $q24 = $_GET['q24'];
+        $q25 = $_GET['q25'];
+        $q26 = $_GET['q26'];
+        $q27 = $_GET['q27'];
+        $q28 = $_GET['q28'];
 
+        $id = $_GET['id'];
         if (isset($_GET['submit'])) {
         $q1 = $_GET['q1'];
         $q2 = $_GET['q2'];
@@ -43,12 +72,12 @@
         $q26 = $_GET['q26'];
         $q27 = $_GET['q27'];
         $q28 = $_GET['q28'];
-        
+
         $id = $_GET['id'];
         }
 
         $score=0;
-        
+
         switch ($q1) {
             case "1":
                 $score +=1;
@@ -526,7 +555,7 @@
                 $score +=5;
                 break;
         }
-       
+
 
         $percentage = ($score / 140) * 100;
 
@@ -542,7 +571,7 @@
             // echo  '#####'.'test2'.'<br>';
             $level='high';
         }
-        
+
         $lowSql = "SELECT COUNT(*) FROM users WHERE level='low'";
         $HighSql = "SELECT COUNT(*) FROM users WHERE level='high'";
 
@@ -560,32 +589,32 @@
         // echo  $low.'##########*********';
         // echo  $High.'##########*********';
         // echo  $level.'<br>';
-        // echo  $score.'<br>';
-        // echo  $percentage.'<br>';
+//         echo  $score.'<br>';
+//         echo  $percentage.'<br>';
         // echo  $low.'<br>';
         // echo  $High.'<br>';
 
         switch ($level) {
             case "low":
                 if ($low <= 25){
-                    $scoreSql1 = "UPDATE `users` SET `level` = 'low' , `support` = 'automatic' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
+                    $scoreSql1 = "UPDATE `users` SET `level` = 'low' , `support` = 'automatic' , `alm8yas1Score`= $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
                     $scoreResult1 = $conn->query($scoreSql1);
-                    // echo '----------- 2 ---------'.'<br>';
+//                     echo '----------- 2 ---------'.'<br>';
                 }else {
-                    // echo '----------- 3 ---------'.'<br>';
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'low' , 'support' = 'manual' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
+//                     echo '----------- 3 ---------'.'<br>';
+                    $scoreSql2 = "UPDATE `users` SET `level` = 'low' , 'support' = 'manual' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
                     $scoreResult2 = $conn->query($scoreSql2);
                 }
                 break;
             case "high":
                 if ($High <= 25){
-                    $scoreSql1 = "UPDATE `users` SET `level` = 'high' , `support` = 'manual' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
+                    $scoreSql1 = "UPDATE `users` SET `level` = 'high' , `support` = 'manual' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
                     $scoreResult1 = $conn->query($scoreSql1);
-                    // echo '----------- 4 ---------'.'<br>';
+//                     echo '----------- 4 ---------'.'<br>';
                 }else {
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'high' , 'support' = 'automatic' , `score1` = $score, `percentage1` = $percentage WHERE `users`.`id` = $id ";
+                    $scoreSql2 = "UPDATE `users` SET `level` = 'high' , 'support' = 'automatic' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
                     $scoreResult2 = $conn->query($scoreSql2);
-                    // echo '----------- 5 ---------'.'<br>';
+//                     echo '----------- 5 ---------'.'<br>';
                 }
                 break;
         }
@@ -594,7 +623,7 @@
         ?>
 
     </div>
-    
+
     <div class="container" style="margin-top: 60px">
         <div class="row">
             <div class="col-md-8 m-x-auto pull-xs-none vamiddle">

@@ -545,7 +545,7 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module6Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -554,10 +554,10 @@ foreach ($users as $user) {
                                         <h3>لإضافة زر انتقال داخل محتوى الفيديو يتم إختيار أمر  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> Interactivity 
+                                                <input type="radio" name="q1" value="1" required /> Interactivity
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> Quiz 
+                                                <input type="radio" name="q1" value="2" required /> Quiz
                                             </li>
                                             <li>
                                                 <input type="radio" name="q1" value="3" required /> Interactive hotspot
@@ -572,7 +572,7 @@ foreach ($users as $user) {
                                 <section class="section_next">
                                     <div class="form-group">
                                         <h3> </h3>
-                                        <ol dir="rtl">يتم اضافة تغذية راجعة للفيديو من خلال خاصية 
+                                        <ol dir="rtl">يتم اضافة تغذية راجعة للفيديو من خلال خاصية
                                             <li>
                                                 <input type="radio" name="q2" value="1" required /> Type
                                             </li>
@@ -580,7 +580,7 @@ foreach ($users as $user) {
                                                 <input type="radio" name="q2" value="2" required /> Question
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required />Answer  
+                                                <input type="radio" name="q2" value="3" required />Answer
                                             </li>
                                             <li>
                                                 <input type="radio" name="q2" value="4" required /> feedback
@@ -595,14 +595,14 @@ foreach ($users as $user) {
                                         <h3>   </h3>
                                         <ol dir="rtl">لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر
                                             <li>
-                                                <input type="radio" name="q3" value="1" required /> hotspot 
+                                                <input type="radio" name="q3" value="1" required /> hotspot
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required /> Quiz 
+                                                <input type="radio" name="q3" value="2" required /> Quiz
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="3" required /> Marker
-                                                
+
                                             </li>
                                             <li>
                                                 <input type="radio" name="q3" value="4" required />Interactivity
@@ -613,7 +613,7 @@ foreach ($users as $user) {
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية 
+                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية
                                              </h3>
                                         <ol dir="rtl">
                                             <li>

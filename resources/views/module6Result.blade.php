@@ -20,13 +20,13 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
-        
+
         $id = $_GET['id'];
         }
 
         $score=0;
-        
-        
+
+
        if($q1 == '3'){
            $score++;
        }
@@ -46,21 +46,21 @@
 
         $percentage = ($score / 5) * 100;
 
-    //     if ($percentage < 90) { 
-        
+    //     if ($percentage < 90) {
+
     //     // header('Location:/module1');
     //     // exit();
-    // } 
-    
+    // }
+
     if ($percentage >= 85) {
-       
-        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module2` = '1' WHERE `users`.`id` = $id ";
+
+        $Sql = "UPDATE `users` SET  `module6Score` = $score, `module6Percentage` = $percentage, `finish_module` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module2');
         // exit();
         }
 
-    
+
         $conn->close();
         ?>
 
@@ -96,7 +96,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Marker</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -128,7 +128,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -144,7 +144,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة   Interactivity</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -172,7 +172,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> feedback</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -204,7 +204,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> feedback</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -220,14 +220,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  feedback</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -249,7 +249,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -281,7 +281,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -297,7 +297,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Interactivity</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -309,7 +309,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية 
+                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية
                                              </h3>
                                             <ol dir="rtl">
                                                 @switch($q4)
@@ -322,7 +322,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -332,7 +332,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -371,9 +371,8 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+
                             </div>
-                        </p>
                         {{-- @if ($score <= 50)
                         <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
                         <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
@@ -423,7 +422,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Marker</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -455,7 +454,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -471,7 +470,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة   Interactivity</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -499,7 +498,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> feedback</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -531,7 +530,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> feedback</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -547,14 +546,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  feedback</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -576,7 +575,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -608,7 +607,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Interactivity</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -624,7 +623,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Interactivity</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -636,7 +635,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية 
+                                        <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية
                                              </h3>
                                             <ol dir="rtl">
                                                 @switch($q4)
@@ -649,7 +648,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -659,7 +658,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -698,9 +697,8 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+
                             </div>
-                        </p>
                         {{-- @if ($score <= 50)
                         <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
                         <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>

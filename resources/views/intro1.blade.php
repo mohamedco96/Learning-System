@@ -19,7 +19,7 @@
                         * لا يمكنك تسليم اجابتك فى حالة ترك سؤال فارغ  <br>
                         * بعد الانتهاء من اجابة كافة الاسئلة يتم الضغط على زر تسليم  <br>
                         </p>
-                        <a href="./quiz1" class="btn btn-primary">بدء المقياس</a>
+                        <a href="./alm8yas1" class="btn btn-primary">بدء المقياس</a>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@
                 إضغط هنا للدعم
             </button>
         </div> --}}
-    
+
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -53,31 +53,31 @@
                             <input type="text" id="form4Example1" class="form-control" name="name"
                                 placeholder="الإسم" required />
                         </div>
-    
+
                         <!-- Email input -->
                         <div class="form-outline mb-4">
                             <input type="email" id="form4Example2" class="form-control" name="email"
                                 placeholder="البريد الإلكتروني" required />
                         </div>
-    
+
                          <!-- Subject input -->
                          <div class="form-outline mb-4">
                             <input type="text" id="form4Example2" class="form-control" name="Subject"
                                 placeholder="العنوان" required />
                         </div>
-    
+
                         <!-- Message input -->
                         <div class="form-outline mb-4">
                             <textarea class="form-control" id="form4Example3" rows="4" name="message"
                                 placeholder="رسالتك" required></textarea>
                         </div>
-    
+
                         <!-- Submit button -->
                         <div class="text-center">
                             {{-- <button type="submit" class="btn btn-primary btn-block mb-4">ارسل</button> --}}
                             <input type="submit" value="ارسل" name="submit" class="btn btn-sm btn-primary"/>
                         </div>
-    
+
                     </form>
                 </div>
             </div>

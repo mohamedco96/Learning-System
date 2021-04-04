@@ -62,8 +62,8 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                إكتساب مهارات تحريك محتويات المشهد 
-                                
+                                إكتساب مهارات تحريك محتويات المشهد
+
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,24 +79,24 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                               	تعرض أدوات الشريط الزمنى  
+                               	تعرض أدوات الشريط الزمنى
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات  تسجيل حركة على الشريط الزمنى  
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات  تسجيل حركة على الشريط الزمنى
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تنفذ خطوات  إدراج حركات جاهزة بالبرنامج 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تنفذ خطوات  إدراج حركات جاهزة بالبرنامج
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات  إدراج حركة للشخصيات مناسبة للمشهد 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميز بين خطوات  إدراج حركة للشخصيات مناسبة للمشهد
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات إدراج كاميرا داخل المشهد 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تطبق خطوات إدراج كاميرا داخل المشهد
                                     &nbsp;</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميزحركة للكاميرا 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تميزحركة للكاميرا
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستعمل خطوات تحريك الوجه للشخصيات  
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستعمل خطوات تحريك الوجه للشخصيات
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحلل حركة الشخصيات  
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحلل حركة الشخصيات
                                     </span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>يطبق خطوات تنعيم الحركة transition Curve 
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>يطبق خطوات تنعيم الحركة transition Curve
                                     </span></li>
 
                         </ol>
@@ -133,18 +133,18 @@ foreach ($users as $user) {
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
-                                <p> إكتساب مهارات تحريك محتويات المشهد 
+                                <p> إكتساب مهارات تحريك محتويات المشهد
                                     &nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
                                     <li style="line-height: 2;">تعرض أدوات الشريط الزمنى </li>
                                     <li style="line-height: 2;">تشرح خطوات  تسجيل حركة على الشريط الزمنى </li>
                                     <li style="line-height: 2;">تنفذ خطوات  إدراج حركات جاهزة بالبرنامج  </li>
-                                    <li style="line-height: 2;">تميز بين خطوات  إدراج حركة للشخصيات مناسبة للمشهد  
+                                    <li style="line-height: 2;">تميز بين خطوات  إدراج حركة للشخصيات مناسبة للمشهد
                                         </li>
-                                    <li style="line-height: 2;">تطبق خطوات إدراج كاميرا داخل المشهد  
+                                    <li style="line-height: 2;">تطبق خطوات إدراج كاميرا داخل المشهد
                                         </li>
-                                    <li style="line-height: 2;">تطبق خطوات تحريك الرأس للشخصيات 
+                                    <li style="line-height: 2;">تطبق خطوات تحريك الرأس للشخصيات
                                         </li>
 
                                 </ul>
@@ -308,8 +308,8 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                     سوف نتعرف فى هذا الدرس على كيفية تحريك الشخصيات 
-                                                    
+                                                     سوف نتعرف فى هذا الدرس على كيفية تحريك الشخصيات
+
                                                 </strong></span></span></p>
                                     <p><a href="https://drive.google.com/drive/u/0/folders/1xe05Qi3NuOuIfz4evFbC1ZMiCKGyXuxD"
                                             rel="noopener noreferrer" target="_blank"><span
@@ -422,12 +422,12 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p> الشريط الزمنى timeline 
+                                <p> الشريط الزمنى timeline
                                     &nbsp;</p>
                                 <p>يستخدم الشريط الزمنى فى تسجيل حركات للعناصر والشخصيات &nbsp;</p>
                                 <p>لاظهار الشريط الزمنى
                                     F أو 3 Show time line يتم الضغط على امر
-                                    
+
                                     أولا: تحديد الشخصية المراد تحريكها&nbsp;</p>
                                 <p>ثانيا : R/ click Action menu  واختيار نمط الحركة المراد للشخصية
                                     الضغط على امر motion  واختيار الامر المناسب للحركة   &nbsp;</p>
@@ -456,8 +456,8 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    فى ضوء ما تم دراسة قم بتحريك عناصر المشهد الذى انتجته فى الموديول السابق  
-                                    
+                                    فى ضوء ما تم دراسة قم بتحريك عناصر المشهد الذى انتجته فى الموديول السابق
+
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -564,7 +564,7 @@ foreach ($users as $user) {
 
                     {{-- التقييم البنائي --}}
                     <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                        <form action="score3" method="get">
+                        <form action="module4Result" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}
@@ -573,10 +573,10 @@ foreach ($users as $user) {
                                         <h3>لتعديل أجزاء الشخصيات والعناصر يستخدم أمر: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q1" value="1" required /> Add new sprite 
+                                                <input type="radio" name="q1" value="1" required /> Add new sprite
                                             </li>
                                             <li>
-                                                <input type="radio" name="q1" value="2" required /> Editor pose 
+                                                <input type="radio" name="q1" value="2" required /> Editor pose
                                             </li>
                                             <li>
                                                 <input type="radio" name="q1" value="3" required /> Character
@@ -593,13 +593,13 @@ foreach ($users as $user) {
                                         <h3>لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q2" value="1" required /> Create Bone 
+                                                <input type="radio" name="q2" value="1" required /> Create Bone
                                             </li>
                                             <li>
                                                 <input type="radio" name="q2" value="2" required /> Composer
                                             </li>
                                             <li>
-                                                <input type="radio" name="q2" value="3" required /> Animation 
+                                                <input type="radio" name="q2" value="3" required /> Animation
                                             </li>
                                             <li>
                                                 <input type="radio" name="q2" value="4" required />Edit Pose
@@ -614,21 +614,21 @@ foreach ($users as $user) {
                                         <h3>يتم التعامل مع ملامح الوجه بإستخدام أمر:   </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q3" value="1" required /> Face Key editor 
+                                                <input type="radio" name="q3" value="1" required /> Face Key editor
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="2" required />  Head 3d move 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="2" required />  Head 3d move
+
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="3" required /> Template 
-                                                
+                                                <input type="radio" name="q3" value="3" required /> Template
+
                                             </li>
                                             <li>
-                                                <input type="radio" name="q3" value="4" required />Facial Animation 
-                                                
-                                                
+                                                <input type="radio" name="q3" value="4" required />Facial Animation
+
+
                                             </li>
                                         </ol>
                                     </div>

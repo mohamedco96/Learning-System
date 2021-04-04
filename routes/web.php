@@ -36,8 +36,8 @@ Route::get('/intro1', function () {
     return view('intro1');
 });
 
-Route::get('/quiz1', function () {
-    return view('quiz1');
+Route::get('/alm8yas1', function () {
+    return view('alm8yas1');
 })->middleware('auth');
 
 
@@ -45,8 +45,8 @@ Route::get('/intro2', function () {
     return view('intro2');
 });
 
-Route::get('/quiz2', function () {
-    return view('quiz2');
+Route::get('/ale5tbarِAl8bly1', function () {
+    return view('ale5tbarِAl8bly1');
 })->middleware('auth');
 
 Route::get('/main1', function () {
@@ -129,12 +129,12 @@ Route::get('/exam', function () {
 
 //////////////// Results ////////////////
 
-Route::get('/score', function () {
-    return view('score');
+Route::get('/alm8yas1Score', function () {
+    return view('alm8yas1Score');
 })->middleware('auth');
 
-Route::get('/score2', function () {
-    return view('score2');
+Route::get('/ale5tbarِAl8bly1Score', function () {
+    return view('ale5tbarِAl8bly1Score');
 })->middleware('auth');
 
 

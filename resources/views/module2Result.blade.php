@@ -20,16 +20,16 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
-        $q5 = $_GET['q6'];
-        $q5 = $_GET['q7'];
-        $q5 = $_GET['q8'];
+        $q6 = $_GET['q6'];
+        $q7 = $_GET['q7'];
+        $q8 = $_GET['q8'];
 
         $id = $_GET['id'];
         }
 
         $score=0;
-        
-        
+
+
        if($q1 == '3'){
            $score++;
        }
@@ -58,21 +58,21 @@
 
         $percentage = ($score / 8) * 100;
 
-    //     if ($percentage < 85) { 
-        
+    //     if ($percentage < 85) {
+
     //     // header('Location:/module1');
     //     // exit();
-    // } 
-    
+    // }
+
     if ($percentage >= 85) {
-       
-        $Sql = "UPDATE `users` SET  `score3` = $score, `percentage3` = $percentage, `module3` = '1' WHERE `users`.`id` = $id ";
+
+        $Sql = "UPDATE `users` SET  `module2Score` = $score, `module2Percentage` = $percentage, `module3` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module2');
         // exit();
         }
 
-    
+
         $conn->close();
         ?>
 
@@ -97,7 +97,7 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة  Adobe Premiere pro </button>
                                                 </li>
                                                 <li>
@@ -108,7 +108,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Adobe Photoshop </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -135,12 +135,12 @@
                                                     <h4>Adobe Illustrator </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة   Cartoon Animator 4 </button>
                                                 </li>
                                                 <li>
                                                     <h4>Adobe Photoshop  </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -156,7 +156,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة خاطئة 	Adobe Photoshop </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -171,7 +171,7 @@
                                         <h3>اى مما يلى يعد من إمكانات الفيديو التفاعلى  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> الابحار فى محتوى الفيديو      إجابة صحيحة </button>
@@ -184,7 +184,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>التحكم فى وقت العرض </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -216,7 +216,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> التحكم فى وقت العرض </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -232,14 +232,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> التحكم فى وقت العرض      إجابة خاطئة  </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -261,7 +261,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Content manager </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -293,7 +293,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Content manager </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -309,7 +309,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة صحيحة   Content manager </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -337,7 +337,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Edit </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -369,7 +369,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Edit </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -380,12 +380,12 @@
                                                     <h4> File </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Project /h4>
+                                                    <h4>Project </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة  Edit</button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -398,7 +398,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل  
+                                        <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل
                                              </h3>
                                             <ol dir="rtl">
                                                 @switch($q5)
@@ -411,7 +411,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -421,7 +421,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -494,7 +494,7 @@
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
-                                    
+
                                     <div class="form-group">
                                         <h3>يعد برنامج Photoshop  من البرامج الشهيرة فى إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
@@ -525,9 +525,9 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+
                             </div>
-                        </p>
+{{--                        </p>--}}
                         {{-- @if ($score <= 50)
                         <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
                         <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
@@ -577,7 +577,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Adobe Photoshop </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -609,7 +609,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Adobe Photoshop</h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -625,7 +625,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة خاطئة  Adobe Photoshop  </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -653,7 +653,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> التحكم فى وقت العرض </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(2)
@@ -685,7 +685,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>التحكم فى وقت العرض </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -701,14 +701,14 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">  التحكم فى وقت العرض   إجابة خاطئة  </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-                                        
+
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -730,7 +730,7 @@
                                                 </li>
                                                 <li>
                                                     <h4>Content manager </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(1)
@@ -762,7 +762,7 @@
                                                 </li>
                                                 <li>
                                                     <h4> Content manager </h4>
-                                                </li> 
+                                                </li>
                                                 @break
 
                                                 @case(4)
@@ -778,7 +778,7 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">    إجابة صحيحة  Content manager </button>
-                                                </li>                                                    
+                                                </li>
                                                 @break
 
                                                 @default
@@ -790,7 +790,7 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>- يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل    
+                                        <h3>- يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل
                                              </h3>
                                             <ol dir="rtl">
                                                 @switch($q4)
@@ -803,7 +803,7 @@
                                                         <h4>خطأ</h4>
                                                     </li>
                                                     @break
-    
+
                                                     @case(2)
                                                     <li>
                                                         <h4>صح</h4>
@@ -813,7 +813,7 @@
                                                             style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
-    
+
                                                     @default
                                                     <span>Something went wrong, please try again</span>
                                                 @endswitch
@@ -852,9 +852,9 @@
                                         </ol>
                                     </div>
                                 </section>
-    
+
                             </div>
-                        </p>
+{{--                        </p>--}}
                         {{-- @if ($score <= 50)
                         <button class="btn btn-lg btn-pill btn-block btn-warning  " type="button" style="margin-right: 350px; border-radius: 22px; width:150px;">منخفض</button> <br>
                         <button class="btn btn-lg btn-pill btn-block btn-secondary " type="button" style="margin-right: 350px;  border-radius: 22px; width:150px;">مرتفع</button> <br>
