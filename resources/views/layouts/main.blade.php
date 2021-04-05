@@ -134,7 +134,7 @@ foreach ($users as $user) {
                             class="icon-people"></i>المكتبة الإئرائية</a> --}}
                     @if ($user->finish_module === '1')
                         <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
-                        <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
+                        <a class="nav-link" href="../ale5tbarِAl8bly2"><i class="icon-people"></i>الاختبار البعدي</a>
                     @endif
                 </li>
             </ul>

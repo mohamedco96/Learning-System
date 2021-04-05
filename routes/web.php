@@ -127,6 +127,13 @@ Route::get('/alm8yas2', function () {
     return view('alm8yas2');
 })->middleware('auth');
 
+Route::get('/ale5tbarِAl8bly2', function () {
+    return view('ale5tbarِAl8bly2');
+})->middleware('auth');
+
+Route::get('/ale5tbarِAl8bly2Score', function () {
+    return view('ale5tbarِAl8bly2Score');
+})->middleware('auth');
 //////////////// Results ////////////////
 
 Route::get('/alm8yas1Score', function () {
