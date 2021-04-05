@@ -90,7 +90,7 @@ foreach ($users as $user) {
                             <a class="nav-link" href="{{ route('login') }}">{{ __('تسجيل دخول') }}</a>
                         </li>
                     @endif
-{{-- 
+{{--
                     @if (Route::has('register'))
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -133,8 +133,8 @@ foreach ($users as $user) {
                     {{-- <a class="nav-link" href="../library"><i
                             class="icon-people"></i>المكتبة الإئرائية</a> --}}
                     @if ($user->finish_module === '1')
-                        <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
                         <a class="nav-link" href="../alm8yas2"><i class="icon-people"></i>المقياس</a>
+                        <a class="nav-link" href="../exam"><i class="icon-people"></i>الاختبار البعدي</a>
                     @endif
                 </li>
             </ul>

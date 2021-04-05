@@ -123,8 +123,8 @@ Route::get('/library', function () {
     return view('library');
 })->middleware('auth');
 
-Route::get('/exam', function () {
-    return view('exam');
+Route::get('/alm8yas2', function () {
+    return view('alm8yas2');
 })->middleware('auth');
 
 //////////////// Results ////////////////
@@ -138,13 +138,6 @@ Route::get('/ale5tbarِAl8bly1Score', function () {
 })->middleware('auth');
 
 
-Route::get('/score4', function () {
-    return view('score4');
-})->middleware('auth');
-
-Route::get('/alm8yas2', function () {
-    return view('alm8yas2');
-})->middleware('auth');
 
 Route::get('/alm8yas2Score', function () {
     return view('alm8yas2Score');
