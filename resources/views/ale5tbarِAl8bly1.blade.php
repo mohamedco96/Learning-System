@@ -20,7 +20,7 @@ foreach ($users as $user) {
     ?>
 @endif
 
-@if ($user->ale5tbarِAl8bly1Score != null)
+@if ($user->al8bly1Score != null)
     <?php
     header('Location:/home');
     exit();
