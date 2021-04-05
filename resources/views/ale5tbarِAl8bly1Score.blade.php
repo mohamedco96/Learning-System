@@ -13,6 +13,7 @@
         if ($conn->connect_error) {
         die('Connection failed: ' . $conn->connect_error);
         }
+
         $q1 = $_GET['q1'];
         $q2 = $_GET['q2'];
         $q3 = $_GET['q3'];
@@ -65,7 +66,6 @@
         $q50 = $_GET['q50'];
 
         $id = $_GET['id'];
-
         if (isset($_GET['submit'])) {
         $q1 = $_GET['q1'];
         $q2 = $_GET['q2'];
@@ -281,11 +281,10 @@
         //     header('Location:/intro2');
         //     exit();
         // }
-
-            $Sql = "UPDATE `users` SET `ale5tbarِAl8bly1Score` = $score, `ale5tbarِAl8bly1Percentage` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
-            $scoreResult1 = $conn->query($Sql);
-            // header('Location:/module');
-            // exit();
+        $Sql = "UPDATE `users` SET `ale5tbarِAl8bly1Score` = $score, `ale5tbarِAl8bly1Percentage` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
+        $scoreResult1 = $conn->query($Sql);
+        // header('Location:/module');
+        // exit();
 
             $conn->close();
             ?>
