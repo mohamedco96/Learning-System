@@ -281,7 +281,7 @@
         //     header('Location:/intro2');
         //     exit();
         // }
-        $Sql = "UPDATE `users` SET `ale5tbarِAl8bly1Score` = $score, `ale5tbarِAl8bly1Percentage` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
+        $Sql = "UPDATE `users` SET `al8bly1Score` = $score, `al8bly1Percentage` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module');
         // exit();
