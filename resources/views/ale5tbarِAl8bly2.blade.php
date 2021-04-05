@@ -20,9 +20,9 @@ foreach ($users as $user) {
     ?>
 @endif
 
-@if ($user->al8bly1Score != null)
+@if ($user->al8bly2Score != null)
     <?php
-    header('Location:/home');
+    header('Location:/module');
     exit();
     ?>
 @endif
@@ -42,7 +42,7 @@ foreach ($users as $user) {
                       الاختبار القبلي
                     </div>
                     <div class="card-block">
-                        <form action="ale5tbarِAl8bly1Score" method="get">
+                        <form action="ale5tbarِAl8bly2Score" method="get">
 
                             <div class="body_next">
                                 {{-- Question --}}

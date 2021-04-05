@@ -281,7 +281,7 @@
         //     header('Location:/intro2');
         //     exit();
         // }
-        $Sql = "UPDATE `users` SET `al8bly1Score` = $score, `al8bly1Percentage` = $percentage, `module1` = '1' WHERE `users`.`id` = $id ";
+        $Sql = "UPDATE `users` SET `al8bly2Score` = $score, `al8bly2Percentage` = $percentage  WHERE `users`.`id` = $id ";
         $scoreResult1 = $conn->query($Sql);
         // header('Location:/module');
         // exit();
@@ -302,8 +302,6 @@
                         <hr>
                         <h4 style="text-align: center; color: brown">النتيجة النهائية</h4><br>
                         <h4 style="text-align: center">{{ $percentage }} %</h4><br>
-                        <a href="./module" class="btn btn-lg btn-pill btn-block btn-info" style="margin-right: 350px;  border-radius: 15px; width:250px;">الموديولات التعليمية</a>
-                        {{-- <button class="btn btn-lg btn-pill btn-block btn-info " type="button" style="margin-right: 350px;  border-radius: 15px; width:250px;">بدء الإختبار القبلي </button> <br> --}}
                     </div>
                 </div>
 

@@ -20,25 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfe4fa9b-10d6-4fb1-8a98-d0bebeee4803" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/ale5tbarِAl8bly2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/ale5tbarِAl8bly2Score.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/intro1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/intro1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/intro2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/intro2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module1Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module1Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module2Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module2Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module3.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module3Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module3Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module4.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module4.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module4Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module4Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module5.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module5.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module5Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module5Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module6.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module6.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module6Result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module6Result.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/alm8yas1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ale5tbarِAl8bly1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/score.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/alm8yas1Score.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/score2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ale5tbarِAl8bly1Score.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +174,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -198,6 +183,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Learning-System\resources\views" />
+    </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -231,7 +221,7 @@
       <workItem from="1607781369950" duration="1381000" />
       <workItem from="1615139236554" duration="963000" />
       <workItem from="1615141014516" duration="2389000" />
-      <workItem from="1617548807044" duration="6088000" />
+      <workItem from="1617548807044" duration="12146000" />
     </task>
     <servers />
   </component>
