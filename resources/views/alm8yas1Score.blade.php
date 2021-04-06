@@ -602,8 +602,8 @@
 //                     echo '----------- 2 ---------'.'<br>';
                 }else {
 //                     echo '----------- 3 ---------'.'<br>';
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'low' , 'support' = 'manual' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult2 = $conn->query($scoreSql2);
+                    $scoreSql1 = "UPDATE `users` SET `level` = 'low' , `support` = 'manual' , `alm8yas1Score`= $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
+                    $scoreResult1 = $conn->query($scoreSql1);
                 }
                 break;
             case "high":
