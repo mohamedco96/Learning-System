@@ -612,8 +612,8 @@
                     $scoreResult1 = $conn->query($scoreSql1);
 //                     echo '----------- 4 ---------'.'<br>';
                 }else {
-                    $scoreSql2 = "UPDATE `users` SET `level` = 'high' , 'support' = 'automatic' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
-                    $scoreResult2 = $conn->query($scoreSql2);
+                    $scoreSql1 = "UPDATE `users` SET `level` = 'high' , `support` = 'automatic' , `alm8yas1Score` = $score, `alm8yas1Percentage` = $percentage WHERE `users`.`id` = $id ";
+                    $scoreResult1 = $conn->query($scoreSql1);
 //                     echo '----------- 5 ---------'.'<br>';
                 }
                 break;

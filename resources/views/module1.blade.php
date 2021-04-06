@@ -448,7 +448,7 @@ foreach ($users as $user) {
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
                         {{-- File Upload --}}
-                        <form action="{{ route('file.upload.post1') }}" method="POST" enctype="multipart/form-data">
+                                        <form action="{{ route('file.upload.post1') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="row">
 
