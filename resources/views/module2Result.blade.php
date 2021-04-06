@@ -250,7 +250,7 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة خاطئة   Scene Manager</button>
                                                 </li>
                                                 <li>
@@ -307,7 +307,7 @@
                                                     <h4>Workspace</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة صحيحة   Content manager </button>
                                                 </li>
                                                 @break
@@ -326,7 +326,7 @@
                                             @switch($q4)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   إجابة خاطئة  New </button>
                                                 </li>
                                                 <li>
@@ -345,8 +345,8 @@
                                                     <h4>New </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> إجابة صحيحة   File</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   File</button>
                                                 </li>
                                                 <li>
                                                     <h4>Project</h4>
@@ -404,7 +404,7 @@
                                                 @switch($q5)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;">صح إجابةخاطئة</button>
                                                     </li>
                                                     <li>
@@ -417,8 +417,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -501,8 +501,8 @@
                                             @switch($q8)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                 </li>
                                                 <li>
                                                     <h4>خطأ</h4>
@@ -514,8 +514,8 @@
                                                     <h4>صح</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
 
@@ -566,11 +566,11 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">إجابة خاطئة   Adobe Premiere pro </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Adobe Premiere pro </button>
                                                 </li>
                                                 <li>
-                                                    <h4>Adobe Illustrator </h4>
+                                                    <h4>Adobe Illustrator  </h4>
                                                 </li>
                                                 <li>
                                                     <h4>Cartoon Animator 4 </h4>
@@ -586,7 +586,7 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Adobe Illustrator </button>
+                                                        style="border-radius: 22px; width:400px;">   إجابة خاطئة  Adobe Illustrator</button>
                                                 </li>
                                                 <li>
                                                     <h4>Cartoon Animator 4</h4>
@@ -601,30 +601,30 @@
                                                     <h4>Adobe Premiere pro</h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Adobe Illustrator</h4>
+                                                    <h4>Adobe Illustrator </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   Cartoon Animator 4  </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   Cartoon Animator 4 </button>
                                                 </li>
                                                 <li>
-                                                    <h4> Adobe Photoshop</h4>
+                                                    <h4>Adobe Photoshop  </h4>
                                                 </li>
                                                 @break
 
                                                 @case(4)
                                                 <li>
-                                                    <h4>Adobe Premiere pro</h4>
+                                                    <h4>Adobe Premiere pro </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Adobe Illustrator</h4>
+                                                    <h4>Adobe Illustrator </h4>
                                                 </li>
                                                 <li>
                                                     <h4>Cartoon Animator 4 </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Adobe Photoshop  </button>
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة 	Adobe Photoshop </button>
                                                 </li>
                                                 @break
 
@@ -640,10 +640,10 @@
                                         <h3>اى مما يلى يعد من إمكانات الفيديو التفاعلى  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">  الابحار فى محتوى الفيديو   إجابة صحيحة </button>
+                                                    style="border-radius: 22px; width:400px;"> الابحار فى محتوى الفيديو      إجابة صحيحة </button>
                                                 </li>
                                                 <li>
                                                     <h4>سهولة التعديل على محتويات الفيديو من قبل المستخدم </h4>
@@ -652,23 +652,23 @@
                                                     <h4>سهولة الحذف والاضافة من قبل المستخدم </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> التحكم فى وقت العرض </h4>
+                                                    <h4>التحكم فى وقت العرض </h4>
                                                 </li>
                                                 @break
 
                                                 @case(2)
                                                 <li>
-                                                    <h4>الابحار فى محتوى الفيديو </h4>
+                                                    <h4>الابحار فى محتوى الفيديو</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> سهولة التعديل على محتويات الفيديو من قبل المستخدم   إجابة خاطئة </button>
+                                                        style="border-radius: 22px; width:400px;">سهولة التعديل على محتويات الفيديو من قبل المستخدم     إجابة خاطئة </button>
                                                 </li>
                                                 <li>
                                                     <h4>سهولة الحذف والاضافة من قبل المستخدم </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> التحكم فى وقت العرض </h4>
+                                                    <h4>التحكم فى وقت العرض </h4>
                                                 </li>
                                                 @break
 
@@ -681,10 +681,10 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">  سهولة الحذف والاضافة من قبل المستخدم   إجابة خاطئة </button>
+                                                    style="border-radius: 22px; width:400px;">سهولة الحذف والاضافة من قبل المستخدم   إجابة خاطئة </button>
                                                 </li>
                                                 <li>
-                                                    <h4>التحكم فى وقت العرض </h4>
+                                                    <h4> التحكم فى وقت العرض </h4>
                                                 </li>
                                                 @break
 
@@ -693,14 +693,14 @@
                                                     <h4>الابحار فى محتوى الفيديو </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>سهولة التعديل على محتويات الفيديو من قبل المستخدم </h4>
+                                                    <h4>سهولة التعديل على محتويات الفيديو من قبل المستخدم  </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>سهولة الحذف والاضافة من قبل المستخدم </h4>
+                                                    <h4>سهولة الحذف والاضافة من قبل المستخدم  </h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">  التحكم فى وقت العرض   إجابة خاطئة  </button>
+                                                    style="border-radius: 22px; width:400px;"> التحكم فى وقت العرض      إجابة خاطئة  </button>
                                                 </li>
                                                 @break
 
@@ -719,14 +719,14 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Scene Manager  </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">إجابة خاطئة   Scene Manager</button>
                                                 </li>
                                                 <li>
                                                     <h4> Layer Manager </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> Workspace</h4>
+                                                    <h4>Workspace</h4>
                                                 </li>
                                                 <li>
                                                     <h4>Content manager </h4>
@@ -739,10 +739,10 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة   Layer Manager  </button>
+                                                        style="border-radius: 22px; width:400px;">إجابة خاطئة   Layer Manager </button>
                                                 </li>
                                                 <li>
-                                                    <h4>Workspace </h4>
+                                                    <h4>Workspace</h4>
                                                 </li>
                                                 <li>
                                                     <h4>Content manager </h4>
@@ -758,7 +758,7 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">    إجابة خاطئة  Workspace</button>
+                                                    style="border-radius: 22px; width:400px;">   إجابة خاطئة  Workspace</button>
                                                 </li>
                                                 <li>
                                                     <h4> Content manager </h4>
@@ -773,11 +773,11 @@
                                                     <h4> Layer Manager </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Workspace </h4>
+                                                    <h4>Workspace</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">    إجابة صحيحة  Content manager </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">إجابة صحيحة   Content manager </button>
                                                 </li>
                                                 @break
 
@@ -790,13 +790,90 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3>- يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل
+                                        <h3> لإضافة مشروع جديد يتم الضغط على قائمة:  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">   إجابة خاطئة  New </button>
+                                                </li>
+                                                <li>
+                                                    <h4> File  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Project </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Edit </h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>New </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   File</button>
+                                                </li>
+                                                <li>
+                                                    <h4>Project</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Edit </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>New  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>File </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Project</button>
+                                                </li>
+                                                <li>
+                                                    <h4> Edit </h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>New</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> File </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Project </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Edit</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> يستخدم شريط أدوات الكاميرا للتحكم فى عناصر المشهد من حيث التكرار والنقل
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;">صح إجابةخاطئة</button>
                                                     </li>
                                                     <li>
@@ -809,8 +886,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -825,7 +902,7 @@
                                     <div class="form-group">
                                         <h3>يستخدم برنامج adobe Premiere  فى تحرير وتعديل الفيديوهات  </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -843,6 +920,71 @@
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يمكن الوصول إلى امر تكرار  Duplicateمن شريط الادوات  </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+
+                                    <div class="form-group">
+                                        <h3>يعد برنامج Photoshop  من البرامج الشهيرة فى إنتاج الفيديو الرقمى التفاعلى </h3>
+                                        <ol dir="rtl">
+                                            @switch($q8)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
 

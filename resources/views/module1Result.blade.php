@@ -177,7 +177,7 @@
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
                                                 </li>
                                                 <li>
@@ -196,8 +196,8 @@
                                                     <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
                                                 </li>
                                                 <li>
                                                     <h4>انتاج المشاهد</h4>
@@ -330,7 +330,7 @@
                                             @switch($q4)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
                                                 </li>
                                                 <li>
@@ -613,7 +613,7 @@
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
                                                 </li>
                                                 <li>
@@ -632,8 +632,8 @@
                                                     <h4>انطلاق الفكرة </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
                                                 </li>
                                                 <li>
                                                     <h4>انتاج المشاهد</h4>
@@ -766,7 +766,7 @@
                                             @switch($q4)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
                                                 </li>
                                                 <li>

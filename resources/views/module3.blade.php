@@ -597,6 +597,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>-	لادراج صورة داخل برنامج Cartoon animator 4  يتم الضغط على أمر
 
@@ -619,6 +620,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
@@ -640,6 +642,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
@@ -663,6 +666,57 @@ foreach ($users as $user) {
                                         </ol>
                                     </div>
                                 </section>
+                                  {{-- Question --}}
+                                  <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3> يستخدم أمر Composer  فى  </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q4" value="1" required /> تحرير العناصر 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="2" required /> نقل العناصر داخل المشهد 
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="3" required /> دوران العناصر
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="4" required />تحديد العناصر 
+
+
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                   {{-- Question --}}
+                                   <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3> يتم التعامل مع ملامح الوجه بإستخدام أمر: </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q5" value="1" required /> Face Key editor 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="2" required /> Head 3d move 
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="3" required /> Template
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="4" required />Facial Animation 
+
+
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                             
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
@@ -670,10 +724,10 @@ foreach ($users as $user) {
                                             </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> صح
+                                                <input type="radio" name="q6" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> خطأ
+                                                <input type="radio" name="q6" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -685,10 +739,52 @@ foreach ($users as $user) {
                                         <h3>يمكن التعديل على شخصيات برنامج Cartoon Animator   </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q7" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q7" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر Create head  لتحويل صورة ثابتة كملامح وجه لشخصية داخل البرنامج   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q8" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q8" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>تستخدم إداة Edit Pose  فى تعديل عظام الشخصيات وتحريكها   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q9" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q9" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر  Face puppet  لتغير تعبيرات ملامح الوجه للشخصيات   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q10" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q10" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>
