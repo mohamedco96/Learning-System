@@ -20,6 +20,8 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
+        $q5 = $_GET['q6'];
+        $q5 = $_GET['q7'];
 
         $id = $_GET['id'];
         }
@@ -36,7 +38,13 @@
        if($q3 == '2'){
            $score++;
        }
-       if($q4 == '2'){
+       if($q4 == '1'){
+           $score++;
+       }
+       if($q5 == '2'){
+           $score++;
+       }
+       if($q6 == '1'){
            $score++;
        }
        if($q5 == '1'){
@@ -44,7 +52,7 @@
        }
 
 
-        $percentage = ($score / 5) * 100;
+        $percentage = ($score / 7) * 100;
 
     //     if ($percentage < 90) {
 
@@ -85,8 +93,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Preview</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Preview</button>
                                                 </li>
                                                 <li>
                                                     <h4>Current frame Preview </h4>
@@ -104,8 +112,8 @@
                                                     <h4>Preview</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">إجابة صحيحة  Current frame Preview </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">إجابة صحيحة  Current frame Preview </button>
                                                 </li>
                                                 <li>
                                                     <h4> Render </h4>
@@ -238,7 +246,7 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة   Save as</button>
                                                 </li>
                                                 <li>
@@ -257,8 +265,8 @@
                                                     <h4>Save as</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Render Video </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة  Render Video </button>
                                                 </li>
                                                 <li>
                                                     <h4>Export </h4>
@@ -309,14 +317,91 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
+                                        <h3>لاضافة تاثيرات انتقالية برنامج Cartoon animator  يتم الضغط على امر : </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   SFX</button>
+                                                </li>
+                                                <li>
+                                                    <h4> Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Scene </button>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Prop </button>
+                                                </li>
+                                                <li>
+                                                    <h4> Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Motion  </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
                                         <h3> يستخدم أمر  Project setting  لتعديل حجم الفيديو
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                            style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -328,8 +413,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -344,7 +429,39 @@
                                     <div class="form-group">
                                         <h3>يتم إضافة صوت من خلال أمر Create Script  </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>	يستخدم أمر record  لتسجيل الصوت داخل البرنامج </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -411,8 +528,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Preview</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Preview</button>
                                                 </li>
                                                 <li>
                                                     <h4>Current frame Preview </h4>
@@ -430,8 +547,8 @@
                                                     <h4>Preview</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">إجابة صحيحة  Current frame Preview </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">إجابة صحيحة  Current frame Preview </button>
                                                 </li>
                                                 <li>
                                                     <h4> Render </h4>
@@ -485,7 +602,7 @@
                                         <h3> لإدراج ملف صوت داخل البرنامج Cartoon Animator 4  يتم الضغط على أمر</h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة صحيحة  Wave File </button>
@@ -564,7 +681,7 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة   Save as</button>
                                                 </li>
                                                 <li>
@@ -583,8 +700,8 @@
                                                     <h4>Save as</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Render Video </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة  Render Video </button>
                                                 </li>
                                                 <li>
                                                     <h4>Export </h4>
@@ -635,14 +752,91 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
+                                        <h3>لاضافة تاثيرات انتقالية برنامج Cartoon animator  يتم الضغط على امر : </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   SFX</button>
+                                                </li>
+                                                <li>
+                                                    <h4> Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Scene </button>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Prop </button>
+                                                </li>
+                                                <li>
+                                                    <h4> Motion</h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>SFX</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> Scene </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Prop </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Motion  </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
                                         <h3> يستخدم أمر  Project setting  لتعديل حجم الفيديو
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q5)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                            style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -654,8 +848,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -670,7 +864,39 @@
                                     <div class="form-group">
                                         <h3>يتم إضافة صوت من خلال أمر Create Script  </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q6)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>	يستخدم أمر record  لتسجيل الصوت داخل البرنامج </h3>
+                                        <ol dir="rtl">
+                                            @switch($q7)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"

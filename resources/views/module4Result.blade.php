@@ -20,6 +20,10 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
+        $q5 = $_GET['q6'];
+        $q5 = $_GET['q7'];
+        $q5 = $_GET['q8'];
+        $q5 = $_GET['q9'];
 
         $id = $_GET['id'];
         }
@@ -36,15 +40,27 @@
        if($q3 == '1'){
            $score++;
        }
-       if($q4 == '1'){
+       if($q4 == '3'){
            $score++;
        }
        if($q5 == '2'){
            $score++;
        }
+       if($q6 == '1'){
+           $score++;
+       }
+       if($q7 == '2'){
+           $score++;
+       }
+       if($q8 == '1'){
+           $score++;
+       }
+       if($q9 == '2'){
+           $score++;
+       }
 
 
-        $percentage = ($score / 5) * 100;
+        $percentage = ($score / 9) * 100;
 
     //     if ($percentage < 90) {
 
@@ -85,8 +101,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة   Add new sprite  </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة   Add new sprite  </button>
                                                 </li>
                                                 <li>
                                                     <h4>Editor pose </h4>
@@ -142,7 +158,7 @@
                                                     <h4>Character </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">    إجابة صحيحة   Sprite editor</button>
                                                 </li>
                                                 @break
@@ -309,10 +325,164 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه
+                                        <h3> 	يستخدم أمر link ل </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> تجميع العناصر  إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4> تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  تحرير العناصر إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;"> لربط العناصر ببعضها  إجابة صحيحة  </button>
+                                                </li>
+                                                <li>
+                                                    <h4> لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4> تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> لدمج العناصر  إجابة خاطئة </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> لانشاء حركة تكرارية يتم الضغط على امر </h3>
+                                        <ol dir="rtl">
+                                            @switch($q5)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Duplicate </button>
+                                                </li>
+                                                <li>
+                                                    <h4> Loop  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>rotate </h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>Duplicate</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Loop  </button>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>rotate</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>Duplicate  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Loop  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة Motion </button>
+                                                </li>
+                                                <li>
+                                                    <h4> rotate  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>Duplicate</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> Loop</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة rotate </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه 
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q6)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -344,11 +514,43 @@
                                     <div class="form-group">
                                         <h3>يستخدم أمر2D motion key Editor لاضافة عظام للشخصيات   </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>	يستخدم أمر 3D motion key  لعمل حرجة دوران ثلاثية للشخصيات </h3>
+                                        <ol dir="rtl">
+                                            @switch($q8)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
                                                 </li>
                                                 <li>
                                                     <h4>خطأ</h4>
@@ -361,6 +563,38 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>لتسجيل حركة الوجه بداخل أمر face puppet  يتم الضغط على أمر Space   </h3>
+                                        <ol dir="rtl">
+                                            @switch($q9)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                         style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
@@ -412,8 +646,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة   Add new sprite  </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة   Add new sprite  </button>
                                                 </li>
                                                 <li>
                                                     <h4>Editor pose </h4>
@@ -469,7 +703,7 @@
                                                     <h4>Character </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">    إجابة صحيحة   Sprite editor</button>
                                                 </li>
                                                 @break
@@ -636,10 +870,164 @@
                                 {{-- Question --}}
                                 <section class="section_next">
                                     <div class="form-group">
-                                        <h3> يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه
+                                        <h3> 	يستخدم أمر link ل </h3>
+                                        <ol dir="rtl">
+                                            @switch($q4)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> تجميع العناصر  إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4> تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  تحرير العناصر إجابة خاطئة </button>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;"> لربط العناصر ببعضها  إجابة صحيحة  </button>
+                                                </li>
+                                                <li>
+                                                    <h4> لدمج العناصر  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>تجميع العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4> تحرير العناصر  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>لربط العناصر ببعضها </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;"> لدمج العناصر  إجابة خاطئة </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> لانشاء حركة تكرارية يتم الضغط على امر </h3>
+                                        <ol dir="rtl">
+                                            @switch($q5)
+                                                @case(3)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة خاطئة  Duplicate </button>
+                                                </li>
+                                                <li>
+                                                    <h4> Loop  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>rotate </h4>
+                                                </li>
+                                                @break
+
+                                                @case(1)
+                                                <li>
+                                                    <h4>Duplicate</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">  إجابة صحيحة  Loop  </button>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>rotate</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>Duplicate  </h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Loop  </h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة Motion </button>
+                                                </li>
+                                                <li>
+                                                    <h4> rotate  </h4>
+                                                </li>
+                                                @break
+
+                                                @case(4)
+                                                <li>
+                                                    <h4>Duplicate</h4>
+                                                </li>
+                                                <li>
+                                                    <h4> Loop</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>Motion</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة rotate </button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه 
                                              </h3>
                                             <ol dir="rtl">
-                                                @switch($q4)
+                                                @switch($q6)
                                                     @case(1)
                                                     <li>
                                                         <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
@@ -671,11 +1059,43 @@
                                     <div class="form-group">
                                         <h3>يستخدم أمر2D motion key Editor لاضافة عظام للشخصيات   </h3>
                                         <ol dir="rtl">
-                                            @switch($q5)
+                                            @switch($q7)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>	يستخدم أمر 3D motion key  لعمل حرجة دوران ثلاثية للشخصيات </h3>
+                                        <ol dir="rtl">
+                                            @switch($q8)
                                                 @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
                                                 </li>
                                                 <li>
                                                     <h4>خطأ</h4>
@@ -688,6 +1108,38 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;;"> خطأ إجابة خاطئة</button>
+                                                </li>
+                                                @break
+
+                                                @default
+                                                <span>Something went wrong, please try again</span>
+                                            @endswitch
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3>لتسجيل حركة الوجه بداخل أمر face puppet  يتم الضغط على أمر Space   </h3>
+                                        <ol dir="rtl">
+                                            @switch($q9)
+                                                @case(1)
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                </li>
+                                                <li>
+                                                    <h4>خطأ</h4>
+                                                </li>
+                                                @break
+
+                                                @case(2)
+                                                <li>
+                                                    <h4>صح</h4>
+                                                </li>
+                                                <li>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                         style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break

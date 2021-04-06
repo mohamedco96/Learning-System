@@ -198,7 +198,7 @@ foreach ($users as $user) {
                                     عن اسئلة التقييم البنائى للموديول&nbsp;</span></li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
-                                    اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
+                                    اجتياز الموديول بنسبة 85% للانتقال للموديول التالى&nbsp;</span></li>
                         </ul>
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
@@ -569,6 +569,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>لتعديل أجزاء الشخصيات والعناصر يستخدم أمر: </h3>
                                         <ol dir="rtl">
@@ -589,6 +590,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
@@ -610,6 +612,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>يتم التعامل مع ملامح الوجه بإستخدام أمر:   </h3>
                                         <ol dir="rtl">
@@ -633,17 +636,71 @@ foreach ($users as $user) {
                                         </ol>
                                     </div>
                                 </section>
+                                 {{-- Question --}}
+                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر link ل   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q4" value="1" required /> تجميع العناصر 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="2" required />  	تحرير العناصر 
+
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="3" required /> لربط العناصر ببعضها 
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="4" required />لدمج العناصر 
+
+
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>لانشاء حركة تكرارية يتم الضغط على امر </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q5" value="1" required /> Duplicate 
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="2" required />  Loop
+
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="3" required /> Motion 
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="4" required />rotate
+
+
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                               
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> يستخدم أمر Face Puppet  لتحريك تعبيرات الوجه
                                             </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> صح
+                                                <input type="radio" name="q6" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> خطأ
+                                                <input type="radio" name="q6" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -651,18 +708,51 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>يستخدم أمر2D motion key Editor لاضافة عظام للشخصيات    </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q7" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q7" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>
                                 </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3> 	يستخدم أمر 3D motion key  لعمل حرجة دوران ثلاثية للشخصيات</h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q8" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q8" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>	لتسجيل حركة الوجه بداخل أمر face puppet  يتم الضغط على أمر Space    </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q9" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q9" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+
 
                             </div>
                             <input type="hidden" name="id" value={{ Auth::user()->id }} />
@@ -836,13 +926,13 @@ foreach ($users as $user) {
 
                     <div class="jzdcalt">April 2021</div>
 
+                    <span>Th</span>
+                    <span>Fr</span>
+                    <span>Sa</span>
                     <span>Su</span>
                     <span>Mo</span>
                     <span>Tu</span>
                     <span>We</span>
-                    <span>Th</span>
-                    <span>Fr</span>
-                    <span>Sa</span>
 
 
                     <span class="jzdb">
@@ -864,35 +954,30 @@ foreach ($users as $user) {
                         <!--BLANK-->
                     </span>
                     <span>1</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">2</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">3</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">4</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">5</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">6</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">7</span>
+                    <span >2</span>
+                    <span >3</span>
+                    <span >4</span>
+                    <span>5</span>
+                    <span >6</span>
+                    <span >7</span>
                     <span>8</span>
                     <span>9</span>
                     <span>10</span>
                     <span>11</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">12</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">13</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">14</span>
+                    <span >12</span>
+                    <span >13</span>
+                    <span >14</span>
                     <span>15</span>
                     <span>16</span>
-                    <span>17</span>
-                    <span>18</span>
-                    <span>19</span>
-                    <span>20</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">17</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">18</span>
+                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">19</span>
                     <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">21</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">22</span>
+                    style="background-color: #aca1cc; color: black">20</span>
+                    <span >21</span>
+                    <span >22</span>
                     <span>23</span>
                     <span>24</span>
                     <span>25</span>

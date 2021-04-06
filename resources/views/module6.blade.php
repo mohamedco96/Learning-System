@@ -62,8 +62,7 @@ foreach ($users as $user) {
                         <p dir="RTL"
                             style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Open Sans";text-align:right;'>
                             <span style='font-size:19px;line-height:107%;font-family:"Open Sans";'>
-                                الإلمام بالمعلومات الاساسية للفيديو الرفمى التفاعلى
-                                مثل المفهوم ومميزان=ت والتطبيقات التربوية
+                                إكتساب مهارة إضافة عناصر تفاعلية داخل لقطات الفيديو 
                             </span>
                         </p>
                         <p dir="RTL"
@@ -79,20 +78,22 @@ foreach ($users as $user) {
                         </p>
                         <ol style="list-style-type: decimal;margin-left:-0.5in;">
                             <li><span style='line-height:150%;font-family:"Open Sans";'>
-                                    تذكر مفهوم الفيديو الرقمى
-                                    التفاعلى
+                               تعدد خطوات إدراج فيديو برنامج Camtasia Studio 
                                 </span></li>
                             </p>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستنج محتويات الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد أسباب استخدام الفيديو الرقمى
-                                    التفاعلى فى العملية التعليمية</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تحدد مراحل إنتاج الفيديو الرقمى
-                                    التفاعلى</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد تطبيقات التربوية والتعليمية
-                                    للفيديو الرقمى التفاعلى&nbsp;</span></li>
-                            <li><span style='line-height:150%;font-family:"Open Sans";'>تذكر معايير تصميم الفيديو الرقمى
-                                    التفاعلى</span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تشرح خطوات إضافة زر انتقالى بين مشاهد الفيديو
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعدد خطوات إضافة روابط خارجية للفيديو
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تعرض خطوات إضافة اسئلة الاختيار من متعددة
+                                    </span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>تستخدم خطوات إضافة تغذية راجعة
+                                   &nbsp;</span></li>
+                            <li><span style='line-height:150%;font-family:"Open Sans";'>	تستخدم خطوات إضافة اسئلة الصواب والخطأ
+                                    </span></li>
+                           <li><span style='line-height:150%;font-family:"Open Sans";'>	تطبق خطوات تصدير الفيديو بصيغة مناسبة للعرض على المنصات التعليمية
+                                    </span></li>
+                            
                         </ol>
 
                         {{-- ////////////////////////////// Support
@@ -103,7 +104,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                    <source src="./video/module6/automatic support/الاهداف.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -127,29 +128,29 @@ foreach ($users as $user) {
                                 <p>لكى تتمكن من الدراسة داخل بيئة التعلم الافتراضية عليك التعرف على الأهداف التعليمية
                                     للموديول اولا&nbsp;</p>
                                 <p>الهدف العام للموديول :&nbsp;</p>
-                                <p>اكتساب مفهوم الفيديو الرقمى التفاعلى ومميزاته وإمكاناته&nbsp;</p>
+                                <p>إكتساب مهارة إضافة عناصر تفاعلية داخل لقطات الفيديو &nbsp;</p>
                                 <p>الأهداف الإجرائية&nbsp;</p>
                                 <ul>
-                                    <li style="line-height: 2;">تذكر مفهوم الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد مميزات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تستنج محتويات الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تحدد أسباب استخدام الفيديو الرقمى التفاعلى فى العملية
-                                        التعليمية</li>
-                                    <li style="line-height: 2;">تحدد مراحل إنتاج الفيديو الرقمى التفاعلى</li>
-                                    <li style="line-height: 2;">تعدد تطبيقات التربوية والتعليمية للفيديو الرقمى
-                                        التفاعلى&nbsp;</li>
-                                    <li style="line-height: 2;">تذكر معايير تصميم الفيديو الرقمى التفاعلى</li>
+                                    <li style="line-height: 2;">تعدد خطوات إدراج فيديو برنامج Camtasia Studio </li>
+                                    <li style="line-height: 2;">تشرح خطوات إضافة زر انتقالى بين مشاهد الفيديو</li>
+                                    <li style="line-height: 2;">تعدد خطوات إضافة روابط خارجية للفيديو</li>
+                                    <li style="line-height: 2;">تعرض خطوات إضافة اسئلة الاختيار من متعددة
+                                        </li>
+                                    <li style="line-height: 2;">تستخدم خطوات إضافة تغذية راجعة</li>
+                                    <li style="line-height: 2;">تستخدم خطوات إضافة اسئلة الصواب والخطأ
+                                        &nbsp;</li>
+                                    <li style="line-height: 2;">تطبق خطوات تصدير الفيديو بصيغة مناسبة للعرض على المنصات التعليمية</li>
                                 </ul>
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.1" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/الاهداف.jpg"
+                                <p style="text-align: center"><img src="./video/module6/Manual support/الاهداف.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.1" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الاهداف دعم .mp4" type="video/mp4">
+                                        <source src="./video/module6/automatic support/الاهداف.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -190,7 +191,7 @@ foreach ($users as $user) {
                                     عن اسئلة التقييم البنائى للموديول&nbsp;</span></li>
                             <li><span
                                     style='line-height:107%;font-family:"Open Sans";font-family:"Open Sans";font-size:14.0pt;'>يلزم
-                                    اجتياز الموديول بنسبة 90% للانتقال للموديول التالى&nbsp;</span></li>
+                                    اجتياز الموديول بنسبة 85% للانتقال للموديول التالى&nbsp;</span></li>
                         </ul>
                         {{-- ////////////////////////////// Support
                         ////////////////////////////// --}}
@@ -236,7 +237,7 @@ foreach ($users as $user) {
                                     <li style="line-height: 2;">قم بتنفيذ النشاط وتسليمه فى الوقت المحدد </li>
                                     <li style="line-height: 2;">- بعد دراستك الموديول وتسليم النشاط قم بأداء الاختبار البعدى
                                         للموديول، ولا يسمح لك بالانتقال إلى الموديول الثانى
-                                        إلا فى حالة حصولك على درجة الاتقان (90%) &nbsp;</li>
+                                        إلا فى حالة حصولك على درجة الاتقان (85%) &nbsp;</li>
                                     <li style="line-height: 2;">ويسمح لك بإعادة دراسة محتوى الموديول وإعادة الاختبار عدة
                                         مرات فى حالة عدم تحقيق درجة الاتقان.</li>
                                 </ul>
@@ -269,9 +270,9 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على مفهوم الفيديو الرقمى التفاعلى ومميزاته
+                                                    سوف نتعرف فى هذا الدرس على تثبيت برنامج Camtasia studio والتعرف على واجهة البرنامج
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1mWhVuvR-JD0KMyD08E6wc_fHDCY1ahXl/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -280,7 +281,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.1.mp4" type="video/mp4">
+                                        <source src="./video/module6/le1 m6.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -300,11 +301,11 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على محتويات الفيديو الرقمى التفاعلى ومراحل إنتاج
-                                                    الفيديو
-                                                    التفاعلى
+                                                    سوف نتعرف فى هذا الدرس على كيفية اضافة اسئلة للفيديو وتغذية راجعة
+                                                    
+                                                    
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1b-bkyFMig71Wz7SHqU7mmczI1KJpOcn-/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -312,7 +313,7 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.2.mp4" type="video/mp4">
+                                        <source src="./video/module6/le2 m6.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
@@ -332,11 +333,11 @@ foreach ($users as $user) {
                                     <p><span
                                             style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
-                                                    سوف نتعرف فى هذا الدرس على التطبيقات التربوية للفيديو التفاعلى فى
-                                                    العملية
-                                                    التعليمية ومعايير إنتاجه
+                                                   سوف تتعرف فى هذا الدرس على اضافة ازرار انتقالية بين عناصر الفيديو 
+                                                    
+                                                    
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/file/d/1OHe43XBHhptzdDmCtdrmGVnU_1eJUmy1/view?usp=sharing"
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -344,7 +345,38 @@ foreach ($users as $user) {
                                 </div>
                                 <div class="col-sm-6" style="">
                                     <video width="320" height="240" controls>
-                                        <source src="./video/module1/m1.3.mp4" type="video/mp4">
+                                        <source src="./video/module6/le3 m6.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif; font-size: 20px; "
+                                                rel="noopener noreferrer"><strong><span
+                                                        style="color: rgb(28, 146, 181);">التواصل مع
+                                                        الباحثة</span></strong></span></a></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p><span
+                                            style="color: rgb(228, 40, 7); font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                                    style="font-size: 24px;">الدرس الرابع</span></strong></span></p>
+                                    <p><span
+                                            style="color: rgb(251, 178, 99); font-family: 'Open Sans', Charcoal, sans-serif;"><span
+                                                style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
+                                                   سوف تتعرف فى هذا الدرس على كيفية اخراج الفيديو بصيغة تفاعلية 
+                                                    
+                                                    
+                                                </strong></span></span></p>
+                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
+                                            rel="noopener noreferrer" target="_blank"><span
+                                                style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
+                                                        style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
+                                                        نصى</span></strong></span></a></p>
+                                </div>
+                                <div class="col-sm-6" style="">
+                                    <video width="320" height="240" controls>
+                                        <source src="./video/module6/le4 m6.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
                                     <p><a href="https://www.facebook.com/dina.gwida.5/" target="_blank"><span

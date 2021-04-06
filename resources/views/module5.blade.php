@@ -364,7 +364,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module5/automatic support/le4 m5.mp4" type="video/mp4">
+                                    <source src="./video/module5/le4 m5.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -418,7 +418,7 @@ foreach ($users as $user) {
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.3" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module5/automatic support/le4 m5.mp4" type="video/mp4">
+                                        <source src="./video/module5/le4 m5.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -547,6 +547,7 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>لمعاينة حركة المشهد الحالى  داخل مساحة العمل : </h3>
                                         <ol dir="rtl">
@@ -567,6 +568,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>لإدراج ملف صوت داخل البرنامج Cartoon Animator 4  يتم الضغط على أمر </h3>
                                         <ol dir="rtl">
@@ -588,6 +590,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> لتصدير الفيديو بصيغة فيديو يتم الضغط على امر  </h3>
                                         <ol dir="rtl">
@@ -612,15 +615,42 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>لاضافة تاثيرات انتقالية بين برنامج Cartoon animator  يتم الضغط على امر : </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q4" value="1" required /> SFX
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="2" required /> Scene
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="3" required />Prop 
+
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q4" value="4" required />Motion
+
+
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> يستخدم أمر  Project setting  لتعديل حجم الفيديو
                                              </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q4" value="1" required /> صح
+                                                <input type="radio" name="q5" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q4" value="2" required /> خطأ
+                                                <input type="radio" name="q5" value="2" required /> خطأ
                                             </li>
 
                                         </ol>
@@ -628,14 +658,30 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>يتم إضافة صوت من خلال أمر Create Script  </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q6" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q6" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>يستخدم أمر record  لتسجيل الصوت داخل البرنامج </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q7" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q7" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>
@@ -739,7 +785,7 @@ foreach ($users as $user) {
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
                                 فيديو عن كيفية الوضوء   <a
-                                    href="https://www.youtube.com/watch?v=vU_ufVQCX50"
+                                    href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
 
@@ -842,37 +888,32 @@ foreach ($users as $user) {
                         <!--BLANK-->
                     </span>
                     <span>1</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">2</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">3</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">4</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">5</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">6</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">7</span>
+                    <span >2</span>
+                    <span >3</span>
+                    <span >4</span>
+                    <span >5</span>
+                    <span >6</span>
+                    <span >7</span>
                     <span>8</span>
                     <span>9</span>
                     <span>10</span>
                     <span>11</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">12</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">13</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">14</span>
+                    <span >12</span>
+                    <span >13</span>
+                    <span >14</span>
                     <span>15</span>
                     <span>16</span>
                     <span>17</span>
                     <span>18</span>
                     <span>19</span>
                     <span>20</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">21</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black" >22</span>
+                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">23</span>
                     <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">21</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">22</span>
-                    <span>23</span>
-                    <span>24</span>
+                    style="background-color: #aca1cc; color: black">24</span>
                     <span>25</span>
                     <span>26</span>
                     <span>27</span>
