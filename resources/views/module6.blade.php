@@ -699,10 +699,10 @@ foreach ($users as $user) {
                                         <h3>يوفر الفيديو التفاعلى وسائل إبحار متعددة </h3>
                                         <ol dir="rtl">
                                             <li>
-                                                <input type="radio" name="q5" value="1" required /> صح
+                                                <input type="radio" name="q7" value="1" required /> صح
                                             </li>
                                             <li>
-                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                                <input type="radio" name="q7" value="2" required /> خطأ
                                             </li>
                                         </ol>
                                     </div>
