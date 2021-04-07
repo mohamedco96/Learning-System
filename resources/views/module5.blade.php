@@ -784,8 +784,8 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                فيديو عن كيفية الوضوء   <a
-                                    href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
+                                تسجيل حركة وحفظها    <a
+                                    href="https://www.youtube.com/watch?v=1ZkP80ljyJE"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
 

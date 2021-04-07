@@ -399,7 +399,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                    <source src="./video/module6/automatic support/دعم محتوى.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -420,14 +420,14 @@ foreach ($users as $user) {
                             </p>
                             {{-- دعم نصي --}}
                             <div class="imgbox" id="box1.3" style="display: none; margin-top: 20px">
-                                <p> مفهوم الفيديو الرقمى التفاعلى
+                                <p> واجهة برنامج Camtasia studio 
                                     &nbsp;</p>
-                                <p>تعريف عبدالعزيز طلبه 2010 :&nbsp;</p>
-                                <p>بأنه عبارة عن برنامج فيديو مقسم إلى أجزاء صغيرة، هذه الأجزاء يمكن أن تتألف من تتابعات
-                                    حركية وإطارات ثابتة، وأسئلة ، وقوائم،&nbsp;</p>
-                                <p>بينما تكون إستجابات الطالب عن طريق الكمبيوتر هى المحددة لعدد تتابع مشاهد الفيديو، وعليها
-                                    يتأثر شكل وطبيعة المواد أو المعلومات المعروضة.&nbsp;</p>
-                                <ul>
+                                <p>media panel : شريط الوسائط ويستخدم فى اضافة الوسائط كالفيديو والصوت والصور&nbsp;</p>
+                                <p>library :  المكتبة وتستخدم فى ادراج ملحقات داخل البرنامج &nbsp;</p>
+                                <p>Annotations:  لاضافة ازرار تفاعلية &nbsp;</p>
+                                <p>Transtions: لاضافة حركات انتقالية بين لقطات الفيديو &nbsp;</p>
+
+                                {{-- <ul>
                                     <li style="line-height: 2;">تعريف طارق عامر(2015)</li>
                                     <li style="line-height: 2;">بأنه برنامج فيديو مقسم إلى اجزاء صغيرة تتكون من تتابعات
                                         حركية وإطارات ثابتة وقوائم وتكون استجابات المتعلم عن طريق الكمبيوتر هى المحددة
@@ -443,17 +443,17 @@ foreach ($users as $user) {
                                         القراءة بالنسبة إلى المتعلم، من خلال تقديم المحتوى كمرئيات جذابة&nbsp;</li>
                                     <li style="line-height: 2;"> يقدم الفيديو معلومات باستخدام سرد، مما يسمح للمتعلم
                                         بالأحتفاظ بالمحتوى بشكل أكثر فاعلية.</li>
-                                </ul>
+                                </ul> --}}
                             </div>
                             {{-- دعم مصور --}}
                             <div class="imgbox" id="box2.3" style="display: none">
-                                <p style="text-align: center"><img src="./video/module1/Manual support/المحتوى.jpg"
+                                <p style="text-align: center"><img src="./video/module6/Manual support/دعم-الانشطة.jpg"
                                         alt="Girl in a jacket" width="800" height="600"></p>
                             </div>
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.3" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الدعم المحتوى.mp4" type="video/mp4">
+                                        <source src="./video/module6/automatic support/دعم محتوى.mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -469,8 +469,8 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    اكتب مفهومك للفيديو الرقمى التفاعلى وحدد استخدماته فى العملية
-                                    التعليمية
+                                    قم بإضافة العناصر التفاعلية للفيديو التى انتجته تصديره بصيغة مناسبة 
+                                    
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 22px;">&nbsp;</span></span></p>
@@ -521,7 +521,7 @@ foreach ($users as $user) {
                             <div id="manual">
                                 <strong>الدعم والمساعدة</strong>
                                 <video width="320" height="200" controls>
-                                    <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                    <source src="./video/module6/automatic support/دعم نشاط .mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
@@ -565,7 +565,7 @@ foreach ($users as $user) {
                             {{-- دعم مرئي --}}
                             <div class="imgbox" id="box3.4" style="display: none">
                                 <p style="text-align: center"><video width="800" height="600" controls>
-                                        <source src="./video/module1/automatic support/الانشطة .mp4" type="video/mp4">
+                                        <source src="./video/module6/automatic support/دعم نشاط .mp4" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video></p>
                             </div>
@@ -582,8 +582,9 @@ foreach ($users as $user) {
                             <div class="body_next">
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
-                                        <h3>لإضافة زر انتقال داخل محتوى الفيديو يتم إختيار أمر  </h3>
+                                        <h3>	لإضافة زر انتقال داخل محتوى الفيديو يتم إختيار أمر  </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q1" value="1" required /> Interactivity
@@ -602,6 +603,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> </h3>
                                         <ol dir="rtl">يتم اضافة تغذية راجعة للفيديو من خلال خاصية
@@ -623,6 +625,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>   </h3>
                                         <ol dir="rtl">لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر
@@ -644,6 +647,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3> يصدر الفيديو الرقمى التفاعلى بصيغة MP4 للعرض على المنصات التعليمية
                                              </h3>
@@ -660,8 +664,39 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
                                         <h3>يستخدم أمر Interactivity  لاضافة تغذية راجعة لقطات الفيديو   </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q5" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q5" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>يتيح برنامج Camtasia  اضافة انماط متعدد من الاسئلة  </h3>
+                                        <ol dir="rtl">
+                                            <li>
+                                                <input type="radio" name="q6" value="1" required /> صح
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="q6" value="2" required /> خطأ
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
+                                    <div class="form-group">
+                                        <h3>يوفر الفيديو التفاعلى وسائل إبحار متعددة </h3>
                                         <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q5" value="1" required /> صح
@@ -837,13 +872,13 @@ foreach ($users as $user) {
 
                     <div class="jzdcalt">April 2021</div>
 
+                    <span>Th</span>
+                    <span>Fr</span>
+                    <span>Sa</span>
                     <span>Su</span>
                     <span>Mo</span>
                     <span>Tu</span>
                     <span>We</span>
-                    <span>Th</span>
-                    <span>Fr</span>
-                    <span>Sa</span>
 
 
                     <span class="jzdb">
@@ -865,41 +900,36 @@ foreach ($users as $user) {
                         <!--BLANK-->
                     </span>
                     <span>1</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">2</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">3</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">4</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">5</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">6</span>
-                    <span class="circle" data-title="دراسة الموديول"
-                        style="background-color: #f4f085; color: black">7</span>
+                    <span >2</span>
+                    <span >3</span>
+                    <span >4</span>
+                    <span >5</span>
+                    <span >6</span>
+                    <span >7</span>
                     <span>8</span>
                     <span>9</span>
                     <span>10</span>
                     <span>11</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">12</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">13</span>
-                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">14</span>
+                    <span >12</span>
+                    <span >13</span>
+                    <span >14</span>
                     <span>15</span>
                     <span>16</span>
                     <span>17</span>
                     <span>18</span>
                     <span>19</span>
                     <span>20</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">21</span>
-                    <span class="circle" data-title="تسليم الأنشطة"
-                        style="background-color: #aca1cc; color: black">22</span>
+                    <span >21</span>
+                    <span >22</span>
                     <span>23</span>
                     <span>24</span>
-                    <span>25</span>
-                    <span>26</span>
-                    <span>27</span>
-                    <span>28</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">25</span>
+                    <span class="circle" data-title="دراسة الموديول"
+                    style="background-color: #f4f085; color: black">26</span>
+                    <span class="circle" data-title="الإختبارات" style="background-color: #97ceaf; color: black">27</span>
+                    <span class="circle" data-title="تسليم الأنشطة"
+                    style="background-color: #aca1cc; color: black">28</span>
                     <span>29</span>
                     <span>30</span>
                     <span class="jzdb">

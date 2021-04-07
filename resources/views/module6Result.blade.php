@@ -20,6 +20,8 @@
         $q3 = $_GET['q3'];
         $q4 = $_GET['q4'];
         $q5 = $_GET['q5'];
+        $q6 = $_GET['q6'];
+        $q7 = $_GET['q7'];
 
         $id = $_GET['id'];
         }
@@ -42,9 +44,15 @@
        if($q5 == '2'){
            $score++;
        }
+       if($q6 == '1'){
+           $score++;
+       }
+       if($q7 == '1'){
+           $score++;
+       }
 
 
-        $percentage = ($score / 5) * 100;
+        $percentage = ($score / 7) * 100;
 
     //     if ($percentage < 90) {
 
@@ -85,8 +93,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Interactivity</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Interactivity</button>
                                                 </li>
                                                 <li>
                                                     <h4>Quiz </h4>
@@ -123,11 +131,11 @@
                                                     <h4>Quiz</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Marker</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة  Interactivity</button>
                                                 </li>
                                                 <li>
-                                                    <h4>Interactivity</h4>
+                                                    <h4>Marker </h4>
                                                 </li>
                                                 @break
 
@@ -139,11 +147,11 @@
                                                     <h4>Quiz </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Marker</h4>
+                                                    <h4>Interactivity</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   Interactivity</button>
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة   Marker</button>
                                                 </li>
                                                 @break
 
@@ -161,8 +169,8 @@
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
                                                 </li>
                                                 <li>
                                                     <h4>Question</h4>
@@ -238,8 +246,8 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
                                                 </li>
                                                 <li>
                                                     <h4> Quiz </h4>
@@ -295,7 +303,7 @@
                                                     <h4>Marker</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Interactivity</button>
                                                 </li>
                                                 @break
@@ -315,8 +323,8 @@
                                                 @switch($q4)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                       <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                            style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -328,8 +336,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                 <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -347,8 +355,8 @@
                                             @switch($q5)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                 </li>
                                                 <li>
                                                     <h4>خطأ</h4>
@@ -360,8 +368,8 @@
                                                     <h4>صح</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
 
@@ -369,6 +377,72 @@
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> 	يتيح برنامج Camtasia  اضافة انماط متعدد من الاسئلة 
+                                             </h3>
+                                            <ol dir="rtl">
+                                                @switch($q6)
+                                                    @case(1)
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                    </li>
+                                                    <li>
+                                                        <h4>خطأ</h4>
+                                                    </li>
+                                                    @break
+
+                                                    @case(2)
+                                                    <li>
+                                                        <h4>صح</h4>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                    </li>
+                                                    @break
+
+                                                    @default
+                                                    <span>Something went wrong, please try again</span>
+                                                @endswitch
+                                            </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> 	يوفر الفيديو التفاعلى وسائل إبحار متعددة
+                                             </h3>
+                                            <ol dir="rtl">
+                                                @switch($q7)
+                                                    @case(1)
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                    </li>
+                                                    <li>
+                                                        <h4>خطأ</h4>
+                                                    </li>
+                                                    @break
+
+                                                    @case(2)
+                                                    <li>
+                                                        <h4>صح</h4>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                    </li>
+                                                    @break
+
+                                                    @default
+                                                    <span>Something went wrong, please try again</span>
+                                                @endswitch
+                                            </ol>
                                     </div>
                                 </section>
 
@@ -411,8 +485,8 @@
                                             @switch($q1)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Interactivity</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Interactivity</button>
                                                 </li>
                                                 <li>
                                                     <h4>Quiz </h4>
@@ -449,11 +523,11 @@
                                                     <h4>Quiz</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">  إجابة خاطئة  Marker</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;">  إجابة صحيحة  Interactivity</button>
                                                 </li>
                                                 <li>
-                                                    <h4>Interactivity</h4>
+                                                    <h4>Marker </h4>
                                                 </li>
                                                 @break
 
@@ -465,11 +539,11 @@
                                                     <h4>Quiz </h4>
                                                 </li>
                                                 <li>
-                                                    <h4>Marker</h4>
+                                                    <h4>Interactivity</h4>
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة صحيحة   Interactivity</button>
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة   Marker</button>
                                                 </li>
                                                 @break
 
@@ -487,8 +561,8 @@
                                             @switch($q2)
                                                 @case(2)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
                                                 </li>
                                                 <li>
                                                     <h4>Question</h4>
@@ -564,8 +638,8 @@
                                             @switch($q3)
                                                 @case(3)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
                                                 </li>
                                                 <li>
                                                     <h4> Quiz </h4>
@@ -621,7 +695,7 @@
                                                     <h4>Marker</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Interactivity</button>
                                                 </li>
                                                 @break
@@ -641,8 +715,8 @@
                                                 @switch($q4)
                                                     @case(1)
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                       <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                            style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                     </li>
                                                     <li>
                                                         <h4>خطأ</h4>
@@ -654,8 +728,8 @@
                                                         <h4>صح</h4>
                                                     </li>
                                                     <li>
-                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                            style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                 <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                     </li>
                                                     @break
 
@@ -673,8 +747,8 @@
                                             @switch($q5)
                                                 @case(1)
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة خاطئة</button>
                                                 </li>
                                                 <li>
                                                     <h4>خطأ</h4>
@@ -686,8 +760,8 @@
                                                     <h4>صح</h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                    style="border-radius: 22px; width:400px;"> خطأ إجابة صحيحة</button>
                                                 </li>
                                                 @break
 
@@ -695,6 +769,72 @@
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> 	يتيح برنامج Camtasia  اضافة انماط متعدد من الاسئلة 
+                                             </h3>
+                                            <ol dir="rtl">
+                                                @switch($q6)
+                                                    @case(1)
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                    </li>
+                                                    <li>
+                                                        <h4>خطأ</h4>
+                                                    </li>
+                                                    @break
+
+                                                    @case(2)
+                                                    <li>
+                                                        <h4>صح</h4>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                    </li>
+                                                    @break
+
+                                                    @default
+                                                    <span>Something went wrong, please try again</span>
+                                                @endswitch
+                                            </ol>
+                                    </div>
+                                </section>
+                                {{-- Question --}}
+                                <section class="section_next">
+                                    <div class="form-group">
+                                        <h3> 	يوفر الفيديو التفاعلى وسائل إبحار متعددة
+                                             </h3>
+                                            <ol dir="rtl">
+                                                @switch($q7)
+                                                    @case(1)
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">صح إجابة صحيحة</button>
+                                                    </li>
+                                                    <li>
+                                                        <h4>خطأ</h4>
+                                                    </li>
+                                                    @break
+
+                                                    @case(2)
+                                                    <li>
+                                                        <h4>صح</h4>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                        style="border-radius: 22px; width:400px;"> خطأ إجابة خاطئة</button>
+                                                    </li>
+                                                    @break
+
+                                                    @default
+                                                    <span>Something went wrong, please try again</span>
+                                                @endswitch
+                                            </ol>
                                     </div>
                                 </section>
 

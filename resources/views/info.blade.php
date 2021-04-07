@@ -11,11 +11,11 @@
 @section('content')
     <div class="container" style="padding-top: ">
         <p class="" style="text-align: center; margin-top: 50px">تعليمات بيئة التعلم الافتراضية </p>
-        <p class="" style="text-align: center; margin-top: 50px">عليك عزيزى الطالب إجراء مقياس مستوى الدافعية اولا، ويتمثل فى مجموعة عبارات نحتاج معرفة رايك فيها  </p>
-        <p class="" style="text-align: center; margin-top: 50px">عليك اجراء الاختبار القبلى قبل بدء الدراسة  </p>
-        <p class="" style="text-align: center; margin-top: 50px">بدء دراسة الموديولات كما هى موضحة   </p>
-        <p class="" style="text-align: center; margin-top: 50px">	الاستعانة بوسائل المساعدة والدعم المتاح لديك فى بيئة التعلم   </p>
-        <p class="" style="text-align: center; margin-top: 50px">فى حالة وجود استفسار يمكنك التواصل مع الباحثة مباشرة من خلال ادوات التواصل المتاحة  </p>
+        <p class="" style="text-align: center; margin-top: 5px">عليك عزيزى الطالب إجراء مقياس مستوى الدافعية اولا، ويتمثل فى مجموعة عبارات نحتاج معرفة رايك فيها  </p>
+        <p class="" style="text-align: center; margin-top: 5px">عليك اجراء الاختبار القبلى قبل بدء الدراسة  </p>
+        <p class="" style="text-align: center; margin-top: 5px">بدء دراسة الموديولات كما هى موضحة   </p>
+        <p class="" style="text-align: center; margin-top: 5px">	الاستعانة بوسائل المساعدة والدعم المتاح لديك فى بيئة التعلم   </p>
+        <p class="" style="text-align: center; margin-top: 5px">فى حالة وجود استفسار يمكنك التواصل مع الباحثة مباشرة من خلال ادوات التواصل المتاحة  </p>
 
         <p style="text-align: center"><video width="800" height="600" controls>
             <source src="./video/تعليمات البيئة .mp4" type="video/mp4">
