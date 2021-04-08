@@ -248,7 +248,7 @@
                                         <h3> لاضافة محتويات داخل المشهد يتم التعامل مع شريط  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة خاطئة   Scene Manager</button>
@@ -264,7 +264,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Scene Manager </h4>
                                                 </li>
@@ -280,7 +280,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Scene Manager </h4>
                                                 </li>
@@ -324,7 +324,7 @@
                                         <h3> لإضافة مشروع جديد يتم الضغط على قائمة:  </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   إجابة خاطئة  New </button>
@@ -340,7 +340,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>New </h4>
                                                 </li>
@@ -356,7 +356,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>New  </h4>
                                                 </li>
@@ -717,7 +717,7 @@
                                         <h3> لاضافة محتويات داخل المشهد يتم التعامل مع شريط  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">إجابة خاطئة   Scene Manager</button>
@@ -733,7 +733,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Scene Manager </h4>
                                                 </li>
@@ -749,7 +749,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Scene Manager </h4>
                                                 </li>
@@ -793,7 +793,7 @@
                                         <h3> لإضافة مشروع جديد يتم الضغط على قائمة:  </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   إجابة خاطئة  New </button>
@@ -809,7 +809,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>New </h4>
                                                 </li>
@@ -825,7 +825,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>New  </h4>
                                                 </li>
@@ -994,6 +994,7 @@
                                         </ol>
                                     </div>
                                 </section>
+
 
                             </div>
 {{--                        </p>--}}

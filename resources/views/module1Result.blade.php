@@ -367,8 +367,8 @@
                                                     <h4>توفير الوقت والمكان </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   بيئة تعليمية متكاملة  إجابة صحيحة</button>
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
+                                                        style="border-radius: 22px; width:400px;">   بيئة تعليمية متكاملة  إجابة صحيحة</button>
                                                 </li>
                                                 <li>
                                                     <h4> إمكانية الإبحار </h4>

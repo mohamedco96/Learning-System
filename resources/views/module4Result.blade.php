@@ -175,7 +175,7 @@
                                         <h3>لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Create Bone </button>
@@ -252,7 +252,7 @@
                                         <h3> 	يتم التعامل مع ملامح الوجه بإستخدام أمر:  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Face Key editor </button>
@@ -268,7 +268,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -284,7 +284,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -328,7 +328,7 @@
                                         <h3> 	يستخدم أمر link ل </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> تجميع العناصر  إجابة خاطئة </button>
@@ -344,7 +344,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>تجميع العناصر  </h4>
                                                 </li>
@@ -360,7 +360,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>تجميع العناصر  </h4>
                                                 </li>
@@ -405,7 +405,7 @@
                                         <h3> لانشاء حركة تكرارية يتم الضغط على امر </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;">  إجابة خاطئة  Duplicate </button>
@@ -421,7 +421,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Duplicate</h4>
                                                 </li>
@@ -437,7 +437,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Duplicate  </h4>
                                                 </li>
@@ -720,7 +720,7 @@
                                         <h3>لإضافة عظام تحريك الشخصيات بإستخدام: </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Create Bone </button>
@@ -797,7 +797,7 @@
                                         <h3> 	يتم التعامل مع ملامح الوجه بإستخدام أمر:  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة  Face Key editor </button>
@@ -813,7 +813,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -829,7 +829,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -873,7 +873,7 @@
                                         <h3> 	يستخدم أمر link ل </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> تجميع العناصر  إجابة خاطئة </button>
@@ -889,7 +889,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>تجميع العناصر  </h4>
                                                 </li>
@@ -905,7 +905,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>تجميع العناصر  </h4>
                                                 </li>
@@ -950,7 +950,7 @@
                                         <h3> لانشاء حركة تكرارية يتم الضغط على امر </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;">  إجابة خاطئة  Duplicate </button>
@@ -966,7 +966,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Duplicate</h4>
                                                 </li>
@@ -982,7 +982,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Duplicate  </h4>
                                                 </li>

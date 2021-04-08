@@ -244,7 +244,7 @@
                                         <h3>لتصدير الفيديو بصيغة فيديو يتم الضغط على امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة   Save as</button>
@@ -260,7 +260,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Save as</h4>
                                                 </li>
@@ -276,7 +276,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Save as</h4>
                                                 </li>
@@ -320,7 +320,7 @@
                                         <h3>لاضافة تاثيرات انتقالية برنامج Cartoon animator  يتم الضغط على امر : </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة   SFX</button>
@@ -336,7 +336,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>SFX</h4>
                                                 </li>
@@ -352,7 +352,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>SFX</h4>
                                                 </li>
@@ -679,7 +679,7 @@
                                         <h3>لتصدير الفيديو بصيغة فيديو يتم الضغط على امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة   Save as</button>
@@ -695,7 +695,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Save as</h4>
                                                 </li>
@@ -711,7 +711,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Save as</h4>
                                                 </li>
@@ -755,7 +755,7 @@
                                         <h3>لاضافة تاثيرات انتقالية برنامج Cartoon animator  يتم الضغط على امر : </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة صحيحة   SFX</button>
@@ -771,7 +771,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>SFX</h4>
                                                 </li>
@@ -787,7 +787,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>SFX</h4>
                                                 </li>

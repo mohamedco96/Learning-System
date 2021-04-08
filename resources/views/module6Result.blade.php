@@ -167,7 +167,7 @@
                                         <h3>يتم اضافة تغذية راجعة للفيديو من خلال خاصية  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
@@ -244,7 +244,7 @@
                                         <h3> لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر</h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
@@ -260,7 +260,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>hotspot</h4>
                                                 </li>
@@ -276,7 +276,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>hotspot </h4>
                                                 </li>
@@ -559,7 +559,7 @@
                                         <h3>يتم اضافة تغذية راجعة للفيديو من خلال خاصية  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> إجابة خاطئة  Type</button>
@@ -636,7 +636,7 @@
                                         <h3> لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر</h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px;"> إجابة خاطئة  hotspot </button>
@@ -652,7 +652,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>hotspot</h4>
                                                 </li>
@@ -668,7 +668,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>hotspot </h4>
                                                 </li>

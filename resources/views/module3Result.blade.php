@@ -179,7 +179,7 @@
                                         <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px"> إجابة خاطئةProp</button>
@@ -256,7 +256,7 @@
                                         <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة	animation</button>
@@ -272,7 +272,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>animation</h4>
                                                 </li>
@@ -288,7 +288,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>animation</h4>
                                                 </li>
@@ -332,7 +332,7 @@
                                         <h3> 	يستخدم أمر Composer  فى  </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                         style="border-radius: 22px; width:400px;">  تحرير العناصر   إجابة صحيحة   </button>
@@ -348,7 +348,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>تحرير العناصر </h4>
                                                 </li>
@@ -364,7 +364,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>تحرير العناصر </h4>
                                                 </li>
@@ -408,7 +408,7 @@
                                         <h3> يتم التعامل مع ملامح الوجه بإستخدام أمر:  </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  Face Key editor  </button>
@@ -424,7 +424,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -440,7 +440,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -755,7 +755,7 @@
                                         <h3>لإدراج مشهد كامل يتم أختيار امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                         style="border-radius: 22px; width:400px"> إجابة خاطئةProp</button>
@@ -832,7 +832,7 @@
                                         <h3> يتم اضافة الشخصيات داخل برنامج Cartoon Animator 4  من خلال امر  </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> إجابة خاطئة	animation</button>
@@ -848,7 +848,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>animation</h4>
                                                 </li>
@@ -864,7 +864,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>animation</h4>
                                                 </li>
@@ -908,7 +908,7 @@
                                         <h3> 	يستخدم أمر Composer  فى  </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                         style="border-radius: 22px; width:400px;">  تحرير العناصر   إجابة صحيحة   </button>
@@ -924,7 +924,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>تحرير العناصر </h4>
                                                 </li>
@@ -940,7 +940,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>تحرير العناصر </h4>
                                                 </li>
@@ -984,7 +984,7 @@
                                         <h3> يتم التعامل مع ملامح الوجه بإستخدام أمر:  </h3>
                                         <ol dir="rtl">
                                             @switch($q5)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  Face Key editor  </button>
@@ -1000,7 +1000,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
@@ -1016,7 +1016,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>Face Key editor </h4>
                                                 </li>
