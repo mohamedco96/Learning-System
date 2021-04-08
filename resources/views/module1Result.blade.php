@@ -175,10 +175,10 @@
                                         <h3>تستخدم مرحلة التخطيط فى </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
+                                                        style="border-radius: 22px; width:400px;"> انطلاق الفكرة   إجابة خاطئة </button>
                                                 </li>
                                                 <li>
                                                     <h4>كتابة السيناريو </h4>
@@ -187,7 +187,7 @@
                                                     <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو </h4>
+                                                    <h4>  تصدير و نشر الفيديو </h4>
                                                 </li>
                                                 @break
 
@@ -197,13 +197,13 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
-                                                    style="border-radius: 22px; width:400px;">كتابة السيناريو    إجابة صحيحة </button>
+                                                    style="border-radius: 22px; width:400px;"> كتابة السيناريو  إجابة صحيحة</button>
                                                 </li>
                                                 <li>
-                                                    <h4>انتاج المشاهد</h4>
+                                                    <h4>انتاج المشاهد </h4>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4>  تصدير و نشر الفيديو </h4>
                                                 </li>
                                                 @break
 
@@ -216,10 +216,10 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">   انتاج المشاهد  إجابة خاطئة</button>
                                                 </li>
                                                 <li>
-                                                    <h4> تصدير و نشر الفيديو</h4>
+                                                    <h4>  تصدير و نشر الفيديو </h4>
                                                 </li>
                                                 @break
 
@@ -235,7 +235,7 @@
                                                 </li>
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
-                                                    style="border-radius: 22px; width:400px;">   تصدير و نشر الفيديو إجابة خاطئة</button>
+                                                    style="border-radius: 22px; width:400px;">  تصدير و نشر الفيديو  إجابة خاطئة</button>
                                                 </li>
                                                 @break
 
@@ -243,7 +243,6 @@
                                                 <span>Something went wrong, please try again</span>
                                             @endswitch
                                         </ol>
-
                                     </div>
                                 </section>
                                 {{-- Question --}}
@@ -252,7 +251,7 @@
                                         <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">استخدام عناصر توجيه الانتباه إجابة صحيحة</button>
@@ -268,7 +267,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>استخدام عناصر توجيه الانتباه</h4>
                                                 </li>
@@ -284,7 +283,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>استخدام عناصر توجيه الانتباه</h4>
                                                 </li>
@@ -328,7 +327,7 @@
                                         <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
@@ -611,7 +610,7 @@
                                         <h3>تستخدم مرحلة التخطيط فى </h3>
                                         <ol dir="rtl">
                                             @switch($q2)
-                                                @case(2)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;">   انطلاق الفكرة   إجابة خاطئة   </button>
@@ -688,7 +687,7 @@
                                         <h3> يعد من معايير إنتاج الفيديو الرقمى التفاعلى </h3>
                                         <ol dir="rtl">
                                             @switch($q3)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">استخدام عناصر توجيه الانتباه إجابة صحيحة</button>
@@ -704,7 +703,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>استخدام عناصر توجيه الانتباه</h4>
                                                 </li>
@@ -720,7 +719,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>استخدام عناصر توجيه الانتباه</h4>
                                                 </li>
@@ -764,7 +763,7 @@
                                         <h3> يتسم الفيديو التفاعلى بعدة مميزات منها: </h3>
                                         <ol dir="rtl">
                                             @switch($q4)
-                                                @case(3)
+                                                @case(1)
                                                 <li>
                                                     <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
                                                     style="border-radius: 22px; width:400px;"> الإنغماس الكامل    إجابة خاطئة </button>
@@ -780,7 +779,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(1)
+                                                @case(2)
                                                 <li>
                                                     <h4>الإنغماس الكامل </h4>
                                                 </li>
@@ -796,7 +795,7 @@
                                                 </li>
                                                 @break
 
-                                                @case(2)
+                                                @case(3)
                                                 <li>
                                                     <h4>الإنغماس الكامل </h4>
                                                 </li>
