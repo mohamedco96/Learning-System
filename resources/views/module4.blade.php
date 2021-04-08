@@ -279,7 +279,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على الشريط الزمنى وكيفية التعامل معه
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1xe05Qi3NuOuIfz4evFbC1ZMiCKGyXuxD"
+                                    <p><a href="https://drive.google.com/file/d/1JuHWpRG2dTgstE610Dw6-EAT7t5Lam11/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -311,7 +311,7 @@ foreach ($users as $user) {
                                                      سوف نتعرف فى هذا الدرس على كيفية تحريك الشخصيات
 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1xe05Qi3NuOuIfz4evFbC1ZMiCKGyXuxD"
+                                    <p><a href="https://drive.google.com/file/d/1DnPLXXgb63yQ8B-r8AcAE-ZhSa-nLg1t/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -341,7 +341,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على كيفية تحريك عظام الشخصيات وتغير تعبيرات الوجه
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1xe05Qi3NuOuIfz4evFbC1ZMiCKGyXuxD"
+                                    <p><a href="https://drive.google.com/file/d/13KYnw9QMiA3dmBYbRg2g0yvpUPzyYdGo/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -370,7 +370,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على كيفية اضافة كاميرا وتعديل خصائصها
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1xe05Qi3NuOuIfz4evFbC1ZMiCKGyXuxD"
+                                    <p><a href="https://drive.google.com/file/d/1fkeT_QrjGf9rmeS5feUEjCeLjh-Fi1z0/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى

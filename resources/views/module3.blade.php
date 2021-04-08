@@ -292,7 +292,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على كيفية إنشاء مشروع جديد والتعامل مع محتويات البرنامج
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
+                                    <p><a href="https://drive.google.com/file/d/1I3odlDvhfhxLEUKgnU-9kCbGBO3gpH1D/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -325,7 +325,7 @@ foreach ($users as $user) {
 
 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
+                                    <p><a href="https://drive.google.com/file/d/1g-zuSZuH6srnjEfmftkibcVOKUoO9ueq/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -356,7 +356,7 @@ foreach ($users as $user) {
                                                     سوف نتعرف فى هذا الدرس على كيفية التعديل على تفاصيل الشخصيات
 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
+                                    <p><a href="https://drive.google.com/file/d/1CYnvFdb4-1Z1512LxHnBGXCBDJ0DkKIY/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -386,7 +386,7 @@ foreach ($users as $user) {
                                                 سوف نتعرف فى هذا الدرس على كيفية تغير ملامح الشخصيات
 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1b8DkcqjIGvDZyooicLSg9jXufkfnDF7A"
+                                    <p><a href="https://drive.google.com/file/d/12pizx4xR00GUs4CCER4m_mnC3E1tI_ny/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
