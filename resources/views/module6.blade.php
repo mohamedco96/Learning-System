@@ -272,7 +272,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على تثبيت برنامج Camtasia studio والتعرف على واجهة البرنامج
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
+                                    <p><a href="https://drive.google.com/file/d/16pw5ZspK-8J6Kg-xgEWmqd5rAcSClqSt/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -305,7 +305,7 @@ foreach ($users as $user) {
                                                     
                                                     
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
+                                    <p><a href="https://drive.google.com/file/d/1l9h0MHF3zWUEKgyImD-mv8FXIxVLnLhi/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -337,7 +337,7 @@ foreach ($users as $user) {
                                                     
                                                     
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
+                                    <p><a href="https://drive.google.com/file/d/1osNH0HMh7TXk3QbXIKdQjSRTOrObQoNO/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -368,7 +368,7 @@ foreach ($users as $user) {
                                                     
                                                     
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1YeOMn-pfuyOZRFbxazs8-FuWFG8kxSXj"
+                                    <p><a href="https://drive.google.com/file/d/1QMmwolZ1-2hMqVhHLlqb-BHyBZqG0MLx/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى

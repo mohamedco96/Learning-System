@@ -271,7 +271,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                  سوف نتعرف فى هذا الدرس على كيفية إضافة تاثيرات انتقالية
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
+                                    <p><a href="https://drive.google.com/file/d/1In_VstDkRq1W4Qe15vq-oj25nzeCobzA/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">
@@ -303,7 +303,7 @@ foreach ($users as $user) {
                                                     سوف نتعرف فى هذا الدرس على كيفية إضافة صوت للمشاهد
 
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
+                                    <p><a href="https://drive.google.com/file/d/1VzkRaKCnYQGbXR545YTZj9wVwQiIVaYJ/view?usp=sharingP"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
@@ -333,7 +333,7 @@ foreach ($users as $user) {
                                                 style="font-size: 20px; color: rgb(0, 0, 0);"><strong>
                                                     سوف نتعرف فى هذا الدرس على كيفية اخراج الفيديو بصيغة Mp4
                                                 </strong></span></span></p>
-                                    <p><a href="https://drive.google.com/drive/u/0/folders/1x_IVuz9ixHOq9oms0wDpWg9IYPpK9hFP"
+                                    <p><a href="https://drive.google.com/file/d/1G9z0iAWxPRo9GmwN1IURiE26XhnFxchy/view?usp=sharing"
                                             rel="noopener noreferrer" target="_blank"><span
                                                 style="font-family: 'Open Sans', Charcoal, sans-serif;"><strong><span
                                                         style="font-size: 20px; color: rgb(28, 146, 181);">تحميل المحتوى
