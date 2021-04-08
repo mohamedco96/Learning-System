@@ -719,6 +719,7 @@ foreach ($users as $user) {
                              
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3> -	يستخدم أمر transform  لتحرير العناصر
                                             </h3>
@@ -735,6 +736,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>يمكن التعديل على شخصيات برنامج Cartoon Animator   </h3>
                                         <ol dir="rtl">
@@ -749,6 +751,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>يستخدم أمر Create head  لتحويل صورة ثابتة كملامح وجه لشخصية داخل البرنامج   </h3>
                                         <ol dir="rtl">
@@ -763,6 +766,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>تستخدم إداة Edit Pose  فى تعديل عظام الشخصيات وتحريكها   </h3>
                                         <ol dir="rtl">
@@ -777,6 +781,7 @@ foreach ($users as $user) {
                                 </section>
                                 {{-- Question --}}
                                 <section class="section_next">
+                                    <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية: </h4>
                                     <div class="form-group">
                                         <h3>يستخدم أمر  Face puppet  لتغير تعبيرات ملامح الوجه للشخصيات   </h3>
                                         <ol dir="rtl">

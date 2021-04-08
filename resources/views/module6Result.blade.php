@@ -226,7 +226,7 @@
                                                     <h4>Answer </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  feedback</button>
                                                 </li>
                                                 @break
@@ -618,7 +618,7 @@
                                                     <h4>Answer </h4>
                                                 </li>
                                                 <li>
-                                                    <button class="btn btn-lg btn-pill btn-block btn-danger " type="button"
+                                                    <button class="btn btn-lg btn-pill btn-block btn-success " type="button"
                                                     style="border-radius: 22px; width:400px;">  إجابة صحيحة  feedback</button>
                                                 </li>
                                                 @break

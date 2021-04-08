@@ -605,8 +605,8 @@ foreach ($users as $user) {
                                 <section class="section_next">
                                     <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
-                                        <h3> </h3>
-                                        <ol dir="rtl">يتم اضافة تغذية راجعة للفيديو من خلال خاصية
+                                        <h3>يتم اضافة تغذية راجعة للفيديو من خلال خاصية  </h3>
+                                        <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q2" value="1" required /> Type
                                             </li>
@@ -627,8 +627,8 @@ foreach ($users as $user) {
                                 <section class="section_next">
                                     <h4 style="color: brown">إخترالإجابة الصحيحة من بين الإختيارات التالية:  </h4>
                                     <div class="form-group">
-                                        <h3>   </h3>
-                                        <ol dir="rtl">لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر
+                                        <h3> لإضافة اسئلة إختيار من متعدد يتم الضغط على أمر </h3>
+                                        <ol dir="rtl">
                                             <li>
                                                 <input type="radio" name="q3" value="1" required /> hotspot
                                             </li>
