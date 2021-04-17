@@ -469,7 +469,7 @@ foreach ($users as $user) {
                                         الأول</span></strong></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
                                     style="font-size: 20px;">
-                                    قم بإضافة العناصر التفاعلية للفيديو التى انتجته تصديره بصيغة مناسبة 
+                                    قم بإضافة العناصر التفاعلية للفيديو التى انتجته فى الموديولات السابقة،ثم قم بتصديره بصيغة مناسبة 
                                     
                                 </span></span></p>
                         <p style="text-align: center;"><span style="font-family: 'Open Sans', Charcoal, sans-serif;"><span
@@ -786,8 +786,8 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                مفهوم الفيديو الرقم التفاعلي <a
-                                    href="https://www.edutrapedia.com/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A-%D9%88%D8%AF%D9%88%D8%B1%D9%87-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A%D8%A9-article-325"
+                               تحميل برنامج Camtasia studio <a
+                                    href="https://drive.google.com/file/d/1Z17LGNMVjzcFh7YdG2AsGC3yt_asU43L/view?usp=sharing"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
 
                         </div>
@@ -796,8 +796,17 @@ foreach ($users as $user) {
                         <div class="row" style="margin-bottom: 20px; text-align: center">
                             <p
                                 style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
-                                استخدامات الفيديو التفاعلى فى العملية التعليمية <a
-                                    href="https://www.new-educ.com/%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A"
+                                اضافة ازرار تفاعلية للفيديو  <a
+                                    href="https://www.youtube.com/watch?v=HQxcFqEUwgw"
+                                    rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
+                        </div>
+                        <hr>
+
+                        <div class="row" style="margin-bottom: 20px; text-align: center">
+                            <p
+                                style="font-size: 20px; font-family: 'Open Sans', Charcoal, sans-serif; text-align: center; font-weight: bold">
+                                كيفية انشاء فيديو تفاعلى <a
+                                    href="https://www.youtube.com/watch?v=fziw__XwqHY"
                                     rel="noopener noreferrer" target="_blank"><strong>اضغط هنا </strong></a></p>
                         </div>
 
