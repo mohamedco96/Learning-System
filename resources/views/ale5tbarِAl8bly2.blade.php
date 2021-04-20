@@ -39,7 +39,7 @@ foreach ($users as $user) {
 
                 <div class="card" style="margin-top: 60px">
                     <div class="card-header">
-                      الاختبار القبلي
+                       الاختبار البعدي لمهارات إنتاج الفيديو الرقمى التفاعلى
                     </div>
                     <div class="card-block">
                         <form action="ale5tbarِAl8bly2Score" method="get">
